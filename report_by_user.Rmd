@@ -1,0 +1,31 @@
+---
+title: "Results from Replicability Training"
+author: "Lars Vilhuber"
+date: "March 2, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(googlesheets)
+suppressMessages(library(dplyr))
+# Setup of specific sheets
+results_entry_url <- "https://docs.google.com/spreadsheets/d/1RSHJV5hsCKL8SpQFI2wl7o_j_v_HdmzIjpy7hlNlMUY/"
+# Sheet needs to be "Published to the web" (File -> Publish to Web -> optionally: publish as CSV)
+entry_gap <- results_entry_url %>% gs_url()
+results_entry <- entry_gap %>% gs_read(ws = "Form Responses 1")
+user <- "rag275"
+doi <- "10.1257/app.5.3.1"
+results_1 <- subset(results_entry,DOI==doi)
+```
+
+## Report for `r user`
+
+### Availability of programs: 
+Typical result
+```{r,message=FALSE,echo=FALSE}
+table(results_1$Programs)
+```
+*Your result:*
+```{r,message=FALSE,echo=FALSE}
+table(subset(results_1,NetID==user)$Programs)
