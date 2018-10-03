@@ -1,24 +1,4 @@
-Agenda
-======
-
-Offline:
-
--   Setting up Git on personal computers (Mac, Windows)
-
-<!-- -->
-
--   Requesting computer accounts (CISER)
-
-5h-7h: Example of replication of a paper
-
-→ 5h-5h45 Git/Bitbucket setup and training
-
-→ 5h45-7h Entry questionnaire and replication of article
-10.1257/app.6.2.152
-
-7h00: end of training
-
-TRAINING CHEAT SHEET 
+TRAINING CHEAT SHEET
 =====================
 
 Installing Git on your computer
@@ -28,33 +8,27 @@ See https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 ### Windows
 
--   You can obtain both a graphical interface and a command line
-    > interface by installing TortoiseGit
-    > ([*https://tortoisegit.org/*](https://tortoisegit.org/))
+-   You can obtain both a graphical interface and a command line interface by installing TortoiseGit ([*https://tortoisegit.org/*](https://tortoisegit.org/))
 
--   You can get a command line "terminal" by hitting the Windows key
-    > ![](./media/image5.png){width="0.5052088801399826in"
-    > height="0.5052088801399826in"} and typing either "cmd" or
-    > "powershell". You can now use the same commands as on OSX and
-    > Linux.
+-   You can get a command line "terminal" by hitting the Windows key <img src="./media/image5.png" width="0.5in" height="0.5in"/> and typing either "cmd" or "powershell". You can now use the same commands as on OSX and Linux.
 
 -   If using CISER systems, you do not need to install git.
 
 ### Mac
 
 -   To obtain a command line "terminal" on OSX, hit the "Command" key
-    > and "space", type "terminal" and hit enter.
+    and "space", type "terminal" and hit enter.
 
 -   you can install git on a Mac simply by trying to run *git* from the
-    > Terminal the very first time:
+   Terminal the very first time:
 
-\$ git --version
+> $ git --version
 
 -   If you don’t have it installed already, it will prompt you to
-    > install it from the Xcode Command Line tools
+    install it from the Xcode Command Line tools
 
 -   You can also install a more recent version from
-    > [*http://git-scm.com/download/mac*](http://git-scm.com/download/mac)
+     [*http://git-scm.com/download/mac*](http://git-scm.com/download/mac)
 
 Learning the basics of Git
 --------------------------
@@ -69,35 +43,35 @@ Follow the instructions at
 For hands-on, make the following adaptations:
 
 -   Instead of project.tar.gz use
-    > [*https://www.aeaweb.org/aej/app/data/0602/2012-0292\_data.zip*](https://www.aeaweb.org/aej/app/data/0602/2012-0292_data.zip)
+   [*https://www.aeaweb.org/aej/app/data/0602/2012-0292\_data.zip*](https://www.aeaweb.org/aej/app/data/0602/2012-0292_data.zip)
 
 -   Unzip it in a folder of your choice
 
--   Move into the unzipped folder using “cd path/to/folder” in your
-    > terminal window, where path/to/folder is the path to the folder
+-   Move into the unzipped folder using `cd path/to/folder` in your
+     terminal window, where path/to/folder is the path to the folder
 
--   Put the folder under version control using “git init”
+-   Put the folder under version control using `git init`
 
 -   Follow the other instructions in the tutorial
 
- **Set up files for replication** 
+ Set up files for replication
 ==================================
 
 **(Git Cheatsheet:
 https://services.github.com/on-demand/downloads/github-git-cheat-sheet/)**
 
 -   Organize your local working space. We suggest creating a directory
-    > **Documents/Workspace**, and underneath it, create a directory for
-    > each article, e.g., create a directory “**app.6.2.152**”
+     **Documents/Workspace**, and underneath it, create a directory for
+     each article, e.g., create a directory “**app.6.2.152**”
 
 -   Go to the next step to initialize or clone the Git repository for
-    > this replication
+     this replication
 
 Create a repository on Bitbucket
 --------------------------------
 
 While you did the first test on Github.com, we will be using
-Bitbucket.org for the AEA-related repositories. In particular, go to the
+**Bitbucket.org** for the AEA-related repositories. In particular, go to the
 "aeaverification" team:
 [*https://bitbucket.org/aeaverification/profile/repositories*](https://bitbucket.org/aeaverification/profile/repositories)
 
@@ -182,7 +156,7 @@ Scale for the difficulty question:
 
 [*https://drive.google.com/open?id=1wPP60YiqeaXsO8gqAJZ1TbDNy7TsJXST*](https://drive.google.com/open?id=1wPP60YiqeaXsO8gqAJZ1TbDNy7TsJXST)
 
-iii) Prepare and run the replication 
+iii) Prepare and run the replication
 -------------------------------------
 
 Note: don’t forget to create a config.do to create the basepath:
@@ -261,5 +235,3 @@ Note:
 -   The part "\#comment " is required if you want it to show up in the
     > ticket. Any text elsewhere in the commit message will be viewable
     > under "Commits" and will show up in the repository as well.
-
-
