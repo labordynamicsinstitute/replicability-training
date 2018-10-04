@@ -10,7 +10,7 @@ See https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 -   You can obtain both a graphical interface and a command line interface by installing TortoiseGit ([*https://tortoisegit.org/*](https://tortoisegit.org/))
 
--   You can get a command line "terminal" by hitting the Windows key <img src="./media/image5.png" width="0.5in" height="0.5in"/> and typing either "cmd" or "powershell". You can now use the same commands as on OSX and Linux.
+-   You can get a command line "terminal" by hitting the Windows key ![windows key](media/image5-small.png) and typing either "cmd" or "powershell". You can now use the same commands as on OSX and Linux.
 
 -   If using CISER systems, you do not need to install git.
 
@@ -22,7 +22,7 @@ See https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 -   you can install git on a Mac simply by trying to run *git* from the
    Terminal the very first time:
 
-> $ git --version
+> git --version
 
 -   If you don’t have it installed already, it will prompt you to
     install it from the Xcode Command Line tools
@@ -77,21 +77,18 @@ While you did the first test on Github.com, we will be using
 
 -   For each Paper, create a new repository, unless one already exists:
 
-![](./media/image8.png){width="6.5in" height="4.569444444444445in"}
+![](./media/image8.png)
 
--   Repository name should be "\[journal\]-\[doi\]", where
+-   Repository name should be "\[journal\]-\[doi\]-\[userid\]", where
 
     -   "\[journal\]" may be "aej-applied", "aer", "aej-macro" etc.
-
-    -   \[doi\] will be "10.1257-app.6.2.152"
-
+    -   "\[doi\]" will be "10.1257-app.6.2.152"
+    -   "\[userid\]" is your NetID (if you are at Cornell)
     -   (replace all spaces and "/" with "-")
+    - putting it all together: "**aej-macro-10.1257-app.6.2.152-fs379**"
 
--   Keep the other settings (in particular, keep this a private
-    > repository).
-
--   If a repository for that paper already exists (you are a second
-    > replicator), proceed to the next step
+-   Keep the other settings (in particular, keep this a
+**private** repository).
 
 Clone and populate the repository
 ---------------------------------
@@ -99,139 +96,162 @@ Clone and populate the repository
 Proceed as follows:
 
 -   Open a terminal at the repository location (varies by operating
-    > system)
+     system)
 
 -   Clone the repository as per the instructions on the Bitbucket page:
 
-![](./media/image6.jpg){width="6.5in" height="2.5833333333333335in"}
+![](./media/image6.jpg)
 
 -   In words:
-
-\$ git clone
+```
+  git clone
 https://fs379@bitbucket.org/aeaverification/aej-applied-10.1257-app.6.2.152.git
-
--   You will now have a directory called "aej-applied-...". Enter it,
-    > and create a directory with your NETID: e.g., "**fs379**"
+```
+-   You will now have a directory called "aej-applied-...".
 
 -   Download the template from [*this
-    > link*](https://github.com/AEADataEditor/replication-template/releases/latest/),
-    > and unpack it into the newly created directory (only keep the
-    > files, do not keep the directory called "replication-template")
+   link*](https://github.com/AEADataEditor/replication-template/releases/latest/),
+    and unpack it into the newly created directory (only keep the
+    files, do not keep the directory called "replication-template").
+- On Linux/Mac/Git bash:
 
+```
+  unzip -j *zip; rm *zip
+
+```
 -   Add the template files to your repository:
 
--   git add fs379
+```
+  git add *; git add .gitignore
 
--   Make sure you are in the correct directory before issuing the git
-    > add command (you should be in the “aej-applied…” directory)
+```
+-   Make sure you are in the correct directory before issuing the `git
+   add` command (you should be in the “aej-applied…” directory)
 
--   If you type "git status", your directory should now look like this:
+-   If you type `git status`, your directory should now look like this:
 
-![](./media/image2.jpg){width="4.359375546806649in"
-height="1.8764982502187226in"}
+![](./media/image2.png)
 
--   You should now commit this initial set of files: "git commit -m
-    > "Importing the template" **EVERY COMMIT requires a COMMIT
-    > MESSAGE.**
+-   You should now commit this initial set of files:
+```
+  git commit -m "Importing the template"
 
--   Now download the code and data archive, e.g.,
-    > [*https://www.aeaweb.org/aej/app/data/0602/2012-0292\_data.zip*](https://www.aeaweb.org/aej/app/data/0602/2012-0292_data.zip)
-    > . Unzip it, maintaining the directory structure:
+```
+  **EVERY COMMIT requires a COMMIT
+     MESSAGE.**
 
--   Delete the ZIP file.
+- Now download the code and data archive, e.g., https://www.aeaweb.org/aej/app/data/0602/2012-0292_data.zip .
+
+```
+  wget https://www.aeaweb.org/aej/app/data/0602/2012-0292_data.zip
+
+```
+- Unzip it, maintaining the directory structure:
+```
+  unzip 2012-0292_data.zip
+```
+
+- Delete the ZIP file:
+```
+  rm 2012-0292_data.zip
+```
 
 -   You should now add and commit all program files, but ignore the data
-    > files!
+   files!
+```
+   git add *do
+   git add *pdf
+   git status
+   git commit -m 'Initial commit of article replication materials'
+```
 
 -   You are now set up to start assessing and replicating this article!
 
-**ii)** **fill in entry questionnaire (the training ones as below, only for the training)**
+Fill in entry questionnaire
 -------------------------------------------------------------------------------------------
+(the training ones as below, only for the training)
 
 - Entry
 
 *<https://docs.google.com/a/cornell.edu/forms/d/1VM7gP37aY1M2VXNvTgHZsISAT5dVFlX8wt13TOqSOb8/edit?usp=drive_web>*
 
-Scale for the difficulty question:
+Scale for the "difficulty" question:
 
-[*https://drive.google.com/open?id=1wPP60YiqeaXsO8gqAJZ1TbDNy7TsJXST*](https://drive.google.com/open?id=1wPP60YiqeaXsO8gqAJZ1TbDNy7TsJXST)
+![scale](media/article_evaluation_scale.jpg)
 
-iii) Prepare and run the replication
+Prepare and run the replication
 -------------------------------------
 
-Note: don’t forget to create a config.do to create the basepath:
+Note: don’t forget to create a `config.do` to create the basepath:
 
 -   create a configuration file with the following names
 
-    -   Stata: config.do
+    -   Stata: `config.do`
 
-    -   R: config.R
+    -   R:     `config.R`
 
 -   Any base path should be added here, as a
-    > programming-language-specific macro variable:
+    programming-language-specific macro variable:
 
-    -   Stata: global basepath "/path/to/base/directory";
-
-    -   R: basepath &lt;- "/path/to/base/directory"
+```
+  Stata: global basepath "/path/to/base/directory";
+  R:     basepath <- "/path/to/base/directory"
+```
 
 -   Check if the author's programs create a logfile. If not, add sample
-    > code to create such a logfile to the "config" file (the template
-    > config file already contains code for this):
+    code to create such a logfile to the "config" file (the template
+    config file already contains code for this):
+  -  Stata:
 
-    -   Stata:\
-        > local c\_date = c(current\_date)\
-        > local cdate = subinstr("\`c\_date'", " ", "\_", .)\
-        > log using "logfile\_\`cdate'.log", replace text
-
+```
+        local c_date = c(current_date)\
+        local cdate = subinstr("`c_date'", " ", "_", .)\
+        log using "logfile_`cdate'.log", replace text
+```
 -   In the author's programs, as you work your way through, add lines
-    > that call the config file, and modify any paths for files being
-    > read to where they can be found on your replication system, using
-    > BASEPATH as a replacement for the greatest part of the filepath.
-    > Example:
+    that call the config file, and modify any paths for files being
+    read to where they can be found on your replication system, using
+    BASEPATH as a replacement for the greatest part of the filepath.
+- Example:
+  -   Stata:
+```
+      do "config.do"
+      global myfile "\${basepath}/data/thisfile.csv"
 
-    -   Stata:
-
-        -   do "config.do"
-
-        -   global myfile "\${basepath}/data/thisfile.csv"
-
-Also: Important to keep note in REPLICATION.txt about whether you change
+```
+- Commit all the changes you made to make the code work:
+Example of commands::
+```
+    git status
+    git add *log
+    git commit -m "All the changes I made to make the code work on the system"
+```
+- Also: Important to keep note in REPLICATION.txt about whether you change
 the directory, or any issue/progress you make on the replication.
 
-Example of commands::
-
-pwd
-
-cd
-/Users/sylverieherbert/Documents/Workspace/app.5.3.1/replication-sh2258
-
-svn status
-
-svn add \*log
-
-svn ci -m "All the changes I made to make the code work on the system"
-
-iv) fill in exit questionnaire
+Fill out the exit questionnaire
 ------------------------------
 
-- Exit
+- Exit (training)
 
 [*https://docs.google.com/a/cornell.edu/forms/d/1H0p9aBy19gnec5omrTnU5xMqB6zH925E1kEbaohX3d8/viewform*](https://docs.google.com/a/cornell.edu/forms/d/1H0p9aBy19gnec5omrTnU5xMqB6zH925E1kEbaohX3d8/viewform)
 
-Adding commit messages
+Special comment for "pre-publication validation"
+-----------------------------------------------
+Once you are assigned to a pre-publication verification, you will have been given a "ticket" number in JIRA. In that case, you need to adjust commit messages:
 
-Refer to
+- Refer to
 [*https://confluence.atlassian.com/bitbucket/use-smart-commits-298979931.html*](https://confluence.atlassian.com/bitbucket/use-smart-commits-298979931.html)
 for the format. You need the issue tag (e.g., "AEJAPPLIED-2"), and need
 to include it in your commit message, e.g.,
-
-Git commit -m "AEJAPPLIED-2 \#comment This solves the first problem."
-
+```
+git commit -m "AEJAPPLIED-2 #comment This solves the first problem."
+```
 Note:
 
--   The tag "AEJAPPLIED-2" (yours will vary) needs to be in EXACTLY that
-    > format (all caps, dash, no spaces). Typos won't work.
+-   The tag "`AEJAPPLIED-2`" (yours will vary) needs to be in EXACTLY that
+    format (all caps, dash, no spaces). Typos won't work.
 
--   The part "\#comment " is required if you want it to show up in the
-    > ticket. Any text elsewhere in the commit message will be viewable
-    > under "Commits" and will show up in the repository as well.
+-   The part "`#comment `" is required if you want it to show up in the
+    ticket. Any text elsewhere in the commit message will be viewable
+    under "Commits" and will show up in the repository as well.
