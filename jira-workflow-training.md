@@ -9,26 +9,34 @@ This workflow does NOT cover assessment of data citations. This is covered by a 
 
 ## Overview
 
+![workflow image](images/New_AEA_Data_Editor_Workflow_-_Jira.png)
 
 The following table illustrates the flow and transitions. The `transition` field identifies the button that will appear in the interface
 that needs to be clicked in order to progress an issue from the `From` state to the `To` state. The `Condition` field identifies
 which form field needs to be filled out in order to be able to make the transition. `Blocked` is always an option, and leads to a "waiting state"
 until a resolution can be found.
 
-|From|	Transition		|→ To | Condition |
-|:---|:---------------|:----|:----------|
-Open | Start task     |→ In Progress|   |
-In Progress	  | Download code       |→ Code         ||
-Code	        | Access data         |→	Data        ||
-Data	        | Data is accessible  |→	Verification||
-.             | Data not available  |→	Code review ||
-Verification	| Prepare report      |→	Report      ||
-Code review	  | Prepare report      |→	Report      ||
-Report	      | Submit for review   |	→	Under Review||
-Under Review	| Approve |→  Approved |   |
-.             | Incomplete |→  Incomplete | n.a. |
-Approved	    | Done       |→ 	Done      | n.a. |
-Incomplete	  | Restart    |→  Code review | |
-.             | Restart verification|→ Verification ||
-.             | Restart task        |→ In Progress  ||
-Blocked	      | Reopen     |→  Open       | n.a. |
+| From         | Transition           | → To           | Condition |
+|:-------------|:---------------------|:---------------|:----------|
+| Open         | Start task           | → In Progress  |           |
+| In Progress  | Download code        | → Code         | `Entry questionnaire` has been filled out, `Journal` has been identified. |
+| Code         | Access data          | →	Data          | `Git working location` has been filled out. |
+| Data         | Data is accessible   | →	Verification  | `Location of data` has been filled out.|
+| .            | Data not available   | →	Code review   | `Reason for non-accessibility of data` has been filled out.|
+| Verification | Prepare report       | →	Report        | |
+| Code review  | Prepare report       | →	Report        | |
+| Report       | Submit for review    | →	Under Review  | `Report URL` has been filled out.|
+| Under Review | Approve              | →  Approved    |Can only be done by **approvers**.|
+| .            | Incomplete           | →  Incomplete  | n.a.      |
+| Approved     | Done                 | → 	Done         | n.a.      |
+| Incomplete   | Restart              | →  Code review |           |
+| .            | Restart verification | → Verification |           |
+| .            | Restart task         | → In Progress  |           |
+| Blocked      | Reopen               | →  Open        | n.a.      |
+
+### Notes
+- The Entry Questionnaire is different for pre-publication verifications. Please consult with your supervisor.
+- In the Issue form, please also fill out other fields, as noted.
+- There are no drop-down menus, but once a value has been entered, it becomes available for future use. E.g., once `Stata` has been entered in software, it becomes a choice for future entries, and should be re-used.
+- All code should be stored on Bitbucket Git repositories. When committing, always use [Smart Commits](https://confluence.atlassian.com/bitbucket/use-smart-commits-298979931.html)
+- Data should be stored locally (currently) / in [Git LFS](https://confluence.atlassian.com/bitbucket/git-large-file-storage-in-bitbucket-829078514.html) (soon)
