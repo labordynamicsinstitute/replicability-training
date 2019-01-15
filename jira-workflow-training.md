@@ -19,8 +19,8 @@ until a resolution can be found.
 | From         | Transition           | → To           | Condition |
 |:-------------|:---------------------|:---------------|:----------|
 | Open         | Start task           | → In Progress  |           |
-| In Progress  | Download code        | → Code         | `Entry questionnaire` has been filled out, `Journal` has been identified. |
-| Code         | Access data          | →	Data          | `Code download URL` and `Git working location` have been filled out. |
+| In Progress  | Download code        | → Code         | `Entry questionnaire` and `Code provenance` have been filled out, `Journal` has been identified. |
+| Code         | Access data          | →	Data          | `Git working location` has been filled out. |
 | Data         | Data is accessible   | →	Verification  | `Location of data` has been filled out.|
 | .            | Data not available   | →	Code review   | `Reason for non-accessibility of data` has been filled out.|
 | Verification | Prepare report       | →	Report        | |
@@ -37,7 +37,7 @@ until a resolution can be found.
 ### Notes
 - The Entry Questionnaire is different for pre-publication verifications. Please consult with your supervisor.
 - In the Issue form, please also fill out other fields, as noted.
-- If code and/or data are provided by email, `Code download URL` should be filled out as "https://email.com".
+- If code and/or data are provided by email, `Code provenance` should be filled out with  "email", otherwise with a URL.
 - There are no drop-down menus, but once a value has been entered, it becomes available for future use. E.g., once `Stata` has been entered in software, it becomes a choice for future entries, and should be re-used.
 - All code should be stored on Bitbucket Git repositories. When committing, always use [Smart Commits](https://confluence.atlassian.com/bitbucket/use-smart-commits-298979931.html)
 - Data should be stored locally (currently) / in [Git LFS](https://confluence.atlassian.com/bitbucket/git-large-file-storage-in-bitbucket-829078514.html) (soon)
