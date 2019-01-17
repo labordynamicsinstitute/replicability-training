@@ -9,7 +9,7 @@ TRAINING For Reproducibility Verification
 ##  Technical setup
   + [Installing Git on your computer](https://github.com/labordynamicsinstitute/ldi-lab-standards/wiki/Setting-up-Git)
   + The [Command Line](https://labordynamicsinstitute.github.io/computing4economists/Git_CL_Slides/Slides_CommandLine.pdf)
-  + The [basics of Git](Basics_of_Git) ([Cheatsheet for Git](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet))
+  + The [basics of Git](Basics_of_Git.md) ([Cheatsheet for Git](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet))
   + The basics of Markdown ([Online Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), [Printable Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf))
   + Access to computers
   + The role of Bitbucket, Google Drive
