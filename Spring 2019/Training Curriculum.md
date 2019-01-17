@@ -10,12 +10,13 @@ TRAINING For Reproducibility Verification
   + [Installing Git on your computer](https://github.com/labordynamicsinstitute/ldi-lab-standards/wiki/Setting-up-Git)
   + The [Command Line](https://labordynamicsinstitute.github.io/computing4economists/Git_CL_Slides/Slides_CommandLine.pdf)
   + The [basics of Git](Basics_of_Git.md) ([Cheatsheet for Git](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet))
-  + The basics of Markdown ([Online Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), [Printable Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf))
+  + The [basics of Markdown](Basics_of_Markdown.md) ([Online Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), [Printable Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf))
+  + Text editors (not covered here): [Atom](https://atom.io), [MS Visual Studio Code](https://code.visualstudio.com/), others.
   + Access to computers
   + The role of Bitbucket, Google Drive
   + Software you will use
 
-##  Reproducible practices
+##  [Reproducible practices](Reproducible_practices.md)
   + The ideal directory structure
   + Naming data and programs
   + Structuring programs
@@ -37,6 +38,9 @@ TRAINING For Reproducibility Verification
   + Your Privacy
   + The privacy of authors
 
+## What we are looking for
+
++ [Examples (not public)](https://github.com/AEADataEditor/aea-guidance-internal/blob/master/Examples_post_publication.md)
 
 ##  The workflow for published articles
 
