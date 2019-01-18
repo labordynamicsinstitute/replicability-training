@@ -7,7 +7,7 @@ The analysis in a scientific article should be reproducible by others.
 # The TIER protocol
 The TIER (Transparency in Economic Research) Protocol is one instantiation of good practices. Others have taught these same practices for years, without labeling or disseminating them. Thus you will find many examples of this, and many versions of this. But for illustration purposes, let's walk through the basic principles as explained by the TIER Protocol.
 
-![TIER protocol](https://bucketeer-82911c16-8ccd-4854-b255-5b3ebba24d7c.s3.amazonaws.com/images/TIER-folder-illustration-v3.0.width-800.png?Signature=Z%2BEVTFN43yoD3WIVfkg8dxa5Agw%3D&Expires=1547774847&AWSAccessKeyId=AKIAII43OBBLSEWFDW2A)
+![TIER protocol](https://bucketeer-82911c16-8ccd-4854-b255-5b3ebba24d7c.s3.amazonaws.com/images/TIER-folder-illustration-v3.0.width-800.png)
 
 There are a few key concepts. Good code and data management
 - separates data and code ("Command files")
