@@ -45,4 +45,4 @@ There are multiple services that host repositories, and that can serve as a cent
 ### Taking it live
 
 + [Example slides](https://labordynamicsinstitute.github.io/computing4economists/Git_CL_Slides/Slides_Git_Example.pdf)
-+ Let's go and do it ourselves (20 minutes)
++ Let's go and do it ourselves (20 minutes): [Start here](https://github.com/labordynamicsinstitute/replicability-training/wiki/Setting_up_git)
