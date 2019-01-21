@@ -3,7 +3,7 @@
 ## What is Markdown
 > Markdown is a way to write content for the web.
 
-It is a very simple text-based way (both readable as text, and pretty when "rendered").
+It is a very simple way that is both readable as plain text, and pretty when "rendered".
 
 This tutorial is written in Markdown! See what [this looks like underneath](https://raw.githubusercontent.com/labordynamicsinstitute/replicability-training/master/Spring%202019/Basics_of_Markdown.md).
 
