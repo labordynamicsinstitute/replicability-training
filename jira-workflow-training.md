@@ -2,6 +2,8 @@
 
 For pre-publication verification, we use a Jira-based workflow quite similar to the post-publication processes described in the [Wiki](https://github.com/labordynamicsinstitute/replicability-training/wiki).
 
+Pre-publication verification is a priority and should be completed within a week of being assigned.
+
 ## Scope
 Your supervisor will assign you to this workflow if needed. This workflow covers code and data, even when data may not be accessible.
 
@@ -39,8 +41,10 @@ until a resolution can be found.
 - In the Issue form, please also fill out other fields, as noted.
 - If code and/or data are provided by email, `Code provenance` should be filled out with  "email", otherwise with a URL.
 - There are no drop-down menus, but once a value has been entered, it becomes available for future use. E.g., once `Stata` has been entered in software, it becomes a choice for future entries, and should be re-used.
-- All code should be stored on Bitbucket Git repositories. When committing, always use [Smart Commits](https://confluence.atlassian.com/bitbucket/use-smart-commits-298979931.html)
+- All code should be stored on Bitbucket Git repositories. 
+- When committing, **always** use [Smart Commits](https://confluence.atlassian.com/bitbucket/use-smart-commits-298979931.html)
 - Data should be stored locally (currently) / in [Git LFS](https://confluence.atlassian.com/bitbucket/git-large-file-storage-in-bitbucket-829078514.html) (soon)
+- Use JIRA to communicate with your supervisor as issues arise, including code that takes a long time to run. 
 
 ## Details
 Additional details for each of the key stages are provided here.
@@ -71,6 +75,8 @@ Referring back to your list of datasets, assess whether at least part of the cod
 
 ### Prepare Report
 In this stage, you are verifying the code, either using the provided data, or by inspecting the completeness of the source code. The [REPLICATION.md](https://github.com/AEADataEditor/replication-template/blob/master/REPLICATION.md) is the report.
+
+You should commit your report with intermediate results as you have them. Do __not__ wait until you have all the results finished. Commit (using Smart Commits) frequently!
 
 To complete this stage, enter the direct URL of the report, i.e., in the relevant repository:
 > https://bitbucket.org/aeaverification/aearep-2/src/master/REPLICATION.md
