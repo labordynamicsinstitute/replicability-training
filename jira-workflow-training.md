@@ -37,13 +37,16 @@ until a resolution can be found.
 | Blocked      | Reopen               | →  Open        | n.a.      |
 
 ### Notes
-- The Entry Questionnaire is different for pre-publication verifications. Please consult with your supervisor.
-- In the Issue form, please also fill out other fields, as noted.
+- The **Entry Questionnaire** is different for pre-publication verifications. Please consult with your supervisor.
+- In the **Issue form**, please also fill out other fields, as noted.
 - If code and/or data are provided by email, `Code provenance` should be filled out with  "email", otherwise with a URL.
 - There are no drop-down menus, but once a value has been entered, it becomes available for future use. E.g., once `Stata` has been entered in software, it becomes a choice for future entries, and should be re-used.
 - All code should be stored on Bitbucket Git repositories. 
+  - The root repository should contain only our files (i.e., REPLICATION.md, etc.)
+  - The paper's files should be in a subdirectory (e.g, `paper_archive`). Often this is created by the author-provided ZIP file - re-use it.
 - When committing, **always** use [Smart Commits](https://confluence.atlassian.com/bitbucket/use-smart-commits-298979931.html)
 - Data should be stored locally (currently) / in [Git LFS](https://confluence.atlassian.com/bitbucket/git-large-file-storage-in-bitbucket-829078514.html) (soon)
+  - When data directories contain ONLY data (no README, no code), then you MUST create a "README.md" indicating where the data is stored - otherwise, git will not preserve the directory structure.
 - Use JIRA to communicate with your supervisor as issues arise, including code that takes a long time to run. 
 
 ## Details
@@ -82,3 +85,7 @@ To complete this stage, enter the direct URL of the report, i.e., in the relevan
 > https://bitbucket.org/aeaverification/aearep-2/src/master/REPLICATION.md
 
 At this time, you can submit the report for review. 
+
+## Updating information
+- When receiving updated files from authors, do NOT create "update" or "new" directories. The current state of the repository should always correspond to the author's structure. Overwrite files, delete files. The previous state is preserved in Git. This will also tell you what files have changed.
+- When running a second replication on the same archive, please be sure to have the committed "REPLICATION.md" be accurate when you commit it - do not let it contain holdover data from a previous replication attempt, as this can lead to confusion.
