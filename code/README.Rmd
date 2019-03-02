@@ -36,6 +36,7 @@ The program will check for prior files, and will NOT download new data if those 
 
 - delete ` `r repllist.file` ` if you want to re-download the list of articles from Google Drive
 - delete ` `r file.path(interwrk,paste0("new.Rds"))` ` to re-download files from CrossRef
+- revert ` `r issns.file` ` (which stores the last query date, and is updated at the end of this process)
 
 ## Data locations
 
@@ -131,7 +132,7 @@ issns[1,] <- c("American Economic Journal: Applied Economics","1945-7790",tmp.da
 issns[2,] <- c("American Economic Journal: Economic Policy","1945-774X",tmp.date)
 issns[3,] <- c("American Economic Journal: Macroeconomics", "1945-7715",tmp.date)
 issns[4,] <- c("American Economic Journal: Microeconomics", "1945-7685",tmp.date)
-issns[5,] <- c("American Economic Review","1944-7981",tmp.date)
+issns[5,] <- c("The American Economic Review","1944-7981",tmp.date)
 
 saveRDS(issns, file= issns.file)
 }
@@ -176,9 +177,22 @@ write.csv(addtl.df, file = addtl.file)
 Of these, `r nrow(addtl.df)` records for `r nrow(addtl.df %>% select(container.title) %>% distinct())` journals were new:
 
 ```{r stats2, echo=FALSE}
-knitr::kable(addtl.df %>% group_by(container.title) %>% summarise(records = n()))
+addtl.stats <- addtl.df %>% 
+	group_by(container.title) %>% 
+	summarise(records = n(), lastdate = max(published.print)) %>%
+	rename(journal = container.title )
+knitr::kable(addtl.stats)
 ```
 
-The new records can be found [here](`r addtl.file`).
+The new records can be found [here](`r addtl.file`). We now update the file we use to track the updates, ` `r issns.file` `. If you need to run the process anew, simply revert the file ` `r issns.file` ` and run this document again.
+
+```{r update}
+issns <- addtl.stats %>% select(journal,lastdate) %>% 
+	right_join(issns,by=c("journal")) %>%
+	mutate( lastdate = coalesce(lastdate.x,lastdate.y)) %>%
+	select(-lastdate.x, -lastdate.y)
+#saveRDS(issns, file= issns.file)
+```
+
 
 

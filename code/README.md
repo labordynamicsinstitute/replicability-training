@@ -30,6 +30,7 @@ The program will check for prior files, and will NOT download new data if those 
 
 - delete ` data/outputs/replication_list_DOI.Rds ` if you want to re-download the list of articles from Google Drive
 - delete ` data/interwrk/new.Rds ` to re-download files from CrossRef
+- revert ` data/outputs/issns.Rds ` (which stores the last query date, and is updated at the end of this process)
 
 ## Data locations
 
@@ -134,7 +135,7 @@ issns[1,] <- c("American Economic Journal: Applied Economics","1945-7790",tmp.da
 issns[2,] <- c("American Economic Journal: Economic Policy","1945-774X",tmp.date)
 issns[3,] <- c("American Economic Journal: Macroeconomics", "1945-7715",tmp.date)
 issns[4,] <- c("American Economic Journal: Microeconomics", "1945-7685",tmp.date)
-issns[5,] <- c("American Economic Review","1944-7981",tmp.date)
+issns[5,] <- c("The American Economic Review","1944-7981",tmp.date)
 
 saveRDS(issns, file= issns.file)
 }
@@ -178,13 +179,23 @@ American Economic Journal: Microeconomics           149
 Of these, 333 records for 4 journals were new:
 
 
-container.title                                 records
----------------------------------------------  --------
-American Economic Journal: Applied Economics         50
-American Economic Journal: Economic Policy          166
-American Economic Journal: Macroeconomics            54
-American Economic Journal: Microeconomics            63
+journal                                         records  lastdate 
+---------------------------------------------  --------  ---------
+American Economic Journal: Applied Economics         50  2019-01  
+American Economic Journal: Economic Policy          166  2019-02  
+American Economic Journal: Macroeconomics            54  2019-01  
+American Economic Journal: Microeconomics            63  2019-02  
 
-The new records can be found [here](data/outputs/addtl_doi.csv).
+The new records can be found [here](data/outputs/addtl_doi.csv). We now update the file we use to track the updates, ` data/outputs/issns.Rds `. If you need to run the process anew, simply revert the file ` data/outputs/issns.Rds ` and run this document again.
+
+
+```r
+issns <- addtl.stats %>% select(journal,lastdate) %>% 
+	right_join(issns,by=c("journal")) %>%
+	mutate( lastdate = coalesce(lastdate.x,lastdate.y)) %>%
+	select(-lastdate.x, -lastdate.y)
+#saveRDS(issns, file= issns.file)
+```
+
 
 

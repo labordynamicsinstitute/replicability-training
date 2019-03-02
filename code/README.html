@@ -398,6 +398,7 @@ $(document).ready(function () {
 <ul>
 <li>delete <code>data/outputs/replication_list_DOI.Rds</code> if you want to re-download the list of articles from Google Drive</li>
 <li>delete <code>data/interwrk/new.Rds</code> to re-download files from CrossRef</li>
+<li>revert <code>data/outputs/issns.Rds</code> (which stores the last query date, and is updated at the end of this process)</li>
 </ul>
 </div>
 <div id="data-locations" class="section level2">
@@ -485,7 +486,7 @@ issns[1,] &lt;- c(&quot;American Economic Journal: Applied Economics&quot;,&quot
 issns[2,] &lt;- c(&quot;American Economic Journal: Economic Policy&quot;,&quot;1945-774X&quot;,tmp.date)
 issns[3,] &lt;- c(&quot;American Economic Journal: Macroeconomics&quot;, &quot;1945-7715&quot;,tmp.date)
 issns[4,] &lt;- c(&quot;American Economic Journal: Microeconomics&quot;, &quot;1945-7685&quot;,tmp.date)
-issns[5,] &lt;- c(&quot;American Economic Review&quot;,&quot;1944-7981&quot;,tmp.date)
+issns[5,] &lt;- c(&quot;The American Economic Review&quot;,&quot;1944-7981&quot;,tmp.date)
 
 saveRDS(issns, file= issns.file)
 }
@@ -539,30 +540,40 @@ new.df &lt;- readRDS(file= file.path(interwrk,paste0(&quot;new.Rds&quot;)))</cod
 <table>
 <thead>
 <tr class="header">
-<th align="left">container.title</th>
+<th align="left">journal</th>
 <th align="right">records</th>
+<th align="left">lastdate</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left">American Economic Journal: Applied Economics</td>
 <td align="right">50</td>
+<td align="left">2019-01</td>
 </tr>
 <tr class="even">
 <td align="left">American Economic Journal: Economic Policy</td>
 <td align="right">166</td>
+<td align="left">2019-02</td>
 </tr>
 <tr class="odd">
 <td align="left">American Economic Journal: Macroeconomics</td>
 <td align="right">54</td>
+<td align="left">2019-01</td>
 </tr>
 <tr class="even">
 <td align="left">American Economic Journal: Microeconomics</td>
 <td align="right">63</td>
+<td align="left">2019-02</td>
 </tr>
 </tbody>
 </table>
-<p>The new records can be found <a href="data/outputs/addtl_doi.csv">here</a>.</p>
+<p>The new records can be found <a href="data/outputs/addtl_doi.csv">here</a>. We now update the file we use to track the updates, <code>data/outputs/issns.Rds</code>. If you need to run the process anew, simply revert the file <code>data/outputs/issns.Rds</code> and run this document again.</p>
+<pre class="r"><code>issns &lt;- addtl.stats %&gt;% select(journal,lastdate) %&gt;% 
+    right_join(issns,by=c(&quot;journal&quot;)) %&gt;%
+    mutate( lastdate = coalesce(lastdate.x,lastdate.y)) %&gt;%
+    select(-lastdate.x, -lastdate.y)
+#saveRDS(issns, file= issns.file)</code></pre>
 </div>
 
 
