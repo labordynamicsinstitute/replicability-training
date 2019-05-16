@@ -27,7 +27,7 @@ There are a few key concepts. Good code and data management
 
 **[ INPUT DATA ]  ---( Cleaning program )---> [ ANALYSIS DATA ]**
 
-** [ ANALYSIS DATA ] ---( Analysis program )---> [ TABLES / FIGURES ]**
+**[ ANALYSIS DATA ] ---( Analysis program )---> [ TABLES / FIGURES ]**
 
 ## Making it reproducible
 - the data and its source  should clearly identified
