@@ -29,18 +29,7 @@ There are a few key concepts. Good code and data management
 
 **[ ANALYSIS DATA ] ---( Analysis program )---> [ TABLES / FIGURES ]**
 
-<div class="mermaid">
-graph TD;
-    subgraph Dataflow;
-    A((Input data)) ==>  B[Cleaning programs];
-    B ==> C((Analysis data));
-    C ==> D[Analysis programs] 
-    D ==> E((Outputs));
-    end;
-    B -.-> F(("Auxiliary data<br/>(created)"));
-    F -.-> C;
-    
-</div>
+
 
 
 ## Making it reproducible
