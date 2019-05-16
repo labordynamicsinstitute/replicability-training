@@ -41,9 +41,7 @@ Providing you with the tools to do replicable science right, and efficiently.
   + How to modify code for replicability/verification
   
 ## Examples of Replicable Articles
-  + Great
-  + Bad
-  + In the middle
+  + [Good, Bad, and In the middle](replication_examples.md)
 
 # A Walkthrough of Setting Up a Replication Example (David)
 - Verifying what you have learned
