@@ -39,14 +39,14 @@ Providing you with the tools to do replicable science right, and efficiently.
   + What do we consider to be "code"
   + Assessing the quality of the code documentation
   + How to modify code for replicability/verification
+  
+## Examples of Replicable Articles
+  + Great
+  + Bad
+  + In the middle
 
-## Verifying what you have learned (David)
-  + How to replicate in a replicable fashion
-  + Examples of (great) (good) (bad) replicable articles
-
-# A Walkthrough of Setting Up a Replication Example
-
-(David)
+# A Walkthrough of Setting Up a Replication Example (David)
+- Verifying what you have learned
 - Git commit every few steps
 - Git push at least once a day
 
