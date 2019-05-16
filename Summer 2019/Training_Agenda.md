@@ -6,16 +6,16 @@ TRAINING For Reproducibility Verification
 ![GitHub issues](https://img.shields.io/github/issues-raw/labordynamicsinstitute/replicability-training.svg?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/labordynamicsinstitute/replicability-training.svg?style=flat)
 
 ##  Overview
-  + [What is reproducibility and why do we care] LARS CPC+France 15min talk
+  + [What is reproducibility and why do we care](https://github.com/labordynamicsinstitute/replicability-presentation2019/raw/v20190328b/Vilhuber-Presentation2019-Paris-2019-03-28.pdf) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2621959.svg)](https://doi.org/10.5281/zenodo.2621959)
 
-  + What will you be doing in this Lab (LARS)
+  + [What will you be doing in this Lab](Overview_lab.md)
 
 ##  Technical setup
 Providing you with the tools to do replicable science right, and efficiently.
   + The [Command Line](https://labordynamicsinstitute.github.io/computing4economists/Git_CL_Slides/Slides_CommandLine.pdf)
   + The [basics of Git](Basics_of_Git.md) ([Cheatsheet for Git](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet))
     + [Installing Git on your computer](https://github.com/labordynamicsinstitute/ldi-lab-standards/wiki/Setting-up-Git)
-    + Testing that Git works
+    + [Testing that Git works](Testing_that_Git_works.md)
   + The [basics of Markdown](Basics_of_Markdown.md) ([Online Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), [Printable Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf))
     + Installing Text editors:  [MS Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io), others.
   + Cornell-specific:
@@ -39,12 +39,14 @@ Providing you with the tools to do replicable science right, and efficiently.
   + What do we consider to be "code"
   + Assessing the quality of the code documentation
   + How to modify code for replicability/verification
-  
+
 ## Examples of Replicable Articles
   + [Good, Bad, and In the middle](replication_examples.md)
 
-# A Walkthrough of Setting Up a Replication Example (David)
-- Verifying what you have learned
+
+# A Walkthrough of Setting Up a Replication Example
+
+(David)
 - Git commit every few steps
 - Git push at least once a day
 
