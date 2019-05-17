@@ -1,0 +1,221 @@
+\documentclass[xcolor={dvipsnames}]{beamer}
+\title[LDI Training]{Walkthrough of Setting Up a Replication Example}
+\author{Lars Vilhuber and David Wasser}
+\date{May 17, 2019}
+\usetheme{Boadilla}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\qquad \insertshorttitle \qquad\qquad\qquad \insertframenumber
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\graphicspath{./Figures/}
+
+%
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+\usepackage{pdflscape, graphicx, booktabs, dcolumn, listings, amsmath,bbm,courier,pgffor,natbib,enumerate,amssymb,amsfonts,color,hyperref,array,calc,multirow,tikz,amsthm,anyfontsize,bbm, hyperref}
+
+\usepackage[section]{placeins}
+\usepackage[english]{babel}
+\usepackage[justification=centering]{caption}
+\captionsetup{labelformat=empty}
+\usepackage[flushleft]{threeparttable}
+\newtheorem{findings}[theorem]{Findings}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[percent]{overpic}
+
+\graphicspath{./Figures/}
+
+\newtheorem{prop}{\protect\propositionname}
+\addto\captionsamerican{\renewcommand{\propositionname}{Proposition}}
+\addto\captionsenglish{\renewcommand{\propositionname}{Proposition}}
+\providecommand{\propositionname}{Proposition}
+\setbeamertemplate{theorems}[numbered]
+\theoremstyle{definition}
+\newtheorem*{theorem*}{Definition}
+
+\RequirePackage{ifthen}
+\newboolean{sectiontoc}
+
+\AtBeginSection[]{
+\begin{frame}[plain]{Outline}
+\ifthenelse{\boolean{sectiontoc}}{\tableofcontents[]}{\tableofcontents[currentsection]}
+\addtocounter{framenumber}{-1}
+\end{frame}}
+
+\newcommand{\firstsection}[1]{\setboolean{sectiontoc}{true} \section{#1} \setboolean{sectiontoc}{false}}
+\newcommand{\indep}{\mathrel{\text{\scalebox{1.07}{$\perp\mkern-10mu\perp$}}}}
+
+
+\setbeamercolor{button}{bg=structure.fg,fg=white}
+
+\begin{document}
+
+\makeatletter
+\def\@listi{\leftmargin\leftmarginii \parsep .2em \itemsep 1em}
+\def\@listii{\leftmargin\leftmarginii \topsep .2em \parsep .2em \itemsep .2em}
+\makeatother
+
+% Title Slide
+\begin{frame}[plain]
+\titlepage
+\addtocounter{framenumber}{-1}
+\end{frame}
+
+% Slide 1
+\begin{frame}{Walking Through An Example}
+\begin{itemize}
+    \item We will work through an example together
+    \item Let's use the good example of a reproducible paper: 10.1257/pol.20140215
+    \item Do each step on your computer
+    \item Keep the Wiki open in another tab
+\end{itemize}
+\end{frame}
+
+%Table of Contents
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+% Program context
+\section{Access article and download materials}
+
+\begin{frame}{Access article and download materials}
+\begin{itemize}
+    \item All of the (pre-publication) papers that need to be replicated are listed in the "Replication\_List" sheet on Google Drive 
+    \item Follow the URL in the second column to the AEA page
+    \item Click on \textbf{Data Set} (under Additional Materials)
+    \item Fill out Entry Questionnaire
+    \pause
+    \item Now you do it
+\end{itemize}
+\end{frame}
+
+\section{Create and populate repo}
+
+\begin{frame}{Create repo}
+\begin{itemize}
+    \item Repositories for AEA Verification are on https://bitbucket.org/aeaverification/
+    \item Follow the instructions in the Wiki for creating a new repo
+    \item \textbf{Today only}: Add your netid to the end of the repo name
+    \item Repository name should be "[journal]-[doi]", where
+    \begin{itemize}
+        \item "[journal]" may be "aej-applied", "aer", "aej-macro" etc.
+        \item "[doi]" will be something like "10.1257-pol.20140215"
+        \item (replace all spaces and "/" with "-")
+    \end{itemize}
+    \item All together: "aej-policy-10.1257-pol.20140215-NETID"
+    \pause
+    \item Now you do it
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Populate repo}
+\begin{itemize}
+    \item Follow the instructions in the Wiki for cloning a repo
+    \item Save the downloaded materials from the paper in your repo
+    \item Now we will use git to add, commit, and push these files to Bitbucket
+    \pause
+    \item Now you do it
+    \item In the terminal, navigate to the repo. Then:
+    \begin{enumerate}
+        \pause
+        \item Use \texttt{git add} to add the appropriate files (careful!)
+        \pause
+        \item Commit: \texttt{git commit -m "Write your commit message here"}
+        \pause
+        \item Push: \texttt{git push origin master}
+    \end{enumerate}
+    \pause
+    \item Check Bitbucket--our files should be there now
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Template looks like this}
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.8]{Figures/template_snip.PNG}
+\end{figure}
+\end{frame}
+
+\section{Download template}
+\begin{frame}{Download template}
+\begin{itemize}
+    \item Follow the instructions in the Wiki to download the template
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Template looks like this}
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.8]{Figures/template_snip.PNG}
+\end{figure}
+\end{frame}
+
+\section{Download template}
+\begin{frame}{Download template}
+\begin{itemize}
+    \item Save only the necessary files in the repo!
+    \item Be sure to re-name template-config.do to config.do
+    \pause
+    \item Now you do it
+    \pause
+    \item For this example, you should only save: REPLICATION.md, config.do, and .gitignore 
+\end{itemize}
+\end{frame}
+
+\section{The config file}
+\begin{frame}{The config file}
+\begin{itemize}
+    \item Again: make sure you re-name this!
+    \item Add a global basepath and other paths as necessary (the paper's README should help here)
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.7]{Figures/config_snip.PNG}
+    \end{figure}
+    \pause
+    \item Now you do it
+\end{itemize}
+\end{frame}
+
+\section{Running main Stata file}
+\begin{frame}{Running main Stata file}
+\begin{itemize}
+    \item Let's go back and re-read the README carefully
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.8]{Figures/readme_snip.PNG}
+    \end{figure}
+    \pause
+    \item What should we do?
+    \pause
+    \begin{enumerate}
+        \item Create an "Output" directory in the repo and add it to config.do
+        \item Add \texttt{include config.do} to the top of the code
+    \end{enumerate}
+    \pause
+    \item What about the note on Table 1?
+\end{itemize}
+\end{frame}
+
+\section{Committing and pushing to repo}
+\begin{frame}{Committing and pushing to repo}
+\begin{itemize}
+    \item Before running the code, we should \texttt{git commit} again.
+    \item After running the code, we will write our report and then \texttt{git commit} and \texttt{git push} again.
+    \item Always remember: commit frequently, push (at least) daily
+\end{itemize}
+\end{frame}
+
+
+
+
+\end{document}
