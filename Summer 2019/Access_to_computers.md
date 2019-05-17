@@ -3,7 +3,9 @@
 You will be working on a variety of computers
 + your laptop (Windows, OS X, Linux)
 + a Windows remote desktop at [CISER](https://ciser.cornell.edu/computing/) ([Login instructions](https://ciser.cornell.edu/computing/computing-help/how-to-login/))
-+ a [Linux cluster](https://biohpc.cornell.edu/lab/lab.aspx) or [Linux server](https://www2.vrdc.cornell.edu/news/ecco/step-1-requesting-an-ecco-account/ecco-account-creation/)
++ possibly a [Linux cluster](https://biohpc.cornell.edu/lab/lab.aspx) or [Linux server](https://www2.vrdc.cornell.edu/news/ecco/step-1-requesting-an-ecco-account/ecco-account-creation/) (rare)
++ [Github](https://github.com/)
++ [Bitbucket](https://bitbucket.org/account/signup/)
 
 ## What can you do where
 In principle, assuming you have the necessary software, you can work on any computer. Just remember to `git push` all changes back to Bitbucket.
