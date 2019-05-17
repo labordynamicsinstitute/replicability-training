@@ -53,10 +53,8 @@ Providing you with the tools to do replicable science right, and efficiently.
 
 
 # A Walkthrough of Setting Up a Replication Example
-
-(David)
-- Git commit every few steps
-- Git push at least once a day
+ + [Example](replication_walkthrough.pdf)
+ + Remember: git commit every few steps, git push at least once a day
 
 # Specifics of the LDI Replication Lab
 
