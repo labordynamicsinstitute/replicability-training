@@ -5,7 +5,7 @@ For pre-publication verification, we use a Jira-based workflow quite similar to 
 Pre-publication verification is a priority and should be completed **within a week** of being assigned.
 
 ## Scope
-Your supervisor will assign you to this workflow if needed. This workflow covers code and data, even when data may not be accessible.
+Your supervisor will assign you to this workflow if needed. This workflow covers code and data, even when data may not be accessible. Supervisor, see [other document](jira-supervisor-notes.md) for details.
 
 This workflow does NOT cover assessment of data citations. This is covered by a different training.
 
