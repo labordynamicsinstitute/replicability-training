@@ -5,7 +5,7 @@ This collects various tasks for the JIRA Supervisors.
 ## Requests received
 JIRA will receive requests sent to a specific email, including several maintenance emails from Manuscript Central. Each email generates an issue, unless the subject line references a previous issue. The following list identifies what to do with each type of issue/email.
 
-- "[JOURNAL] - Account Modified" - Delete
+- "[JOURNAL] - Account Modified in Manuscript Central" - Delete
 - "Accepted Review ..." - this is notification only, should be deleted.
 - "Invitation to Review ..." 
   - Click on acceptance link. This email/issue should be the core of the review request.
