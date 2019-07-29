@@ -6,10 +6,26 @@ This collects various tasks for the JIRA Supervisors.
 JIRA will receive requests sent to a specific email, including several maintenance emails from Manuscript Central. Each email generates an issue, unless the subject line references a previous issue. The following list identifies what to do with each type of issue/email.
 
 - "[JOURNAL] - Account Modified in Manuscript Central" - Delete
-- "Accepted Review ..." - this is notification only, should be deleted.
 - "Invitation to Review ..." 
   - Click on acceptance link. This email/issue should be the core of the review request.
   - Fill in Journal, MC number
   - Fill in "due date" as [date sent] + 10 working days
-  - Assign to RA
+  - Do not yet assign!
+- "Accepted Review ..." - this is notification only coming immediately after acceptance, should be deleted.
+
+## ICPSR emails
+openICPSR sends emails to the main AEA Data Editor email adress. 
+
+- "[SOMEBODY] has invited you to collaborate on an ICPSR project" - notification of sharing, with direct link to project.
+- "Comment Added to OPENICPSR-[NNNNNN]" 
+  - This should mention the manuscript number ("Data deposit for AEJMicro-2018-NNNN")
+  - Find the JIRA request for the same manuscript number - this may not yet exist!
+  - If the JIRA issue was found, 
+    - edit subject line to prepend "[AEAREP-ZZ]" (where ZZ is the issue number, and the square brackets are part of the text), and forward the message to the AEA Data Editor queue address.
+    - edit the JIRA issue itself, and add the "openICPSR" number to the relevant field.
+    - Also add the URL included in the email to data provenance
+
+
   
+
+
