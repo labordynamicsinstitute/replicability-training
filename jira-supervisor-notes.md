@@ -27,8 +27,10 @@ openICPSR sends emails to the main AEA Data Editor email adress.
     - edit the JIRA issue itself, and add the "openICPSR" number to the relevant field.
     - Also add the URL included in the email to data provenance
     - Do some basic checks on openICPSR repository
-      - Manuscript Number is entered into the appropriate openICPSR field (under "Scope")
-      - ZIP files were uploaded via "Import from ZIP" instead of "Upload Files" (there should be no ZIP files visible, except in certain circumstances, like when there are too many files)
+      - [ ] Manuscript Number is entered into the appropriate openICPSR field (under "Scope")
+      - [ ] ZIP files were uploaded via "Import from ZIP" instead of "Upload Files" (there should be no ZIP files visible, except in certain circumstances, like when there are too many files)
+      - [ ] No `__MACOS` directory
+      - [ ] No empty directories
 
 ## Linking JIRA issues and openICPSR repositories
 Two ways:
