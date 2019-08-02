@@ -34,6 +34,7 @@ after a quick initial review of this deposit within the AEA Repository, please m
     - Please delete the `__MACOS` directory
     - Please delete empty directories
     - Please delete any redundant (obsolete) files
+    - Further guidance can be found at https://aeadataeditor.github.io/aea-de-guidance/data-deposit-aea-guidance.html
  DO NOT REPUBLISH THE PROJECT YET.
  
  Once we have received the manuscript through Manuscript Central, we will proceed to a more thorough review, and may have additional change requests.
