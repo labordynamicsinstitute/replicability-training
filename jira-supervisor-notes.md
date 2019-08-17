@@ -26,7 +26,7 @@ openICPSR sends emails to the main AEA Data Editor email adress.
     - edit subject line to prepend "[AEAREP-ZZ]" (where ZZ is the issue number, and the square brackets are part of the text), and forward the message to the AEA Data Editor queue address.
     - edit the JIRA issue itself, and add the "openICPSR" number to the relevant field.
     - Also add the URL included in the email to data provenance
-    - Do some basic checks on openICPSR repository. Sample email (delete lines not relevant prior to sending via the Communication Log:
+    - Do some basic checks on openICPSR repository. Sample email (delete lines not relevant prior to sending via the Communication Log. Alternatively, this can be added to the REPLICATION.md to provide information only once to researchers.
 ```
 after a quick initial review of this deposit within the AEA Repository, please make the following adjustments:
     - Manuscript Number should be entered into the appropriate field (under "Scope")
@@ -45,7 +45,10 @@ Two ways:
 - parse through emails to dataeditor@aeapubs.org (search for manuscript number)
 - search by title through [https://www.openicpsr.org/openicpsr/workspace](https://www.openicpsr.org/openicpsr/workspace)
 
-Then enter the openICPSR number in the appropriate JIRA field.
+Then 
+- enter the openICPSR number in the appropriate JIRA field.
+- enter the openICPSR URL into the appropriate code (and possibly data) field
+- share the openICPSR deposit with the assigned RA's email  
 
 
 
