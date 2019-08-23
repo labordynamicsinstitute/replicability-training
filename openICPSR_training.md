@@ -10,7 +10,7 @@ You will need to set up an openICPSR account using your Cornell email.
 
 ## Downloading a project
 - See the image below for how to download a project.
-![](openICPSRexample.png)
+![](images/openICPSRexample.png)
 
 ## Reminders
 - Do not publish the openICPSR projects.
