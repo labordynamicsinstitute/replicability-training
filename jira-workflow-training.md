@@ -3,7 +3,7 @@
 For pre-publication verification, we use a Jira-based workflow similar to the post-publication processes described in the [Wiki](https://github.com/labordynamicsinstitute/replicability-training/wiki).
 
 **Pre-publication verification is a priority and should be completed within a week of being assigned.**
-- Typically these replications involve interacting with openICPSR repositories where code and data are stored.
+- Typically these replications involve interacting with [openICPSR repositories](openICPSR_training.md) where code and data are stored.
 - There is a specific entry questionnaire for these replications separate from the one used for post-publication replications.
 
 ## Scope
