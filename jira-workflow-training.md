@@ -118,9 +118,11 @@ At this time, you can submit the report for review.
 - In particular, fill in the field for Journal, MC number, and Report URL (pointing to Bitbucket) in EVERY single case.
 
 **View 1**
+
 ![](images/jira1.png)
 
 **View 2**
+
 ![](images/jira2.png)
 
 
