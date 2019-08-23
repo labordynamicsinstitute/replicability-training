@@ -107,11 +107,22 @@ Once you are done with the verification, prepare the report.
 
 ### Prepare Report
 
-
 To complete this stage, enter the direct URL of the report, i.e., in the relevant repository:
 > https://bitbucket.org/aeaverification/aearep-2/src/master/REPLICATION.md
 
-At this time, you can submit the report for review. 
+At this time, you can submit the report for review.
+
+### Be sure you fill in all of the metadata!
+
+- Depending on the view you chose for Jira, it may look different (see below), but always fill out all the fields that you can.
+- In particular, fill in the field for Journal, MC number, and Report URL (pointing to Bitbucket) in EVERY single case.
+
+**View 1**
+![](images/jira1.png)
+
+**View 2**
+![](images/jira2.png)
+
 
 ## Updating information
 - When receiving updated files from authors, do NOT create "update" or "new" directories. The current state of the repository should always correspond to the author's structure. Overwrite files, delete files. The previous state is preserved in Git. This will also tell you what files have changed.
