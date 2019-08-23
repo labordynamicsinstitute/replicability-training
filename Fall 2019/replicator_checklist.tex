@@ -1,0 +1,158 @@
+\documentclass[xcolor={dvipsnames}]{beamer}
+\title[Verification Guidance]{What Replicators Will Be Looking For, and Why}
+\author{Lars Vilhuber and David Wasser}
+\date{April 26, 2019}
+\usetheme{Boadilla}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\qquad \insertshorttitle \qquad\qquad\qquad \insertframenumber
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+%
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+\usepackage{pdflscape, graphicx, booktabs, dcolumn, listings, amsmath,bbm,courier,pgffor,natbib,enumerate,amssymb,amsfonts,color,hyperref,array,calc,multirow,tikz,amsthm,anyfontsize,bbm}
+
+\usepackage[section]{placeins}
+\usepackage[english]{babel}
+\usepackage[justification=centering]{caption}
+\captionsetup{labelformat=empty}
+\usepackage[flushleft]{threeparttable}
+\newtheorem{findings}[theorem]{Findings}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[percent]{overpic}
+
+\graphicspath{./Figures/}
+
+\newtheorem{prop}{\protect\propositionname}
+\addto\captionsamerican{\renewcommand{\propositionname}{Proposition}}
+\addto\captionsenglish{\renewcommand{\propositionname}{Proposition}}
+\providecommand{\propositionname}{Proposition}
+\setbeamertemplate{theorems}[numbered]
+\theoremstyle{definition}
+\newtheorem*{theorem*}{Definition}
+
+\RequirePackage{ifthen}
+\newboolean{sectiontoc}
+
+\AtBeginSection[]{
+\begin{frame}[plain]{Outline}
+\ifthenelse{\boolean{sectiontoc}}{\tableofcontents[]}{\tableofcontents[currentsection]}
+\addtocounter{framenumber}{-1}
+\end{frame}}
+
+\newcommand{\firstsection}[1]{\setboolean{sectiontoc}{true} \section{#1} \setboolean{sectiontoc}{false}}
+\newcommand{\indep}{\mathrel{\text{\scalebox{1.07}{$\perp\mkern-10mu\perp$}}}}
+
+
+\setbeamercolor{button}{bg=structure.fg,fg=white}
+
+\begin{document}
+
+\makeatletter
+\def\@listi{\leftmargin\leftmarginii \parsep .2em \itemsep 1em}
+\def\@listii{\leftmargin\leftmarginii \topsep .2em \parsep .2em \itemsep .2em}
+\makeatother
+
+% Title Slide
+\begin{frame}[plain]
+\titlepage
+\addtocounter{framenumber}{-1}
+\end{frame}
+
+% Slide 1
+\begin{frame}{Motivation}
+\begin{itemize}
+    \item We want to be able to verify the work that has been done.
+    \item In order to do that, we need some direction.
+    \item This document describes:
+    \begin{itemize}
+        \item What authors should check before providing data and code to journals
+        \item What verifier teams should check for in the data and code provided to them for the purpose of verification
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{The README file}
+\begin{itemize}
+    \item Make sure the contents of the README match the contents of the submission
+    \item Cross-check against the paper's data section
+    \item Make a list of:
+    \begin{itemize}
+        \pause 
+        \item Data sets referenced or provided
+        \pause
+        \item Tables
+        \item Figures
+        \pause 
+        \item In-text numbers
+    \end{itemize}
+    \pause
+    \item You can exclude a list of tables, figures, and in-text numbers that appear in an online appendix
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Documenting data}
+\begin{itemize}
+    \item For each data source, verify:
+    \begin{itemize}
+        \item The data set has a clear name
+        \item Licensing and access information: accessible to others? right to redistribute?
+        \item The data is cited in \textbf{both} the paper and the README
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Documenting data (continued)}
+\begin{itemize}
+    \item For each data set, verify:
+    \begin{itemize}
+        \item All variables are labeled or a codebook is provided
+        \item For confidential data, summary statistics are provided ("Table 1", means, medians, range)
+        \item No potentially sensitive information in the data set, including but not limited to:
+        \begin{itemize}
+            \item Names, SSNs, credit card numbers, addresses etc.
+        \end{itemize}
+    \end{itemize}
+    \item Remember: Someone else is reading your code and using your data. Variable abbreviations that make sense to you might not make any sense to someone else.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Documenting tables, figures, and in-text numbers}
+\begin{itemize}
+    \item Can you identify the part of the code that generates that table, figure, or number?
+    \pause
+    \item How about the line?
+    \pause 
+    \begin{itemize}
+        \item Add comments to your code and specific references in your README
+    \end{itemize}
+    \pause
+    \item Does the code produce an \textbf{identifiable} output that contains the table, figure, or number?
+    \item Remember: Someone else is reading your code and using your data. You might know that Column 1 of Table 2 is created by one piece of code while Column 2 is created by another piece, but they do not.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Code verification: where the rubber hits the road}
+\begin{itemize}
+    \item Create a directory that only contains the provided programs and data
+    \item Create a \textit{config} file that stores file paths and relevant system/software parameters in one place
+    \item Install all identified requirements
+    \begin{itemize}
+        \item Easy to forget that \texttt{estout} or \texttt{outreg2} was once manually installed
+    \end{itemize}
+    \item Run the code using the instructions in the README
+    \item Identify all error messages
+    \item Identify all outputs as per the README and list of table, figures, and in-text numbers
+    \item Compare outputs to those in the paper
+\end{itemize}
+\end{frame}
+\end{document}
