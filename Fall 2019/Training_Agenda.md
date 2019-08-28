@@ -56,19 +56,19 @@ Providing you with the tools to do replicable science right, and efficiently.
  + [Example](replication_walkthrough.pdf)
  + Remember: git commit every few steps, git push at least once a day
 
-# Specifics of the LDI Replication Lab
+# Specifics of the LDI Replication Lab (David)
 
-##  The workflow for published articles (David)
-
-For published articles, the list of articles to replicate is listed on a **Google Sheet**.
-
-+ [Test case](https://github.com/labordynamicsinstitute/replicability-training/wiki/Setting_up_git)
-+ [Post-publication workflow](https://github.com/labordynamicsinstitute/replicability-training/wiki/Training-Team)
-
-##  The workflow for unpublished articles (Lars)
+##  The workflow for unpublished articles
 
 For unpublished articles, the assignment of articles occurs through **Jira**
 + [Pre-publication workflow for unpublished articles](../jira-workflow-training.md)
 + Start by assessing the article, citations, data
 + Then follow the normal set up for replication (if needed, not always)
 + [Example](../jira_replication_example.pdf)
+
+##  The workflow for published articles
+
+For published articles, the list of articles to replicate is listed on a **Google Sheet**.
+
++ [Test case](https://github.com/labordynamicsinstitute/replicability-training/wiki/Setting_up_git)
++ [Post-publication workflow](https://github.com/labordynamicsinstitute/replicability-training/wiki/Training-Team)
