@@ -1,10 +1,5 @@
 # Overview of the LDI Lab
 
-## Conduct Post-Publication Evaluation of Reproducibility
-
-We download articles and supplements, assess to what extent an undergraduate student can run the code that produces the analysis reported in the paper.
-
-We have also in the past done an evaluation of the response of authors when the code is only available "upon request". Not currently an active project.
 
 ## Conduct Pre-Publication Evaluation of Reproducibility and Quality of Supplemental Materials
 
@@ -15,3 +10,8 @@ The Lab performs pre-publication evaluation for the American Economic Associatio
 - Verify ability to post data (do the authors have the right to post the data?)
 - If possible, attempt replication
 
+## Conduct Post-Publication Evaluation of Reproducibility (when time permits)
+
+We download articles and supplements, assess to what extent an undergraduate student can run the code that produces the analysis reported in the paper.
+
+We have also in the past done an evaluation of the response of authors when the code is only available "upon request". Not currently an active project.

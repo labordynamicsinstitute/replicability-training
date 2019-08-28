@@ -66,9 +66,3 @@ For unpublished articles, the assignment of articles occurs through **Jira**
 + Then follow the normal set up for replication (if needed, not always)
 + [Example](../jira_replication_example.pdf)
 
-##  The workflow for published articles
-
-For published articles, the list of articles to replicate is listed on a **Google Sheet**.
-
-+ [Test case](https://github.com/labordynamicsinstitute/replicability-training/wiki/Setting_up_git)
-+ [Post-publication workflow](https://github.com/labordynamicsinstitute/replicability-training/wiki/Training-Team)
