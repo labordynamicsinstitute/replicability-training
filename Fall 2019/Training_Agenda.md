@@ -12,7 +12,7 @@ TRAINING For Reproducibility Verification
 
 ##  9:30 - 10:30 Technical setup
 Providing you with the tools to do replicable science right, and efficiently.
-  + The [Command Line](https://github.com/labordynamicsinstitute/computing4economists/blob/master/Git_CL_Slides/intro_command_line.md)
+  + The [Command Line](https://github.com/labordynamicsinstitute/computing4economists/blob/master/Git_CL_Slides/intro_command_line)
   + The [basics of Git](Basics_of_Git.md) ([Cheatsheet for Git](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet))
     + [Installing Git on your computer](https://github.com/labordynamicsinstitute/ldi-lab-standards/wiki/Setting-up-Git)
     + [Testing that Git works](Testing_that_Git_works.md)
