@@ -30,6 +30,9 @@ openICPSR sends emails to the main AEA Data Editor email adress.
 ```
 after a quick initial review of this deposit within the AEA Repository, please make the following adjustments:
     - Manuscript Number should be entered into the appropriate field (under "Scope")
+    - Please add JEL Classification
+    - Please add Subject Terms (optional, but suggested)
+    - Please add Data Type
     - ZIP files should be uploaded via "Import from ZIP" instead of "Upload Files" (there should be no ZIP files visible, except in certain circumstances, like when there are too many files). Please delete the ZIP files, and re-upload using the "Import from ZIP" function.
     - Please delete the `__MACOS` directory
     - Please delete empty directories
