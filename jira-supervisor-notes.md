@@ -29,14 +29,14 @@ openICPSR sends emails to the main AEA Data Editor email adress.
     - Do some basic checks on openICPSR repository. Sample email (delete lines not relevant prior to sending via the Communication Log. Alternatively, this can be added to the REPLICATION.md to provide information only once to researchers.
 ```
 after a quick initial review of this deposit within the AEA Repository, please make the following adjustments:
-    - Manuscript Number should be entered into the appropriate field (under "Scope")
-    - Please add JEL Classification
-    - Please add Subject Terms (optional, but suggested)
-    - Please add Data Type
-    - ZIP files should be uploaded via "Import from ZIP" instead of "Upload Files" (there should be no ZIP files visible, except in certain circumstances, like when there are too many files). Please delete the ZIP files, and re-upload using the "Import from ZIP" function.
-    - Please delete the `__MACOS` directory
-    - Please delete empty directories
-    - Please delete any redundant (obsolete) files
+    - [REQUIRED] Manuscript Number should be entered into the appropriate field (under "Scope")
+    - [REQUIRED] Please add JEL Classification
+    - [SUGGESTED] Please add Subject Terms (optional, but suggested)
+    - [SUGGESTED] Please add Data Type
+    - [REQUIRED] ZIP files should be uploaded via "Import from ZIP" instead of "Upload Files" (there should be no ZIP files visible, except in certain circumstances, like when there are too many files). Please delete the ZIP files, and re-upload using the "Import from ZIP" function.
+    - [REQUIRED] Please delete the `__MACOS` directory
+    - [REQUIRED] Please delete empty directories
+    - [REQUIRED] Please delete any redundant (obsolete) files
     - Further guidance can be found at https://aeadataeditor.github.io/aea-de-guidance/data-deposit-aea-guidance.html
  DO NOT REPUBLISH THE PROJECT YET.
  
