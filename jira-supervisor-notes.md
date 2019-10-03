@@ -9,7 +9,8 @@ JIRA will receive requests sent to a specific email, including several maintenan
 - "Invitation to Review ..." 
   - Click on acceptance link. This email/issue should be the core of the review request.
   - Fill in Journal, MC number
-  - Fill in "due date" as [date sent] + 10 working days
+  - Check if this is a revision by searching by MC number in previous issues. If yes, **link** the two issues ("is revision of")
+  - Fill in "due date" as [date sent] + 10 **working** days (typically 14 calendar days)
   - Verify in the PROOF.PDF whether an openICPSR repo has been created, or if a different location is used (Dataverse, etc.)
     - if openICPSR -  Do not yet assign!
     - if other - Assign!
