@@ -15,6 +15,17 @@ JIRA will receive requests sent to a specific email, including several maintenan
     - if openICPSR -  Do not yet assign!
     - if other - Assign!
 - "Accepted Review ..." - this is notification only coming immediately after acceptance, should be deleted.
+## Recording decisions in Manuscript Central
+### Old system
+- Accept - Goes forward to (full) "Acceptance"
+- Revise-and-resubmit - Goes to another round of "Conditional Acceptance", with revisions requested
+- Reject - Goes back to the Editor for re-consideration
+### New system
+- Accept - Goes forward to (full) "Acceptance"
+- Accept with Changes - Goes forward to (full) "Acceptance", but there are conditions imposed (possibly changes to reference citations at the copy-editing stage, TBD)
+- Conditional Accept; Manuscript Ready - Remains in "Conditional Accept" stage (because there are program- or data-related issues that need to be solved), but no changes are expected to the manuscript (which could possibly start the copy-editing process)
+- Conditional Accept - changes need to be made, manuscript remains in "Conditional Accept" stage (= old "Revise and Resubmit")
+- Revise and Resubmit - changes are major, manuscript returns to the "Revise and Resubmit" stage (= old "Reject")
 
 ## ICPSR emails
 openICPSR sends emails to the main AEA Data Editor email adress. 
