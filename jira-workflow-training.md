@@ -13,7 +13,7 @@ This workflow **DOES NOT** cover assessment of data citations. This is covered b
 
 ## Overview
 
-![workflow image](images/New_AEA_Data_Editor_Workflow_-_Jira.png)
+![workflow image](images/AEADataEditorWorkflow-20191028.png)
 
 The following table illustrates the flow and transitions. The `transition` field identifies the button that will appear in the interface
 that needs to be clicked in order to progress an issue from the `From` state to the `To` state. The `Condition` field identifies
@@ -23,26 +23,26 @@ until a resolution can be found.
 | From         | Transition           | → To           | Condition |
 |:-------------|:---------------------|:---------------|:----------|
 | Open         | Start task           | → In Progress  |           |
-| In Progress  | Download code        | → Code         | `Entry questionnaire`, `Code provenance` have been filled out, `Journal` has been identified. |
+| In Progress  | Download code        | → Code         | `Code provenance` have been filled out, `Journal` has been identified. |
 | Code         | Access data          | →	Data          | `Git working location` has been filled out. |
-| Data         | Data is accessible   | →	Verification  | `Location of data` has been filled out.|
+| Data         | Prepare preliminary report | → Write Preliminary Report | |
+| Write Preliminary Report | Data is accessible   | →	Verification  | `Location of data` has been filled out.|
 | .            | Data not available   | →	Code review   | `Reason for non-accessibility of data` has been filled out.|
-| Verification | Prepare report       | →	Report        | |
-| Code review  | Prepare report       | →	Report        | |
+| Verification, Code review  | Prepare report       | →	Report        | |
 | Report       | Submit for review    | →	Under Review  | `Report URL` has been filled out.|
 | Under Review | Approve              | →  Approved    |Can only be done by **approvers**.|
 | .            | Incomplete           | →  Incomplete  | n.a.      |
-| Approved     | Done                 | → 	Done         | n.a.      |
+| Approved     | Done                 | → 	Done       | n.a.      |
+| Multiple     | Need information     | → Incomplete   |  when information is missing |
 | Incomplete   | Restart              | →  Code review |           |
 | .            | Restart verification | → Verification |           |
 | .            | Restart task         | → In Progress  |           |
 | Blocked      | Reopen               | →  Open        | n.a.      |
 
 ### Notes
-- The **Entry Questionnaire** is different for pre-publication verifications. Please consult with your supervisor.
 - In the **Issue form**, please also fill out other fields, as noted.
 - If code and/or data are provided by email, `Code provenance` should be filled out with  "email", otherwise with a URL.
-- There are no drop-down menus, but once a value has been entered, it becomes available for future use. E.g., once `Stata` has been entered in software, it becomes a choice for future entries, and should be re-used.
+- There are no drop-down menus for `Software`, but once a value has been entered, it becomes available for future use. E.g., once `Stata` has been entered in software, it becomes a choice for future entries, and should be re-used.
 - All code should be stored on Bitbucket Git repositories. 
   - The root repository should contain only our files (i.e., REPLICATION.md, etc.)
   - The paper's files should be in a subdirectory (e.g, `paper_archive`). Often this is created by the author-provided ZIP file - re-use it.
