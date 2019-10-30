@@ -122,6 +122,7 @@ You can now proceed to change the status to `Write Preliminary Report`
 
 ### Write Preliminary Report 
 At this stage, you need to fill out the REPLICATION.md up to the "Replication steps" part. 
+- There is sample language for commonly encountered problems at the Fragments for REPLICATION.md link in the tall grey bar.
 - Commit this preliminary report to the Bitbucket repository.
 - This allows for earlier identification of that issues that might warrant changes to the procedure. 
   - In particular, this is the stage where you might have identified that some, but not all data are not provided, and we can undertake steps there.
@@ -131,10 +132,11 @@ At this stage, you need to fill out the REPLICATION.md up to the "Replication st
 You can now proceed to change the status to `Verification` 
 
 ### Verification
-
 In this stage, you are verifying the code, either using the provided data, or by inspecting the completeness of the source code. The [REPLICATION.md](https://github.com/AEADataEditor/replication-template/blob/master/REPLICATION.md) is the report.
 
 Keep a log of what you do, what you find, and what does not work, in the `REPLICATION.md`.
+
+Follow the steps [here](https://github.com/labordynamicsinstitute/replicability-training/wiki/Prepare_and_run_replication)
 
 You should commit your report with intermediate results as you have them. Do __not__ wait until you have all the results finished. Commit frequently!
 
@@ -143,6 +145,11 @@ You should commit your report with intermediate results as you have them. Do __n
 You can now proceed to change the status to `Writing Report`
 
 ### Writing Report
+At this stage, you will write the final version of the report.
+- There is sample language for commonly encountered problems at the Fragments for REPLICATION.md link in the tall grey bar.
+- Clean up the REPLICATION.md - it should be factual, objective, and not written in the first person.
+- Delete the lines in REPLICATION.md that say they should be deleted.
+
 To complete this stage, enter the direct URL of the report, i.e., in the relevant repository:
 > https://bitbucket.org/aeaverification/aearep-2/src/master/REPLICATION.md
 
