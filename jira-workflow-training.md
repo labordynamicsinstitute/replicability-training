@@ -97,11 +97,11 @@ Now you will establish a **list of Datasets used** and fill out the **Data Citat
 Add the list of datasets to the repository (`git add`, `git commit`)
 
 Next fill out the following fields in the Jira ticket:
-  - `Software Used` Start typing the name of the software program you will use for the replication. Softwares that have used in the past will show up as options (e.g. start typing "Stata" and you will see it pop up).
+  - `Software Used` Start typing the name of the software program you will use for the replication. Softwares that have been used in the past will show up as options (e.g. start typing "Stata" and you will see it pop up).
   - `BITBUCKET SHORT NAME` Write the issue number (e.g. aearep-123). This should populate the `GIT WORKING LOCATION` field, which is the URL for the Bitbucket repo you created earlier.
   - `PROGRAMSEQUENCE` Does the README tell you the correct sequence for running the code?
   - `PROGRAMSDOCUMENTATION` Are the provided programs well commented? Are they documented in the README?
-  - `PROGRAMSSTRUCTUREMANUAL` Does the README note any manual changs that you need to make to the code in order for it to run?
+  - `PROGRAMSSTRUCTUREMANUAL` Does the README note any manual changes that you need to make to the code in order for it to run?
 
 > Commit! 
 
@@ -146,7 +146,7 @@ You can now proceed to change the status to `Writing Report`
 To complete this stage, enter the direct URL of the report, i.e., in the relevant repository:
 > https://bitbucket.org/aeaverification/aearep-2/src/master/REPLICATION.md
 
-At this time, you can submit the report for review.
+You can now proceed to change the status to `Under Review`
 
 ## Updating information
 - When receiving updated files from authors, do NOT create "update" or "new" directories. The current state of the repository should always correspond to the author's structure. Overwrite files, delete files. The previous state is preserved in Git. This will also tell you what files have changed.
