@@ -54,7 +54,12 @@ until a resolution can be found.
 - Use JIRA to communicate with your supervisor as issues arise, including code that takes a long time to run. 
 
 ## Details
-Additional details for each of the key stages are provided here.
+Additional details for each of the key stages are provided here. Below is a screenshot of a Jira ticket. Some things to note:
+  - The blue `In Progress` box in the upper right is how you "advance" the Jira ticket. When you are first assigned a replication, this box will say `Open`.
+  - The tall grey bar on the left side contains several handy links that you will use throughout the process.
+    - Sometimes this box is not visible. To make it visible, edit the URL for the Jira ticket so that there are no characters after the ticket number (e.g. AEAREP-123). You may have to refresh the page after doing so.
+
+![jira image](images/jira-screenshot.png)
 
 ### In Progress
 The first thing you must do is advance the ticket from `Open` to `In Progress`. At this stage, you are collecting information. 
