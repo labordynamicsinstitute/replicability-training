@@ -64,7 +64,7 @@ Additional details for each of the key stages are provided here. Below is a scre
 ### In Progress
 The first thing you must do is advance the ticket from `Open` to `In Progress`. At this stage, you are collecting information. 
 - start by [creating a repository](https://github.com/labordynamicsinstitute/replicability-training/wiki/Setting-up-a-repository-on-Bitbucket) 
-  - the repository name should be the name of the JIRA issue (e.g., `AEAREP123-5`)
+  - the repository name should be the name of the JIRA issue (e.g., `aearep-123`)
   - populate the repository with the latest version of the [template](https://github.com/AEADataEditor/replication-template) 
   - delete unused files from the template! Then `git add` those that you keep around
 - In the template, you will find code-check-TEMPLATE.xlsx. Use this to create a list of all Tables and Figures in the paper, and use this to guide you in [REPLICATION.md](https://github.com/AEADataEditor/replication-template/blob/master/REPLICATION.md).
@@ -83,8 +83,8 @@ You can now proceed to change the status to `Code`
 In this stage, download the code or the entire replication package, and populate the Bitbucket repository.
 - Download the code from openICPSR (typicaly for most cases). See [openICPSR repositories](openICPSR_training.md) for instructions on downloading these materials.
 - Populate the Bitbucket repository:
-  - Use `git clone` to clone the Bitbucket repository onto your local computer. It should be named something like AEAREP-123.
-  - Copy/paste the downloaded openICPSR folder into the local copy of the AEAREP-123 repository. The local repository should now have the relevant LDI replication template materials and the openICPSR folder containing the replication materials provided by the authors.
+  - Use `git clone` to clone the Bitbucket repository onto your local computer. It should be named something like aearep-123.
+  - Copy/paste the downloaded openICPSR folder into the local copy of the aearep-123 repository. The local repository should now have the relevant LDI replication template materials and the openICPSR folder containing the replication materials provided by the authors.
   - Perform a `git add`, `git commit`, `git push` sequence to populate the Bitbucket repo with the authors' replication materials (see above how to handle data).
 
 Now you will establish a **list of Datasets used** and fill out the **Data Citation and Information** report.
@@ -98,7 +98,7 @@ Add the list of datasets to the repository (`git add`, `git commit`)
 
 Next fill out the following fields in the Jira ticket:
   - `Software Used` Start typing the name of the software program you will use for the replication. Softwares that have used in the past will show up as options (e.g. start typing "Stata" and you will see it pop up).
-  - `BITBUCKET SHORT NAME` Write the issue number (e.g. AEAREP-123). This should populate the `GIT WORKING LOCATION` field, which is the URL for the Bitbucket repo you created earlier.
+  - `BITBUCKET SHORT NAME` Write the issue number (e.g. aearep-123). This should populate the `GIT WORKING LOCATION` field, which is the URL for the Bitbucket repo you created earlier.
   - `PROGRAMSEQUENCE` Does the README tell you the correct sequence for running the code?
   - `PROGRAMSDOCUMENTATION` Are the provided programs well commented? Are they documented in the README?
   - `PROGRAMSSTRUCTUREMANUAL` Does the README note any manual changs that you need to make to the code in order for it to run?
