@@ -59,7 +59,7 @@ Additional details for each of the key stages are provided here. Below is a scre
   - The tall grey bar on the left side contains several handy links that you will use throughout the process.
     - Sometimes this box is not visible. To make it visible, edit the URL for the Jira ticket so that there are no characters after the ticket number (e.g. AEAREP-123). You may have to refresh the page after doing so.
 
-![jira image](images/jira-screenshot.png)
+![jira image](images/jira-snapshot.png)
 
 ### In Progress
 The first thing you must do is advance the ticket from `Open` to `In Progress`. At this stage, you are collecting information. 
