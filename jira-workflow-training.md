@@ -4,10 +4,10 @@ For pre-publication verification, we use a Jira-based workflow similar to the po
 
 **Pre-publication verification is a priority and should be completed within a week of being assigned.**
 - Typically these replications involve interacting with [openICPSR repositories](openICPSR_training.md) where code and data are stored.
-- There is a specific entry questionnaire for these replications separate from the one used for post-publication replications.
+- In addition to the information you will fill out in Jira, there is also a separate Data Citation Report (more on that below)
 
 ## Scope
-Your supervisor will assign you to this workflow if needed. This workflow covers code and data, even when data may not be accessible. Supervisor, see [other document](jira-supervisor-notes.md) for details.
+Your supervisor will assign you to this workflow. This workflow covers code and data, even when data may not be accessible. Supervisor, see [other document](jira-supervisor-notes.md) for details.
 
 This workflow **DOES NOT** cover assessment of data citations. This is covered by a different training.
 
@@ -57,41 +57,73 @@ until a resolution can be found.
 Additional details for each of the key stages are provided here.
 
 ### In Progress
-
-At this stage, you are collecting information. 
+The first thing you must do is advance the ticket from `Open` to `In Progress`. At this stage, you are collecting information. 
 - start by [creating a repository](https://github.com/labordynamicsinstitute/replicability-training/wiki/Setting-up-a-repository-on-Bitbucket) 
-  - the repository name should be the name of the JIRA issue (e.g., `AEJPOLICY-5`)
-  - populate the repository with the [template](https://github.com/AEADataEditor/replication-template/releases/latest/) 
+  - the repository name should be the name of the JIRA issue (e.g., `AEAREP123-5`)
+  - populate the repository with the latest version of the [template](https://github.com/AEADataEditor/replication-template) 
   - delete unused files from the template! Then `git add` those that you keep around
-- Establish a list of the Tables and Figures in the paper, and use this to guide you in [REPLICATION.md](https://github.com/AEADataEditor/replication-template/blob/master/REPLICATION.md).
-- Fill out the **Entry Questionnaire** (see  the Jira project for the link)
-- Then fill out the Jira form, in particular the following fields
-  - `Entry questionnaire` - date the Entry Questionnaire was filled out
-  - `Code provenance` - location of the code (programs) package - this can be email, or a particular location
-  - `Journal` has been identified.
-  - `Manuscript Central identifier`  has been noted (optional, if available)
-
-You can now proceed to change the status to `Code` 
+- In the template, you will find code-check-TEMPLATE.xlsx. Use this to create a list of all Tables and Figures in the paper, and use this to guide you in [REPLICATION.md](https://github.com/AEADataEditor/replication-template/blob/master/REPLICATION.md).
+- Then fill out the following fields in the Jira ticket (some may be pre-populated):
+  - `Code provenance` In almost all cases, this is the openICPSR repo for which you will have received a notification email.
+  - `Journal`
+  - `Manuscript Central identifier`
+- The following fields, located in the REPL. INFO tab on the bottom right of your Jira ticket, must also be filled out:
+  - `TYPEOFARTICLE` "Does the article contain empirical work, simulations, or experimental work?" - typically the answer should be "Yes". You should answer "No" only if you read the article and find that it is entirely theoretical, no simulations or empirical work at all.
+  - `RCT` Is the paper about a randomized control trial? This should be immediately obvious from the abstract.
+  - `RCT NUMBER` If it is an RCT, fill in the associated RCT registration number (typically in the title page footnote)
+  
+You can now proceed to change the status to `Code`   
 
 ### Code
-In this stage, download the code or the entire replication package, and populate the Bitbucket repository. 
+In this stage, download the code or the entire replication package, and populate the Bitbucket repository.
+- Download the code from openICPSR (typicaly for most cases). See [openICPSR repositories](openICPSR_training.md) for instructions on downloading these materials.
+- Populate the Bitbucket repository:
+  - Use `git clone` to clone the Bitbucket repository onto your local computer. It should be named something like AEAREP-123.
+  - Copy/paste the downloaded openICPSR folder into the local copy of the AEAREP-123 repository. The local repository should now have the relevant LDI replication template materials and the openICPSR folder containing the replication materials provided by the authors.
+  - Perform a `git add`, `git commit`, `git push` sequence to populate the Bitbucket repo with the authors' replication materials (see above how to handle data).
 
-- See above how to handle data. 
-- Fill out the form with the location of the repository (e.g. `https://bitbucket.org/aeaverification/aearep-2/src/master/`)
-- From the README of the replication package, or the article itself, establish a **list of Datasets used**. You will use this to guide you  when filling out the **Data Citation and Information** report.
-- Add the **list of datasets** to the repository, `git add` it, and commit.
+Now you will establish a **list of Datasets used** and fill out the **Data Citation and Information** report.
+- From the README provided by the authors, or the article itself, establish a list of datasets used in the article.
+- Now you will fill out the **Data Citation and Information** report:
+  - A link to the report can be found in the tall grey bar on the left side of the ticket. If this tall grey bar is not visible, then edit the url according to the directions above.
+  - Fill out the `DATA CITATION REPORT` field on Jira with the date on which you complete this report.
+  - Use the list of datasets to guide you when filling this out.
+  - **AT THE SAME TIME:** write the corresponding `Data description` section of REPLICATION.md.
+Add the list of datasets to the repository (`git add`, `git commit`)
+
+Next fill out the following fields in the Jira ticket:
+  - `Software Used` Start typing the name of the software program you will use for the replication. Softwares that have used in the past will show up as options (e.g. start typing "Stata" and you will see it pop up).
+  - `BITBUCKET SHORT NAME` Write the issue number (e.g. AEAREP-123). This should populate the `GIT WORKING LOCATION` field, which is the URL for the Bitbucket repo you created earlier.
+  - `PROGRAMSEQUENCE` Does the README tell you the correct sequence for running the code?
+  - `PROGRAMSDOCUMENTATION` Are the provided programs well commented? Are they documented in the README?
+  - `PROGRAMSSTRUCTUREMANUAL` Does the README note any manual changs that you need to make to the code in order for it to run?
 
 > Commit! 
 
-You can proceed to the next stage.
+You can now proceed to change the status to `Data` 
 
 ### Data
-Referring back to your **list of datasets**, assess whether at least part of the code can be run. 
+Fill out the following Jira fields:
+  - `COMPUTING ENVIRONMENT` In which environment will you be executing the authors' code?
+  - `DATA PROVENANCE` Where, specifically, are you accessing the data? Typically this is the openICPSR repo URL (same as `CODE PROVENANCE`
+  - `DATAAVAILABILITYACESS` Is at least some of the data available?
+  - `DATAAVAILABILITYEXCLUSIVE` 
+  - `REASON FOR NON-ACCESSIBILITY OF DATA` Fill this out if **none** of the code can be run
+  - `NUMBEROFDATASETS` How many datasets are used in the article? 
+  - `DATASETSINCLUDED` How many of the datasets used in the article are actually provided by the authors?   
+  - `WORKING LOCATION OF THE DATA` Where did you put the data? Examples: CISER, laptop, or Git LFS, or somewhere else
 
-- If nothing can be run, fill out `Reason for non-accessibility of data` and continue to `Code Review`. 
-- If at least some of the code can be run, identify the `Data provenance`  (where you **got** the data from: email, URL, Github, Dropbox, etc.) and `Location of data`  (where you **put** the data, which can be CISER, laptop, or Git LFS, or somewhere else).
+You can now proceed to change the status to `Write Preliminary Report`
 
-Proceed to `Verification`.
+### Write Preliminary Report 
+At this stage, you need to fill out the REPLICATION.md up to the "Replication steps" part. 
+- Commit this preliminary report to the Bitbucket repository.
+- This allows for earlier identification of that issues that might warrant changes to the procedure. 
+  - In particular, this is the stage where you might have identified that some, but not all data are not provided, and we can undertake steps there.
+
+> Commit! 
+
+You can now proceed to change the status to `Verification` 
 
 ### Verification
 
@@ -99,32 +131,17 @@ In this stage, you are verifying the code, either using the provided data, or by
 
 Keep a log of what you do, what you find, and what does not work, in the `REPLICATION.md`.
 
-You should commit your report with intermediate results as you have them. Do __not__ wait until you have all the results finished. Commit (using Smart Commits) frequently!
+You should commit your report with intermediate results as you have them. Do __not__ wait until you have all the results finished. Commit frequently!
 
 > Commit!
 
-Once you are done with the verification, prepare the report.
+You can now proceed to change the status to `Writing Report`
 
-### Prepare Report
-
+### Writing Report
 To complete this stage, enter the direct URL of the report, i.e., in the relevant repository:
 > https://bitbucket.org/aeaverification/aearep-2/src/master/REPLICATION.md
 
 At this time, you can submit the report for review.
-
-### Be sure you fill in all of the metadata!
-
-- Depending on the view you chose for Jira, it may look different (see below), but always fill out all the fields that you can.
-- In particular, fill in the field for Journal, MC number, and Report URL (pointing to Bitbucket) in EVERY single case.
-
-**View 1**
-
-![](images/jira1.png)
-
-**View 2**
-
-![](images/jira2.png)
-
 
 ## Updating information
 - When receiving updated files from authors, do NOT create "update" or "new" directories. The current state of the repository should always correspond to the author's structure. Overwrite files, delete files. The previous state is preserved in Git. This will also tell you what files have changed.
