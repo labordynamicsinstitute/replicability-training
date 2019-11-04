@@ -62,5 +62,5 @@ For unpublished articles, the assignment of articles occurs through **Jira**
 + [Pre-publication workflow for unpublished articles](../jira-workflow-training.md)
 + Start by assessing the article, citations, data
 + [Setting up the replication repository](replication_walkthrough.pdf)
-+ [Example](jira_replication_example.pdf)
++ [Example](jira_replication_example.md)
 
