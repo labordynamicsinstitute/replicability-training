@@ -24,7 +24,7 @@ until a resolution can be found.
 |:-------------|:---------------------|:---------------|:----------|
 | Assigned     | Start task           | → In Progress  |           |
 | In Progress  | Download code        | → Code         | `Code provenance` have been filled out, `Journal` has been identified. |
-| Code         | Access data          | →	Data          | `Git working location` has been filled out. |
+| Code         | Access data          | →	Data          | `Git working location`, `Data provenance` has been filled out. |
 | Data         | Prepare preliminary report | → Write Preliminary Report | |
 | Write Preliminary Report | Data is accessible   | →	Verification  | `Location of data` has been filled out.|
 | .            | Data not available   | →	Code review   | `Reason for non-accessibility of data` has been filled out.|
@@ -103,6 +103,7 @@ Now you will establish a **list of Datasets used** and fill out the **Data Citat
   - Use the list of datasets to guide you when filling this out.
   - [ ] **AT THE SAME TIME:** write the corresponding `Data description` section of REPLICATION.md. This should provide detail about the datasets that are not obvious from the **Data Citation and Information** 
 - [ ] Add the list of datasets to the repository by committing the preliminary version of the REPLICATION.md (`git add`, `git commit`)
+- [ ] Fill out the `Data Provenance` section - is the data in the openICPSR repository, or is it someplace else? "Various" is a legitimate answer if it is in various locations.
 
 Do a first pass through the code files provided:
 
