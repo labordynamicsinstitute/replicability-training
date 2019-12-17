@@ -29,22 +29,33 @@ until a resolution can be found.
 | Write Preliminary Report | Data is accessible   | →	Verification  | `Location of data` has been filled out.|
 | .            | Data not available   | →	Code review   | `Reason for non-accessibility of data` has been filled out.|
 | Verification, Code review  | Prepare report       | →	Report        | |
-| Report       | Submit for review    | →	Under Review  | `Report URL` has been filled out.|
+| Report       | Submit for review    | →	Report Under Review  | `Report URL` has been filled out.|
 | Multiple     | Need information     | → Incomplete   |  when information is missing |
 | Incomplete   | Restart              | →  Code review |           |
 | .            | Restart verification | → Verification |           |
 | .            | Restart task         | → In Progress  |           |
 
-The following are only relevant for "Approvers" (if you have not been told you are an "Approver", you are not.)
+The following are only relevant for "Approvers" or "Pre-Approvers" (if you have not been told you are a "(Pre-)Approver", you are not.)
 
 | From         | Transition           | → To           | Condition |
 |:-------------|:---------------------|:---------------|:----------|
 | Open         | Assign               | →  Assigned    |           |
 | In Progress  | Alternate Workflow   | →  Alternate Workflow | |
 | Under Review | Approve              | →  Approved    |Can only be done by **approvers**.|
+| Pre-approved | Approve              | →  Approved    |Can only be done by **approvers**.|
+| Under Review | Pre-Approve          | →  Pre-Approved|Can only be done by **pre-approvers**.|
 | .            | Incomplete           | →  Incomplete  | n.a.      |
 | Approved     | Done                 | → 	Done       | n.a.      |
 | Blocked      | Reopen               | →  Open        | n.a.      |
+
+The following are only relevant for "Publishers"  (if you have not been told you are a "Publisher", you are not.)
+
+| From         | Transition           | → To           | Condition |
+|:-------------|:---------------------|:---------------|:----------|
+| Approved     | Submit to MC         | →  Submitted to MC    | `MCRecommendationV2` is filled out          |
+| Submitted to MC  | Prepare for publication   | →  Pending Publication | `openICPSRVersion` is filled out |
+| Pending Publication | Publish              | →  Published    |`openICPSRDOI` is set|
+
 
 ### Notes
 - In the **Issue form**, please also fill out other fields, as noted.
@@ -59,7 +70,7 @@ Additional details for each of the key stages are provided here. Below is a scre
   - The tall grey bar on the left side contains several handy links that you will use throughout the process.
     - Sometimes this box is not visible. To make it visible, edit the URL for the Jira ticket so that there are no characters after the ticket number (e.g. AEAREP-123). You may have to refresh the page after doing so.
 
-![jira image](images/jira-snapshot.png)
+![jira image](images/AEADataEditorWorkflow-20191217.png)
 
 ### In Progress
 The first thing you must do is advance the ticket from `Open` to `In Progress`.
@@ -212,3 +223,23 @@ You can now submit your report for review by changing the status to `Under Revie
 - See [revision guidance](https://github.com/labordynamicsinstitute/replicability-training/wiki/Revision-to-a-Replication) on the wiki.
 - When receiving updated files from authors, do NOT create "update" or "new" directories. The current state of the repository should always correspond to the author's structure. Overwrite files, delete files. The previous state is preserved in Git. This will also tell you what files have changed.
 - When running a second replication on the same archive, please be sure to have the committed "REPLICATION.md" be accurate when you commit it - do not let it contain holdover data from a previous replication attempt, as this can lead to confusion.
+
+## Reviewing Reports
+
+"Approvers" and "Pre-approvers" will review the reports, and finalize the Summary. In particular, approvers must select/confirm one of the recommendations (field `MCRecommendationV2`):
+
+- Accepted - the manuscript moves forward in the publishing workflow on Manuscript Central, the Data Editor does not see the manuscript again.
+- Accepted with changes - same, but some conditions may be imposed. However, the Data Editor does not need to see the manuscript again.
+- Revisions requested - manuscript ready - Some revisions need to be made, and the Data Editor needs to see the authors' response. However, the manuscript can move forward in the publishing workflow (rarely used)
+- Conditional Acceptance - the Data Editor expects to see a response from the authors to the report.
+- Revise and resubmit - the Data Editor has detected a serious problem which needs to go back to the "Revise and resubmit" phase of the publishing workflow. This is only invoked if there are significant concerns as to the validity of the manuscript's conclusions based on the reproduction attempt. Rarely used.
+
+See [Report review guidelines](jira-report-review.md) for details.
+
+## Publication
+
+Once all review rounds have been completed, the last revision will lead to a recommendation of "Accepted". The Data Editor's staff prepares the openICPSR deposit for final publication. In general, this means that a note is added to the "Project Communications Log" on openICPSR, denoting the acceptance of the deposit. The AEA publication staff can subsequently move this issue forward to "Published" when the supplement has been published on openICPSR.
+
+- The field `openICPSRDOI` is pre-filled, but should be checked by the AEA publication staff.
+
+See [Preparing for publication](jira-prepare-publication.md) for details.
