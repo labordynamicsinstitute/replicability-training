@@ -8,13 +8,13 @@
 |---------------|-------------------------|-----------|
 | A             | Jiayin Song             |           |
 |               | Joshua Passel           |           |
-|               | Luis Lopez Cabrera      |           |
+|               | Kirubeal T. Wondimu     |           |
 |               | *Naomi Li*              | Special role   |
 |               | **Steve Yeh**           | Team Lead |
 |               | Weilun Shi              |           |
 |               | Yuan-Hsuan (Sharon) Lin |           |
 | B             | Jeong Hyun Lee          |           |
-|               | Kirubeal T. Wondimu     |           |
+|               | Luis Lopez Cabrera      |           |
 |               | Mary-Jo Ajiduah         |           |
 |               | **Ryan Ali**            | Team Lead |
 |               | Siyang (Elaine) Yu      |           |
