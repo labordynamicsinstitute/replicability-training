@@ -3,6 +3,7 @@
 ## Current Teams (2020-01)
 
  As of 2020-01 
+
 | Team          | Name                    |           |
 |---------------|-------------------------|-----------|
 | A             | Jiayin Song             |           |
@@ -12,16 +13,13 @@
 |               | **Steve Yeh**           | Team Lead |
 |               | Weilun Shi              |           |
 |               | Yuan-Hsuan (Sharon) Lin |           |
-
-| Team          | Name                    |           |
-|---------------|-------------------------|-----------|
 | B             | Jeong Hyun Lee          |           |
 |               | Kirubeal T. Wondimu     |           |
 |               | Mary-Jo Ajiduah         |           |
 |               | **Ryan Ali**            | Team Lead |
 |               | Siyang (Elaine) Yu      |           |
 |               | Yanyun (Iris) Chen      |           |
-|               | Zebang Xu               |
+|               | Zebang Xu               |           |
 
 
 ## Structure
