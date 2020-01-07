@@ -1,5 +1,26 @@
 # LDI Replication Lab Teams
 
+## Current Teams (2020-01)
+
+ As of 2020-01 
+| Team          | Name                    |           |
+|---------------|-------------------------|-----------|
+| A             | Jiayin Song             |           |
+|               | Joshua Passel           |           |
+|               | Luis Lopez Cabrera      |           |
+|               | *Naomi Li*              | Special role   |
+|               | **Steve Yeh**           | Team Lead |
+|               | Weilun Shi              |           |
+|               | Yuan-Hsuan (Sharon) Lin |           |
+| B             | Jeong Hyun Lee          |           |
+|               | Kirubeal T. Wondimu     |           |
+|               | Mary-Jo Ajiduah         |           |
+|               | **Ryan Ali**            | Team Lead |
+|               | Siyang (Elaine) Yu      |           |
+|               | Yanyun (Iris) Chen      |           |
+|               | Zebang Xu               |
+
+
 ## Structure
 Each team has a Team Leader, and multiple members. 
 
