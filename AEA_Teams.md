@@ -12,6 +12,9 @@
 |               | **Steve Yeh**           | Team Lead |
 |               | Weilun Shi              |           |
 |               | Yuan-Hsuan (Sharon) Lin |           |
+
+| Team          | Name                    |           |
+|---------------|-------------------------|-----------|
 | B             | Jeong Hyun Lee          |           |
 |               | Kirubeal T. Wondimu     |           |
 |               | Mary-Jo Ajiduah         |           |
