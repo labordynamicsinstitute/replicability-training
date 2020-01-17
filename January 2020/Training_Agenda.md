@@ -11,7 +11,9 @@ TRAINING For Reproducibility Verification
 - Breakfast and networking, Doherty Lounge (Ives 281) 
 
 ###  9:00 - 9:30 AM EST Overview
-  + [What is reproducibility and why do we care](https://github.com/labordynamicsinstitute/replicability-presentation2019/raw/v20190328b/Vilhuber-Presentation2019-Paris-2019-03-28.pdf) 
+  + What is reproducibility and why do we careL 
+    - Long version [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3403351.svg)](https://doi.org/10.5281/zenodo.3403351)
+    - [Short version](Overview-Motivation-AEA-Replication.pdf)
 
   + [What will you be doing in this Lab](Overview_lab.md)
   + Some websites to bookmark:
