@@ -2,6 +2,7 @@
 
  + [Template REPORT](https://github.com/AEADataEditor/replication-template/blob/master/REPLICATION.md)
  + [Elements of a replication report](Replication-Report-Overview.pdf)
+ + [Replicator checklist](replicator_checklist.pdf)
  + [Example 1](sample_report.md), [Example 2](REPLICATION-AEAREP278.md), [Example 3](REPLICATION-AEAREP282.md) and its [revision](REPLICATION-AEAREP282-revised.md)
 
 ---
