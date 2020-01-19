@@ -13,7 +13,7 @@ This workflow **DOES NOT** cover assessment of data citations. This is covered b
 
 ## Overview
 
-![workflow image](images/AEADataEditorWorkflow-20191028.png)
+![jira image](images/AEADataEditorWorkflow-20191217.png)
 
 The following table illustrates the flow and transitions. The `transition` field identifies the button that will appear in the interface
 that needs to be clicked in order to progress an issue from the `From` state to the `To` state. The `Condition` field identifies
