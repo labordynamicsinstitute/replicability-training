@@ -6,14 +6,14 @@
 
 | Team          | Name                    |           |
 |---------------|-------------------------|-----------|
-| A             | Jiayin Song             |           |
+| Green         | Jiayin Song             |           |
 |               | Joshua Passel           |           |
 |               | Kirubeal T. Wondimu     |           |
 |               | *Naomi Li*              | Special role   |
 |               | **Steve Yeh**           | Team Lead |
 |               | Weilun Shi              |           |
 |               | Yuan-Hsuan (Sharon) Lin |           |
-| B             | Jeong Hyun Lee          |           |
+| Blue          | Jeong Hyun Lee          |           |
 |               | Luis Lopez Cabrera      |           |
 |               | Mary-Jo Ajiduah         |           |
 |               | **Ryan Ali**            | Team Lead |
@@ -37,6 +37,9 @@ Team Leaders are responsible for the following activities:
    - Team leaders will assess the completeness of the issue information, including the Data Citation Report
    - Team leaders will then move an issue to Preliminary Approval
    - Team members remain responsible for fixing any issues identified by Team leaders
+3. leading status call-ins 
+   - Team members will check in with Team leaders during the weekly (phone-only) status meetings
+   - A senior member (Data Editor or Graduate Assistant) will also be on the call
 
 ## Responsibilities of Team Members
 Team Members remain responsible for all aspects of the verification exercise:
