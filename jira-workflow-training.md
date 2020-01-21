@@ -82,7 +82,8 @@ At this stage, you are collecting information.
   - the repository name should be the name of the JIRA issue (e.g., `aearep-123`)
   - Be sure that `aeaverification` is always the "owner" of the report on Bitbucket. 
 - [ ] populate the repository with the latest version of the [template](https://github.com/AEADataEditor/replication-template) 
-  - delete unused files from the template! Then `git add` those that you keep around
+  - Delete (`git rm`) unused files from the template! Example: `git rm README.md template-config.R` if the replication archive does not contain any R files (you can do this at any time before writing the **Preliminary Report**)
+  - Then `git add` those that you keep around
   - The root of the repository should contain only our files (i.e., REPLICATION.md, etc.) and the manuscript files (main manuscript, any online appendices and README files provided through the JIRA ticket)
 - [ ] Then fill out the following fields in the Jira ticket (some may be pre-populated):
   - [ ] `Code provenance` In almost all cases, this is the openICPSR repo for which you will have received a notification email.
@@ -99,12 +100,18 @@ You can now proceed to change the status to `Code`.
 
 ### Code
 In this stage, download the code or the entire replication package, and populate the Bitbucket repository.
-- [ ] Download the code from openICPSR (typicaly for most cases). See [openICPSR repositories](openICPSR_training.md) for instructions on downloading these materials.
+- [ ] Download the code from openICPSR (typicaly for most cases). See [openICPSR repositories](openICPSR_training.md) for instructions on downloading these materials. Typically called `111234.zip`.
 - [ ] Populate the Bitbucket repository:
   - Use `git clone` to clone the Bitbucket repository onto your local computer. It should be named something like `aearep-123`.
-  - Copy/paste the downloaded openICPSR folder into the local copy of the `aearep-123` repository. The local repository should now have the relevant LDI replication template materials and the openICPSR folder containing the replication materials provided by the authors.
-   - The manuscript's files should be in a subdirectory (e.g, `paper_archive` or `111234`, the openICPSR repository number). Often this is created by the author-provided ZIP file - re-use it.
+  - Copy/paste the downloaded openICPSR folder (ZIP file) into the local copy of the `aearep-123` repository. The local repository should now have the relevant LDI replication template materials and the openICPSR folder containing the replication materials provided by the authors.
+  - Unzip the openICPSR folder. On Windows, double-click. On OSX, [replace me]. From bash: `mkdir 111234; cd 111234; unzip ../111234.zip; cd ..`
+  - The manuscript's files should be in a subdirectory (e.g, `111234`, the openICPSR repository number). 
   - Perform a `git add`, `git commit`, `git push` sequence to populate the Bitbucket repo with the authors' replication materials (see above how to handle data).
+- [ ] Also add the manuscript, and any response by the authors (if a revision)
+  - Download from Jira issue attachments. The manuscript is often called `PDF_Proof.pdf`. The response is often called `Response_to_Data_editor.pdf`.
+  - Add to the root of the repository, and add them to the Git repo (e.g., `git add PDF_Proof.pdf Response_to_Data_Editor.pdf`)
+- [ ] Be sure to `git push` it all to Bitbucket, with a meaningful commit message.
+  
 
 Now you will establish a **list of Datasets used** and fill out the **Data Citation and Information** report.
 - From the **README** provided by the authors, the **data section** of the article itself, or an **appendix**, establish a list of datasets used in the article.
@@ -113,7 +120,7 @@ Now you will establish a **list of Datasets used** and fill out the **Data Citat
   - [ ] Fill out the `DATA CITATION REPORT` field on Jira with the date on which you complete this report.
   - Use the list of datasets to guide you when filling this out.
   - [ ] **AT THE SAME TIME:** write the corresponding `Data description` section of REPLICATION.md. This should provide detail about the datasets that are not obvious from the **Data Citation and Information** 
-- [ ] Add the list of datasets to the repository by committing the preliminary version of the REPLICATION.md (`git add`, `git commit`)
+- [ ] Add the list of datasets to the repository by committing the preliminary version of the REPLICATION.md (`git add`, `git commit`, `git push`)
 - [ ] Fill out the `Data Provenance` section - is the data in the openICPSR repository, or is it someplace else? "Various" is a legitimate answer if it is in various locations.
 
 Do a first pass through the code files provided:
@@ -191,7 +198,7 @@ Follow the steps [here](https://github.com/labordynamicsinstitute/replicability-
 
 You should commit your report with intermediate results as you have them. Do __not__ wait until you have all the results finished. Commit frequently!
 
-> Add! Commit!
+> Add (report, modified files)! Commit! Push!
 
 You can now proceed to change the status to `Writing Report`.
 
@@ -203,7 +210,7 @@ In this stage, you are verifying the code by inspecting the completeness of the 
 The [REPLICATION.md](https://github.com/AEADataEditor/replication-template/blob/master/REPLICATION.md) is the report.
 
 
-> Add! Commit!
+> Add! Commit! Push!
 
 You can now proceed to change the status to `Writing Report`.
 
@@ -228,11 +235,11 @@ You can now submit your report for review by changing the status to `Under Revie
 
 "Approvers" and "Pre-approvers" will review the reports, and finalize the Summary. In particular, approvers must select/confirm one of the recommendations (field `MCRecommendationV2`):
 
-- Accepted - the manuscript moves forward in the publishing workflow on Manuscript Central, the Data Editor does not see the manuscript again.
-- Accepted with changes - same, but some conditions may be imposed. However, the Data Editor does not need to see the manuscript again.
-- Revisions requested - manuscript ready - Some revisions need to be made, and the Data Editor needs to see the authors' response. However, the manuscript can move forward in the publishing workflow (rarely used)
-- Conditional Acceptance - the Data Editor expects to see a response from the authors to the report.
-- Revise and resubmit - the Data Editor has detected a serious problem which needs to go back to the "Revise and resubmit" phase of the publishing workflow. This is only invoked if there are significant concerns as to the validity of the manuscript's conclusions based on the reproduction attempt. Rarely used.
+- **Accepted** - the manuscript moves forward in the publishing workflow on Manuscript Central, the Data Editor does not see the manuscript again.
+- **Accepted with changes** - same, but some conditions may be imposed. However, the Data Editor does not need to see the manuscript again.
+- **Revisions requested - manuscript ready** - Some revisions need to be made, and the Data Editor needs to see the authors' response. However, the manuscript can move forward in the publishing workflow (rarely used)
+- **Conditional Acceptance** - the Data Editor expects to see a response from the authors to the report.
+- **Revise and resubmit** - the Data Editor has detected a serious problem which needs to go back to the "Revise and resubmit" phase of the publishing workflow. This is only invoked if there are significant concerns as to the validity of the manuscript's conclusions based on the reproduction attempt. Rarely used.
 
 See [Report review guidelines](jira-report-review.md) for details.
 
