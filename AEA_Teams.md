@@ -6,20 +6,18 @@
 
 | Team          | Name                    |           |
 |---------------|-------------------------|-----------|
-| Green         | Jiayin Song             |           |
-|               | Joshua Passel           |           |
-|               | Kirubeal T. Wondimu     |           |
-|               | *Naomi Li*              | Special role   |
-|               | **Steve Yeh**           | Team Lead |
-|               | Weilun Shi              |           |
-|               | Yuan-Hsuan (Sharon) Lin |           |
-| Blue          | Jeong Hyun Lee          |           |
-|               | Luis Lopez Cabrera      |           |
-|               | Mary-Jo Ajiduah         |           |
-|               | **Ryan Ali**            | Team Lead |
-|               | Siyang (Elaine) Yu      |           |
-|               | Yanyun (Iris) Chen      |           |
-|               | Zebang Xu               |           |
+| *Green Lead*         | *Steve Yeh*     |
+| Green Special        | Naomi Li      |
+| Green                | Jiayin Song   |
+|                      | Kirubeal T\. Wondimu |
+|                      | Luis Lopez Cabrera   |
+|                      | Louis Liu            |
+|                      | Weilun Shi           |
+| *Blue Lead*          | *Ryan Ali*      |
+| Blue                 | Joshua Passel |
+|                      | Jeong Hyun Lee       |
+|                      | Mary\-Jo Ajiduah     |
+|                      | Siyang \(Elaine\) Yu |
 
 
 ## Structure
