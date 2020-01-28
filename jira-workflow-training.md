@@ -81,10 +81,20 @@ At this stage, you are collecting information.
 - [ ] start by [creating a repository](https://bitbucket.org/repo/create) (for detailed instructions, see the [Wiki page](https://github.com/labordynamicsinstitute/replicability-training/wiki/Setting-up-a-repository-on-Bitbucket))
   - the repository name should be the name of the JIRA issue (e.g., `aearep-123`)
   - Be sure that `aeaverification` is always the "owner" of the report on Bitbucket. 
-- [ ] populate the repository with the latest version of the [template](https://github.com/AEADataEditor/replication-template) 
-  - Delete (`git rm`) unused files from the template! Example: `git rm README.md template-config.R` if the replication archive does not contain any R files (you can do this at any time before writing the **Preliminary Report**)
-  - Then `git add` those that you keep around
-  - The root of the repository should contain only our files (i.e., REPLICATION.md, etc.) and the manuscript files (main manuscript, any online appendices and README files provided through the JIRA ticket)
+- [x] populate the repository with the latest version of the [template](https://github.com/AEADataEditor/replication-template) (*If you used the "Import Repository" technique outlined on the [wiki](https://github.com/labordynamicsinstitute/replicability-training/wiki/Setting-up-a-repository-on-Bitbucket), this is already done!*) 
+  - [ ] Delete (`git rm`) unused files from the template! Example: `git rm README.md template-config.R` if the replication archive does not contain any R files (you can do this at any time before writing the **Preliminary Report**)
+- [ ] From the JIRA issue, download and add Manuscript, README. 
+  - Download from Jira issue attachments. The manuscript is often called `PDF_Proof.pdf`. 
+  - Add to the root of the repository, and add them to the Git repo (e.g., `git add PDF_Proof.pdf readme.pdf`)
+- The root of the repository should contain only our files (i.e., REPLICATION.md, etc.) and the manuscript files (main manuscript, any online appendices and README files provided through the JIRA ticket). Example:
+```
+code-check.xlsx
+config.do
+PDF_Proof.PDF
+PII_stata_scan.do
+readme.pdf
+REPLICATION.md
+```
 - [ ] Then fill out the following fields in the Jira ticket (some may be pre-populated):
   - [ ] `Code provenance` In almost all cases, this is the openICPSR repo for which you will have received a notification email.
     - If code and/or data are provided by email, `Code provenance` should be filled out with  "https://email", otherwise with a URL.
@@ -102,16 +112,24 @@ You can now proceed to change the status to `Code`.
 In this stage, download the code or the entire replication package, and populate the Bitbucket repository.
 - [ ] Download the code from openICPSR (typicaly for most cases). See [openICPSR repositories](openICPSR_training.md) for instructions on downloading these materials. Typically called `111234.zip`.
 - [ ] Populate the Bitbucket repository:
-  - Use `git clone` to clone the Bitbucket repository onto your local computer. It should be named something like `aearep-123`.
+  - If not already done, use `git clone` to clone the Bitbucket repository onto your local computer or CISER. It should be named something like `aearep-123`.
+    - **[EXPERT TIP]** It may be more convenient to do this FIRST on CISER, so that the data files are there. Data files are NOT committed to the repository. You can then later update the repository on your local computer.
   - Copy/paste the downloaded openICPSR folder (ZIP file) into the local copy of the `aearep-123` repository. The local repository should now have the relevant LDI replication template materials and the openICPSR folder containing the replication materials provided by the authors.
   - Unzip the openICPSR folder. On Windows, double-click. On OSX, [replace me]. From bash: `mkdir 111234; cd 111234; unzip ../111234.zip; cd ..`
   - The manuscript's files should be in a subdirectory (e.g, `111234`, the openICPSR repository number). 
   - Perform a `git add`, `git commit`, `git push` sequence to populate the Bitbucket repo with the authors' replication materials (see above how to handle data).
 - [ ] Also add the manuscript, and any response by the authors (if a revision)
-  - Download from Jira issue attachments. The manuscript is often called `PDF_Proof.pdf`. The response is often called `Response_to_Data_editor.pdf`.
-  - Add to the root of the repository, and add them to the Git repo (e.g., `git add PDF_Proof.pdf Response_to_Data_Editor.pdf`)
 - [ ] Be sure to `git push` it all to Bitbucket, with a meaningful commit message.
-  
+The repository should now look like this:
+```
+116941/
+code-check.xlsx
+config.do
+PDF_Proof.PDF
+PII_stata_scan.do
+readme.pdf
+REPLICATION.md
+```
 
 Now you will establish a **list of Datasets used** and fill out the **Data Citation and Information** report.
 - From the **README** provided by the authors, the **data section** of the article itself, or an **appendix**, establish a list of datasets used in the article.
@@ -132,7 +150,7 @@ Do a first pass through the code files provided:
   - Provide some information about the program files (are there 3 Stata files? Are there 5 Matlab programs?). You will use this information to fill out the `Software Used` later as well, but provide details here.
   - Did you have difficulty aligning the README with the files? Does the sequence suggested by the programs differ from what's written in the README? 
   - Are there files in the archive not explained in the README?
-  - [EXPERT TIP] You do **not** need to run the code at this time, only read the program code! (You can do this on your laptop)
+  - **[EXPERT TIP]** You do **not** need to run the code at this time, only read the program code! (You can do this on your laptop)
 
 Next fill out the following fields in the Jira ticket:
 options (e.g. start typing "Stata" and you will see it pop up).
