@@ -23,6 +23,14 @@
 6. Back in the pop-up, 
    1. Paste the same "Summary" into the "Comment" field on JIRA
    2. Click on "Submit to MC"
+   
+## For R&Rs
+- For R&R's, the AEA editorial office has not changed the criteria for our response. Your options will be:
+   - Accept 
+   - Revise and Resubmit (this is synonymous to `Conditional Accept`)
+   - No Recommendation
+   - Reject 
+ The recommendation should be one of these options 
 
 # Preparing Deposit for Publication
 For "Accept" or "Accept with changes", we move the issue to "Prepare for publication". Otherwise, you are done.
@@ -34,6 +42,8 @@ For "Accept" or "Accept with changes", we move the issue to "Prepare for publica
    - `Code provenance` should point to openICPSR. If not, go to the final step.
    - Make a note of the issue number again.
 4. on openICPSR,
+   - FOR ACCEPT WITH CHANGES: sometimes there may be a special message, and you should NOT post the standard acceptance language. Instead, post the special message to openICPSR and include the lines here:
+   > Once completed, do not resubmit to Manuscript Central. Please use the openICPSR Project Communication log, specifying AEAREP-xxx.
    - remove any RAs from the Share list (leave anybody who is on there!)
    - post to the Communication log a standard message with the last few lines from https://raw.githubusercontent.com/AEADataEditor/aea-de-guidance/master/sample-language-report.md. This generates an email message (copied to all admin privs) with the same text.
 5. In your email, 
