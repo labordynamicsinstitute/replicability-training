@@ -1,0 +1,574 @@
+Unknown Speaker  0:02  
+Okay,
+
+Lars Vilhuber  0:06  
+let me go back. We're now going to get into some of the specifics of the tools and we're going to use about two to do the replication. actually recording but I'm not actually recording anything of interest. Okay. So Cornell specific, you need access to the sizer systems. That's the key part. So there's an access here to description of various systems that we need access to. Like I said, you can use your laptop. You guys are a mix of windows and Mac. These tools that we use are totally platform cross platform. I've already pointed to the Linux cluster, it's very rare but you will want to request an account at sizer in particular there. So while I'm talking, you guys can all log in and ask for an account. You should ask for research account. You should have me as a sponsor lv 39. And you should not say that you're talking about restricted or confidential data. That's a different concept that cisors so we're not doing that. Okay. So at the end of the day, every request from you guys will come into my email, I'll authorize it and that should be relatively quick for us to get access to. quick show of hands who's already work on seismic So for the rest of you, in particular the Mac folks cisors, a Windows system. So if you've never worked on Windows, this will be your first opportunity.
+
+We also need access to Bitbucket and GitHub, as well as the JIRA system. I will invite you from those. So that's something that we will do. I don't think I've given you the rights to either show I'll have to do that. So we use the various systems you need only access to GitHub, if you are going to amend the wiki, but we do want you to occasionally update the wiki when you we've discussed something and we found the solution. And we think that it is sort of not the only time that will want that particular question answered. will update wiki for that. And Bitbucket is a internal gets system. It's a public facing website. But all the stuff that we do on there falls under private. So we will rarely, if ever share the code from there. Every paper gets its own Bitbucket project repository you can get language so that we can store the code. We do not store the data. That's a different mechanism. So data will always be local to wherever you work on it. Which means for instance, if you started working on your laptop and you downloaded the package from open ICPSR, you'll have to re download that package on on sizer again. But you will be downloading the code from from Bitbucket because you might have already modified or added notes to it etc. We may if I get the training materials right this semester, start using the system got called get lF s which allows us to use the mechanisms without storing the In the same environment, things get doesn't like big data files. And there are restrictions on how big or small those can be.
+
+Okay, here, I don't know. sizer has a relatively broad selection of software. There's a list here. These are the servers that we will typically be logging onto. There is no load balancing or stuff like that going on there. So you get to pick those that you want. Here's the list of software that we do have. It covers almost everything that we've ever encountered, with two exceptions so far, some program, some linear optimizer that's used in climate economics that we didn't have access to and ended up not replicating and for some reason, Julia has made it onto here in her Because until last year, it was still very young and still very evolving. But it's on my list of things that I've told sizer that they probably should think about putting on there. That being said, we've had so far only one paper that used Julia on so it's not a very frequent thing. And if you don't know what Julia is your you're welcome to the most of the club. Most people don't know that. The key thing that you will be using in terms of sizer is that it has get, you will, you will be installing it on your laptops. But that means that you can communicate with a Bitbucket server from a laptop sizes already set up to do that, again, if you don't want to install it on your laptop, you always want to work through sizer that's also a possibility. That's the key thing to retain here. And then this for some reason doesn't lay out so fine here. We do have in a cloud instance of those Same size or machines, it's smaller, but it's more flexible. We have additional software. We keep tabs of that somewhere in the wiki. We can scale it up and down, we can install a new software we can spin up additional machines to do so. There's still Windows machines. We've never had the request to spin up Linux machines, but we can do quite a bit of that. I pointed this out before your laptop should only be used for computing if you think it can run in a reasonable amount of time and doesn't serve take over your laptop. The default should be I'm going to run it on sighs sighs Are you disconnect, you have to run to class you need to do something else etc. you disconnect continues running you connect back and stare. You just pick up where you left off.
+
+Communication. Most of what we're doing is going to be by email Some of it is going to be through JIRA communications. We have a mailing list, very old school, still works gives us a permanent record that we can also data line for information about all those kinds of discussions that we've had. One of the key things is that you will see this the first couple of times you asked question is not sufficient to say, I have a problem with state at problem with data. Can you help me? We need a bit more information. So we need information about what's going wrong. We need information about what issue is it so when you start working with the JIRA issue tracking system, each paper will be assigned an issue number, so we need either the paper and the script number, or the issue number, issue number being preferred? Because as it turns out, we will have a bunch of papers coming in soon that don't actually have manuscript numbers, the papers proceedings for some reason don't. And so, we communicate through that list. You're on the list. You can all post to it to ask a question. You can all post to it with an answer. And you can also post it if you figured out the answer in the meantime. It's meant for discussions about the topic. So if you are sick and can come if you're on vacation, you're on a on an internship somewhere. And we will be updating this page soon email either Meredith or me, or ideally both so that we're both aware of it.
+
+We use JIRA as the basic tracking system. So things that are clearly associated just with making a note to yourself and possibly me. We can use the JIRA system for that. There is a way of tagging folks adding folks within the JIRA system as well that generates notifications that I occasionally do they show up on my app, if you want to keep on top of assignments on God. Because that's the only indication that you will have an assignment, I will email you separately, I won't call you out to serve Sam assigned to you. These four papers, you will see a list of assignments on JIRA. And we'll spend enough time to sort of get you comfortable with what that is and how that shows up and things like that. You are going to be assigned. Typically, I tend to have four papers on your list of things to do, which should be in general, one or two papers that you're working on. And two that are sort of coming forward so that you can see that they're there. You should gerra has various states that signal what state of the paper assessment we're in. We walk you through the various things earlier. In the JIRA workflow, one of the things that is flipped is that we first talked about code and then about data because code we can always download beta we can't always so we first Download the package from the from the ICPSR, which always contains the code sometimes contains data sometimes has instructions on where to get other data. The second step is you're going to do data downloads, you're then going to write the preliminary report, you're then going to start the verification, you're then going to be writing the report, and then you submit the report. In a nutshell, that's the process. And JIRA has states that correspond to each of these. So as you go through that process, your JIRA status should reflect what that particular ticket isn't. And we can then across all the papers that are going on, we can make an assessment, okay, you're working on that. If it says, You're in the code stage, it means you've started on it and you're working on you haven't yet gone on to the beta part. If it says verification, might stay in that part for a while, because who knows this might run for three weeks or two months, or whatever. And maybe there's information that you provided to us into JIRA so that we can look at it. Okay, so we regularly go through this over the course of the week, tabs on things, etc. But we're not perfect, and we've Got 20 are you working on things so as much communication as you can generate through those statuses is important to us as well. We'll train you on that we have a training JIRA, and the first couple of things will assign to you are in JIRA as part of the training. And you'll be trained both on the actual fundamental work as as well as how to signal to us where you are within the process.
+
+Everything that you are writing, treat it as if it were public right now, it's only being seen by males. Okay. In particular, JIRA communications are unlikely to ever make it out. But we actually download the data and analyze statuses and stuff like that, and it does contain the comments we're not going to, we have no intention of posting them but stay polite, stay professional as well. So this is this is a professional activity and treated as if it were public information. The reports, our goal is to take them, turn them around, create a summary, and send them out. Okay, so the language that you write in there could be as if you were writing a term paper and sending it off to your professor should be as if you are writing a formal letter to somewhere to apply to them. So it should be concise. It should be complete, but it should be not too chatty. It shouldn't be all Me, me, me. It should be objective as if you were writing a formal assessment of it because that's exactly what. So our goal is to take that as objectively as possible, turn around, send it off to the author. There's a bit of an editorial roll going on here. We're not actually making judgments about the quality. So stuff like oh, yeah, this stuff is crappy. I don't know how you ever managed to get it run, but I did manage to get table to run. Now. That's wrong. Right? This is Complicated code and I only got table to to run is a proper assessment. Numbers are simply different. They're not inferior, they're not wrong. They're not right, etc. They're just different as you see them. And so these are things that we stay as objective as possible because it's not up to us to make. Those numbers might be factually practically the same. And they're just numerically different, right? They're different. That's one thing we can say. And that's where we stop. And just to sort of bringing the point home, we're reviewing papers at the top econ journals, their top authors in there. Those are authors that we have actually had papers from that we've reviewed. It's not going to be much of a secret but currently on my list that I'm doing because it has to be done quickly is the paper by the Former fed chief but Ben Bernanke, which is his French presidential address at the A, we're reviewing his code, we're going to provide him feedback and all those authors got some, here's the things you can improve feedback. And they all reacted positively to it. So you will be seeing papers from a lot of top economist some awesome papers before they hit the publication. brings me to my next point, privacy. First of all, you're tasked with recruiting, recruiting articles. We try and keep that as anonymous as possible. You're not going to be blamed for anything but that's one of the reasons we also stay objective you're not going to be expressing opinions, which referees sometimes do. We don't okay we signal the facts when we ran this on this computer generated this result. And that result is different from the one and the paper. We in the aggregate you You will be identified in the annual report. And that's the thank you for the work that you will be doing. Because you'll be doing quite a lot of work. And so you should be proud of that. And that's what we do when we write the annual report. It turns out that in open ICPSR, your net ID will also show there currently is no workaround for that. So when you download the data, when I assign you to a particular case, the authors will see your net ID as one of the people authorized to download. Right? There isn't really much we can do about it. But again, you are only following a task and the report comes from me. And so you do not take blame for anything. Well, not the only thing they know is that you download it. You are encouraged actually to self identify two authors if you want to that I was the guy who ran the replication for your stuff. Okay. And you get to see the report that I sent out. That is the modified version of You're a preliminary report that you submit to me, you can see what it was that went out and you can see the response. And if you feel like it, tracking it back up, etc. So if you're going to ra later on or you want to intern at the Fed or something like that, you can bring that forward and say, Look, I actually ran a couple replications included this paper in this paper, and this week, you're allowed to identify that you did that particular paper
+
+after it has been published, and that often is a nine to 12 months delay even now. And so the first papers that we've started to do the replication on in July, are going to be coming out in the February edition of the American economics. Those are the first ones, okay, so it takes a while. So, for most of the time you rename remain anonymous,
+
+Unknown Speaker  16:45  
+unless you decide otherwise.
+
+Lars Vilhuber  16:48  
+The same goes for the author. So I just alluded to the fact that you are not to reveal that we've been working or what the result of working on a paper is or even sending out the preliminary report on any of these. So the privacy of the author is also relevant. Until it's submitted, you can't reveal anything that's in these papers either they might exist as working papers. But the papers themselves until they're posted as forthcoming, are not public. That's an author's choice that you may may or may not have decided to do the journal choice is when it is accepted. After we go through it. It's posted as, as forthcoming. And in that case, they might actually post the manuscript as well. The data is actually linked to the article only at the time of the actual publication of the article. Now, some authors have pressed publish on some version of their data archive, that was their choice or their error, mostly their error. So some of those things are public. But that's why you should never put the data or code or whatever that we're doing the intermediate processing on anything public. You're entrusted with this code and to becomes published. It is private. Okay? So you can have it on your laptop and all that kind of stuff. But it's not okay to make it public in any which way. You should, obviously, and I'm just gonna repeat it here and not disseminate this over Twitter, Facebook, Snapchat, whatever kind of stuff. Hey, I found this awesome result, hey, look at this No, wait until the paper comes out playing it as something Hey, this is really interesting, I'd really like to consider this. And let's suppose that for some reason, you think this is actually relevant for some of the studies you're doing this semester. If you can figure out that there's a working paper associated with it, and there's a public existing version of the code out there somewhere. Feel free to use that, but not the stuff that we get. Okay, so that's it. I have one public annual report so far. They always appear You're in the papers and proceeding, and one that will appear. I've presented that report recently, probably revise it, they haven't asked me to realize it. So maybe they thought it was fine. I'll circulate that to the group as to what that sort of the first report after we actually started doing these things and contains a few of the statistics that we've been working on, about how many papers did we have? How long did it take, etc. So that's, that's public. Again, any of the things that we discussed remain private until they're published somewhere else. So it's a bilateral thing. You guys stay as private as possible. You will find results. If there ever is an author that comes back and says, You guys did crap, it's muted, because I'm the face of this. Okay? Which is also why I review what you do because I put my name to it. Right. So we have never had that. I don't expect that to happen. But that can happen. Okay. Hi. You guys are protected from that. That's, that's what we do here. And the authors are protected in school. Okay, any questions on that?
+
+Unknown Speaker  20:11  
+So, sorry if you mentioned that before, but what was the sort of idea of like being objective? So if you see that, so for example, if like the author is like writing like director, he just like everywhere and like hard coding in like the directory, like, could you mention maybe you should like make this like a variable or something or is that not something that really
+
+Unknown Speaker  20:40  
+you said
+
+Lars Vilhuber  20:42  
+and let me show you what the
+
+Here's the fragments that we sent back to the author. Okay. And these are all the things that can go wrong, that have gone wrong, because that's why they're here because I've copied and pasted so many times, it's a report that I've put them into this document, so I have an easy reference for it. Among the things in the code are things like I mentioned earlier, you don't have number of tables, let's have something that maps to it makes it clear for US Central. We have things about the installation, right? you're installing things at line 325. Let's have a config file up front or you're assuming it's installed.
+
+If these things so we have these suggested and required times we add them in if you think that this was very unmanageable code to do so. We can add it to these things. We can add custom elements like that. to it. In practice, we don't encounter that much anymore, but it is something worth highlighting. And I do in the occasional cases where this has shown up when replication is particularly tedious. I will say that it was very time consuming and there are possibly more efficient ways to structure this. That will always show up possibly in the first report ralien, the second or third report because if they don't react to that, there's only so much we can do. Because, yeah, you can do a global replace, you can do all these other things. They're tedious, but they're feasible. So, yeah, mentioned it and we will add appropriate language to that pointing to best practice, things like that. It doesn't show up here because it hasn't happened. So well. But I did see for instance, in a recent one and note that the replicator had to uncomment lines that line 133 and 256 to install packages, while commenting uncommenting lines in the middle of programs to do things that are prerequisites is not a good idea. And so that elicited this kind of thing, please have a config program instead. So we do occasionally when these things become unmanageable, because if the code comes back, we're going to have to do it again. And so those kinds of things, we do much better but they are by reference to best practices not to I didn't like this. And that's the kind of objectivity that we want. Or it's, it's, it increases the work to do this. And the point of this is to be able for others to replicate it's particularly onerous to do so that it's an impediment to doing it and you prefer that Okay, ready for the command line. So command line is something that as I mentioned earlier today, I make a lot of reference to, in part because at least for things like get, they are. They are common denominator across all the platforms and they clearly identify what we're trying to do. Now, that doesn't mean you have to use the command line to do this. So if for some reason you prefer using the GitHub client source tree Bitbucket client to do get related things or some other things where you have a different tool of doing it, that's fine. But it's our way to communicate to you what, what this thing is. So for instance, get has a command called push or commit. You can write that command on the command line or you can enter something in the appropriate field somewhere in the client. We're in the web interface or whatever they're all these different ways you can do this. They mean is you're doing get commit and this can come in, you can enter on your computer, whether you have a Mac Windows or Linux machine, it's always going to be the same. Okay, so
+
+Unknown Speaker  25:16  
+Show of hands who's used the command line? Okay.
+
+Lars Vilhuber  25:22  
+Show of hands who thinks that their computer has it? Everybody should raise their hands all of your computers have commandlets I'm going to typically refer to the bash command line. But there is also for many of these things but not all of them. The Windows PowerShell which has almost equivalent functionality. Once we will have installed the basic get on your laptop, the Mac guys have it already installed on mostly If not, it's a quick install on Windows. It's different install. It comes with it Get bash, which will show us say a right click within a directory or something like that. So that bash shell is the same as the Z shell or bash shell on the Mac is the same as the shell on a Linux system.
+
+Okay, so these are some practical examples. So what I want you guys to do now is to actually everybody's got their laptop in front of you, the Mac folks open up a terminal. Everybody with the Mac has a terminal open. And those on a Windows can use PowerShell or whatever command line you prefer. You said you've already experienced with a kind of on a Windows machine or Okay, what do you usually use? Just command from the command prompt, partial to the more powerful so you might want to switch to that but if you have good installed that get better We'll be able to follow exactly these kinds of things. So these are some very simple commands, where my is just to figure out that it's actually working. It also helps if you are on other systems as to how I get my actually recognize you if you sort of give an unmoderated command to sort of set things up. So who am I will show you how your system things your call. pwd will show you what the current directory is. That's the present working directory. So you can explore directories, type ls, and you will see folders and type cd and you can start navigating into those folders. So, if for instance, by default, you'll be dropped into your home directory, you'll see desktop documents, maybe some other things that you've put in there. If you say CD documents, you will now have the present working directory In the documents in the example here, David type Dropbox, Cornell and then end up being as present working directory in that Dropbox Cornell folder. Okay, so you move back up again with a double dot notation. So double documents, you're moving back up in the directory structure. So you're dropping one of these elements. And you can do all these. So that's basic navigation of where you are. You can make directories and then CD into them. And we have a little guidance here that goes into a bit more sort of generic thing. I encourage you to experiment with some of that. But those few commands I just showed you are the key things that you will ever use in the replication at this point. You are free to explore more. There's a ton of things that you can do with these command line shells right quick loops, you can leverage Embedded commands within the bash show that sort of go through tons of programs and look for a particular string, have a look at the grep command that can zip up things and clean up things, you will often see that in the ICPSR repositories, there's this funky underscore underscore Makola sex, a folder that gets created by all those folks on max who let the system create their zip files, whereas if they did it from the command line, it doesn't. All these kinds of little quirks are out there. They're a lot easier to explain on the command line. Okay.
+
+Unknown Speaker  29:37  
+Okay, get
+
+Unknown Speaker  29:42  
+Let's start by installing it on your computer.
+
+Lars Vilhuber  29:46  
+So, let's start with the Mac guys. If you're at the terminal typekit
+
+Unknown Speaker  29:59  
+What do you Good back.
+
+Lars Vilhuber  30:07  
+Okay means it's installed. Okay, does anybody not get a list of good commands?
+
+Unknown Speaker  30:16  
+On max
+
+Lars Vilhuber  30:18  
+means everybody has it installed gratulations you're done. If not, it will actually give you a command to install it. So that's that's the fallback. You already had it installed. Leah you don't have it. Okay, so if you're at this so if you type don't actually use them toward us get bit of an overkill. It works as well. There's a getting started installing it or if you just Google installing it, you will get there. Like you haven't yet Okay good cm should actually
+
+go to get SCM comm Leah in their downloads, you should be able to install the Windows version. Okay, so do that while we're talking on because we'll show a few more examples. I can't actually do it on this presentation computer because I don't have privileges to okay. So what is it that we're after here with get a version control system and what we're interested in really here is both that you are independent of the particular machine that you happen to be working on a checked out version of that so that there's a central server that are capable It where that code actually lives in a way that you can access it from your Mac. But you can also access from sizer and I can access the code from changes you made to that code as well as can merited asking somebody else that I then assign a project. Okay, so it's a way, a structured way of sharing stuff. Many of you might have used Dropbox and other things like that those are unstructured ways of sort of having in the cloud premises stuff. Other environments might use Dropbox for this, we kind of like this because it allows us to also leverage some of the tools to sort of display differences between what's up there in a convenient web based way. And so
+
+for instance, this sample report, it's on GitHub, not Bitbucket, because everything that we do publicly posted on the bucket is in a good repository. And it has History because I've added language to an updated in some fashion. Now I'm typically lazy and just him updating it. But it could actually mean that I'm putting some information in there to show that, right. And I can actually go back and look at what the changes were in that particular version. So in this update, I added language about a setup program in our and I can actually go there and download that particular sample report. At that point in history. This is exactly what it looked like that. So I can download both the as his version as I can see the differences between what was what happened there. And so I can do that from the command line. Bitbucket has a bit of a different interface, but the basic functionality of being able to see these changes Spent these changes to recover an earlier version of that. For instance, Meredith has a small side task to sort of look at good examples of first responses to our replication report. Now we update that report when we get the revision from the author. So the latest version will always be everything's okay. It's not particularly useful. So we need to go back and find the early version. It provides a way to do that. And it also provides a way to see what has changed between smaller iterations of that. Okay, that's why we have it here. That's the key thing that we're going to be doing. Another key thing that is not in the typical Dropbox and other kinds of changes is that we actually can comment on what those changes are, as part of this message, so you're modifying a file, you will learn How to bundle them up and send them back to the Bitbucket repository and with a message. And that message can and should be informative about what it is that you did. You can slice and dice these things, I've gone through all the programs and replaced all the directory names can bundle that up, send it up, but still doesn't mean the code is functional just means you've accomplished a particular step. And that is now a very distinct stuff that has been locked in place. And that you can inspect and show, right. So the ability to attach log messages is useful. It is useful for us because you're not going to be here internally. You might decide to leave at the end of semester you might decide to leave a year and a half from now. I might need to come back to a particular file and see what were the changes that you implemented in that and why. Right so these might be informative for me to understand retroactively when you are no longer there. why some of those things happen. Now, we're not talking about writing small novels or even short stories, a one liners sufficient what particular things But it also helps you to structure your work. So for instance, if I'm going to bundle together all these things where I've changed directory names, that's one way to think about the modifications I'm going to be doing. Then I did the one where I added a line to install a package that wasn't previously installed in there and ran through the setup program. Again, that's another change. And now I'm at the stage word word, five. Now I'm going to now the next change is going to be only to the replication report. Okay, so these log messages are informative. We don't look at every single log message that comes in, but we don't know ahead of time, which ones we're going to be needing to look at as we go through. So that's the key part of why we're using a version control system we're using get because that's the latest, most robust and use all over the place. If we done this 10 years ago, we would have used different one called subversion that is still out there that you might encounter. They all accomplish more or less the same goal and the way we're using the system. It doesn't matter which one use Bitbucket and GitHub all of us get and so that's what we're using. The basic repository I just showed you what the history looks like for a particular one that happens to be just documents but isn't code would work the same way is as a set of commits. I've already mentioned that a couple of times, that's a collection of additions or modifications interchangeably used as a snapshot. So I can look at the state of the repository after a certain commit, but Strictly speaking, committed as the bundle of changes that is out there.
+
+Unknown Speaker  37:30  
+And so
+
+Lars Vilhuber  37:39  
+in this scenario, here, the bundle of changes I sent up as a single file that had two additions, two lines that were added.
+
+Unknown Speaker  37:55  
+See, is there anything particular there
+
+Lars Vilhuber  37:59  
+so here Once I was a bit more informative in my commit message, this is very useful.
+
+Unknown Speaker  38:06  
+So I changed a variety of things in there.
+
+Lars Vilhuber  38:10  
+Now I have two files that were changed because actually updated the FAQ. It's telling me that and showing you the change in the FAQ. This was about peace and the data and the change the sample report, to also provide some additional things that happened. This came about because the PSD thing was starting to come very frequently. And so this clear information about the access modality and data set etc, is something I added in because for the PSAT, that wasn't always the case. Okay, good also has branches. We're not going to be using that very a lot here. Branches can be useful if you're in the development of something Because you can go off and sort of try something out. And if it works, you're going to merge it back into the main branch. And if not, you're just going to delete it and start afresh again. And so it's one way to sort of structuring code development, we might occasionally run into it if, for instance, I know you're still working on it, but I want to make a note to the repository not mess your stuff up. So I'm going to create a branch that's me. I'll worry about that part. You normally in the course of what we're doing here, you're not going to have to worry about patching, etc. The basic terminology is a clone in, in GitHub, so are in Bitbucket and get in general, you are going to get a complete copy of the repository when you clone a repository. And it literally is a clone is all the history that is in that repository, you're going to get all of it in multiple places. Okay. So you might start by having a clone of a particular repository and your laptop. And now you're going to do the computation on sizer, you're going to clone it. Again, oh, why is it file it edited on my laptop, not here supposed to be clone? Well, you need to keep them in sync. And so there's a staging area where stuff is and then there's pushes to the server. Again, if you do a pull and push, you've essentially done a sink. So everything should be in line. Occasionally, a poor will show Oh, you forgot to include this and then starts to get complicated and you're gonna yelled for help, and you have to worry about emerge. But all those things, there's a ton of stuff that we can do without ever getting into those areas. The key thing is that, you know, has the idea of a staging area. And so as we'll walk through some practical exercises, you will actually get an exercise to do at the end of this. You have whatever your browser sees, your editor sees your file system sees as a file that you're working on. And it will show you this as a changed file your analysis Going to add it to the staging area where it says while you go off and modify a second file, and you can add that to the staging area, and then at some point in time you decide to package what's in the staging area as a commit. And when you do that, it moves to your local area on your disk and has been committed to the repository. Okay, now that repository is out of sync with what's up there on Bitbucket. So now you need to get it into sync. Simple thing if you're the only one working on you know you can pull down information etc. As you just need to push that information to the server. You want to be totally certain you can also pull and then push and now the two are in sync. Now you can go back to sizer you've already cloned it. So you now no longer need to clone it there but it was lacking a file that you had on your laptop. So now what are you going to do, you're going to pull the information packet and if you want to you can push and now your sync. So now all of those places laptop cloud sides are, are in sync. And then you post to the mailing list and say I ran into this problem. It's online 25 of this code on a year rep 529. And I'm going to clone 529, and have a look at it. And now we're looking at the same thing, you can talk about the same problems and solutions for these kind of things. So now we've got four clones of this sitting around, and they will over time start to get out of sync. So we're not going to proliferate this too much. But it is a very convenient way to sort of do these kinds of things in a very structured way.
+
+You will learn and our guidance will show you how to do that to name repositories and consistent way. So our naming convention is that you're being assigned an issue. And the repository name is the name of the issue. A rep dash some number is going to be the issue that is associated with a particular paper, particular revision of paper and there will always be the Original and first issue associated with a paper will be the repository we use. Okay? papers themselves have different numbers, they come out of a manuscript management system, that's the manuscript number, we're not going to use that because we will get a revision of that same manuscript. And we want that to be associated with with certain things and agera we will link various issues resubmissions other things together. So that though that information is so often you will hear people confounding GitHub and get the basic technology, the software program, the package that we're doing is get, you don't need GitHub, Bitbucket, whatever it's called to use get, you can use get on your laptop and you're done. Your versioning on your laptop, you just don't have anything that you're sinking. If you go out there and look at all the sophisticated and complicated matters that people can sync up various get repository, you can send encrypted emails with it patches between people in You can communicate peer to peer that was the whole reason get got created was to not be dependent on central servers. And the idea that every good clone is a clone has saved various software projects where something got clobbered or something got hacked or whatever happened, etc. Every copy is a complete version if you delete the get repository on Bitbucket, but previously, you've cloned it on your laptop and on sizer and I have a copy of it, we still have three complete copies of it that have all exactly the same information that you just deleted from the server. And that's an asset because that means that we're not dependent on any of those things going on. Suggest because it's a manual thing. There's no automatic thinking that you need to be diligent about that. Right? But sizer goes down for maintenance. Well, if you did your job before you committed before you log off and pushed everything to the server, we have a company Copy of everything that you started to run, you don't have the latest results, but we have everything that you started to run at that time. So suppose that it doesn't come up for three days because they have some serious problem. We can continue working on a laptop on our Linux computer, etc. Because we can clone that stuff back down again. So it provides us with redundancy there as well. So the basic get commands I've already alluded to them.
+
+Unknown Speaker  45:25  
+Get clone, a clone something,
+
+Lars Vilhuber  45:30  
+get add, you're going to add things to the staging area. You're going to get commitments, you're going to package them up and log them as change to the log of the register of all the changes that are logged. You can check the status at any time it will show you staged files will show you how far ahead or behind you are the online version of it. It will show you what files are changed with files are not tracked. And there are files which we don't want to track on that Maybe part of it as well. And you can pull and push between those different things. So the other thing is, for instance, say you're off on a flight, maybe you're going for spring break, and you're taking along some of the work we're doing here. You can work on this on the plane without having to pay for exorbitant Wi Fi. Because commit everything up until the pull and push you can do locally. So you keep a complete copy of your preliminary report, which requires no computation on the three papers that were assigned to you. You can do all that on the plane and never ever touch the internet at some point on will want you to get back on the internet, push those things out, but it'll push up the entire history. So that getting committed is you're making a record in the register of all the changes that are associated here. And then afterwards, we can sync the whole thing up. Okay. Um, so there is a little Live example here. What I'd actually like you to do now
+
+Unknown Speaker  47:05  
+is go through
+
+Lars Vilhuber  47:10  
+the wrong example. Where's the example? Oh, here's the example. Go through that simple tutorial we'll spend should take no more than 10 minutes, 1015 minutes to sort of do this. I'm going to get another glass of water. I'll walk around and see how you guys are progressing. Because this is sort of the day to day grunt work that we're going to be doing. Lose, you should actually be up to speed on this. So you can also help folks here Well, I get water. So we're going to take a generic tutorial, if you want to go to the the page here to get this long URL to sort of try something real but you can also just use tutorial events there. Just walk through some of the steps Feel comfortable
+
+Unknown Speaker  49:08  
+On this page go all the way working
+
+Unknown Speaker  49:24  
+so inside
+
+Unknown Speaker  49:33  
+oh no setting up gets Cool,
+
+Lars Vilhuber  50:28  
+actually tested this, this is the old URL to when it was still an attachment literally on the web page. And I hadn't tested because we migrated all the old attachments to open ICPSR and they've redirected. So unintentional test of the thing that it should actually have worked. Good.
+
+So what you're seeing actually right now on here on the real positive I used to be as a fellow attached to the a website, we migrated 2500 of these repositories into open ICPSR. We literally tripled overnight the size of open ICPSR. But this used to be a zip file that you had to download the frequency anything and now you can actually go in and browse and and do other things
+
+by the time they will actually make this a clickable your
+
+Okay, everybody getting a feel of the various commands to reduce,
+
+just to talk you through some of the things that are being done in the tutorial. The good config is actually something you should do once but on every computer that you would be using it. So if you're going to be using this on sizer you're going to encounter they can configure global command as well, it's going to be suggested to you by get if you don't actually do it automatically ahead of time. What this does, it actually records your name as it knows it, and as it wants to communicate it back to the server. So right now you're going to be working in our Fly mode we're not, I'm not actually going to push anything out of the little tutorial that you're working through. But when you actually do push stuff, this is how you will show up on the server. So that should be the same information on each computer that you log in. If you're using this for other things, so you've already had kids and you're using for other projects that are not related to here, maybe you're not even using your Cornell email or some like that. You can have a project specific, I get config. name as well.
+
+The get in it is what creates a local instance of a repository. In practice, we are actually going to start that get in it and equivalent process on the servers. So you're rarely have ever going to run the get in and on your local system. Because we're going to do all that in the server with a button click. Ok. There's a specific way reason why we do this because we're actually going to use a template that pre fills every paper repository with information that's already out there. Okay, but get in it sort of sets up all that structure and pressing a button on the web server does exactly the same thing. And if you're going to do your own research and want to use get, this is how you would started here. It's a where get started somewhere somewhere and someone needs to hit get in it. And that might be a button on GitHub or Bitbucket, or something like that. Or it's a command you run on your computer.
+
+Unknown Speaker  54:42  
+So do you want us to download the project?
+
+Unknown Speaker  54:47  
+Do you want us to
+
+Lars Vilhuber  54:52  
+have it? Yeah, sorry, that has actually changed from last time the distractions came, but you're going to need that open space or log in Wait to the work. So that was part of the things we need to set up. So go ahead and if you don't have one, create one, ideally with your net ID. And then I don't know that you need to add your name to it. So for now, it might actually be better not to add your name so that you remain just detonate it. But yeah, you actually do need that. So go ahead and do that. We're going to leverage that. That has changed as last time we ran this tutorial so sorry, I didn't test all of it.
+
+Unknown Speaker  55:47  
+Don't include me
+
+Lars Vilhuber  55:52  
+in open ICPSR Yeah. The reason is that once you actually if you don't include your name, All that will show up when we share the project with you to anybody looking at it is your net ID. If you put your name then your name will show.
+
+Unknown Speaker  56:22  
+This requires a required field.
+
+Unknown Speaker  56:32  
+Yes.
+
+Lars Vilhuber  56:34  
+Make a note of these
+
+Unknown Speaker  57:06  
+rainbows and last
+
+Lars Vilhuber  57:17  
+names look into that again because for some reason on the repositories that I shared, David shows up with his full name, but every era that we've had shows up just with an ID. I don't think it's a new requirement that you need to enter your names. I don't know what makes that difference.
+
+Unknown Speaker  58:03  
+Yes, Isabella uni Jackie.
+
+Unknown Speaker  58:06  
+The address.
+
+Unknown Speaker  58:17  
+That's the organization
+
+Unknown Speaker  58:42  
+heartbeats trial. I can't test
+
+Lars Vilhuber  1:01:15  
+Can you see if, if you've clicked in open SPS are in the Browse?
+
+Unknown Speaker  1:01:23  
+Click on the new and updated this month.
+
+Unknown Speaker  1:01:34  
+Can you have a look at this one?
+
+Unknown Speaker  1:01:39  
+Its
+
+Lars Vilhuber  1:01:42  
+submission for the papers and proceedings. So that's one of those folks who submitted you might have necessarily done so relatively just really recently, but it's relatively simple. Just one do file one data file for testing A check on whether it's actually early access and
+
+Unknown Speaker  1:02:17  
+I'm
+
+Unknown Speaker  1:02:18  
+asked to download the file
+
+Unknown Speaker  1:02:21  
+refresher here.
+
+Unknown Speaker  1:02:23  
+And I was trying to improve the project. When I did the command. It asked me
+
+Unknown Speaker  1:02:34  
+They asked me if I give access to photos, contacts, everything
+
+Unknown Speaker  1:02:38  
+I said, No.
+
+Unknown Speaker  1:02:41  
+I don't think so. Yeah. There's nothing
+
+Unknown Speaker  1:02:50  
+Okay, so
+
+Unknown Speaker  1:02:52  
+shouldn't necessarily. Yeah. So so if I didn't get or you know here
+
+Unknown Speaker  1:02:58  
+you know, we're looking
+
+Unknown Speaker  1:03:02  
+Okay to add the project I just downloaded the one that okay, but did you back instructions? Did you see
+
+Unknown Speaker  1:03:11  
+this part? So unzips
+
+Unknown Speaker  1:03:14  
+project first and then enters project.
+
+Unknown Speaker  1:03:17  
+So where's your downloaded?
+
+Unknown Speaker  1:03:21  
+Oh, it's not there.
+
+Lars Vilhuber  1:03:26  
+So to your downloads, yeah, right so get it, I put it somewhere where you so you can do this in the download so you need to sign it the equivalent of steps that you're skipping right now are the key ones. Okay
+
+Unknown Speaker  1:03:43  
+so nice.
+
+Lars Vilhuber  1:03:47  
+So this is well it's Italian still back here the basic command line and let us see correctly old directories The name is escaping down So you want to say CD
+
+Unknown Speaker  1:04:09  
+package. So that's now you're aware that
+
+Lars Vilhuber  1:04:14  
+so here they're doing Tarik CF. Yeah. You will do unzipped as
+
+Unknown Speaker  1:04:23  
+some sort of tar x yet.
+
+Lars Vilhuber  1:04:26  
+I don't know that that was a hard show.
+
+Unknown Speaker  1:04:34  
+You can do tab.
+
+Unknown Speaker  1:04:51  
+Wait so you navigate into your folder. So giving you
+
+Unknown Speaker  1:04:58  
+all the difficulties out there. This is Right here.
+
+Lars Vilhuber  1:05:15  
+Right. Okay, that didn't do what I hope to produce careful is just unzipping the part because it doesn't actually have a great feeling. Yeah. Let me put that on the screen. So for everybody, yeah. Apologies that doesn't work exactly as I thought it would.
+
+So, first of all, when you download that zip file as a project will download something called 11 for Yeah, whatever right. So in your download folder, or wherever download because that's going to be described to how you set up your computer. You will have a file called Let's call it 4191. Okay, the instructions here, say tarak cF, that's a tar command. It's one way to package files. That happens to be zip. Ours is a zip files, it'll be a different command. So in the bash shell, that'll be the unzip command. The key thing is, we need to find that file. And the assumption here that is broken with the current stuff, is that it actually this tar exists actually generates a directory. This one now doesn't. Yeah, okay. So let's suppose it went into download. So we're going to see downloads, or
+
+Unknown Speaker  1:06:47  
+Where's your terminal? It's not
+
+Lars Vilhuber  1:06:49  
+on the rejection. I don't have a terminal because I don't I don't get a term on this thing. Yes, I'm simulating here. What I see from yours, okay. Okay. So you're in the downloads. folder. Let's make a test folder or temp folder or something like that. Okay. So if I were to Now type ls in a clean way your download folder has a lot of stuff and I would see for 419. zip and test Oh really?
+
+Unknown Speaker  1:07:27  
+Sorry about that, like, well, you should be following
+
+Lars Vilhuber  1:07:35  
+are supposed to be falling. This is what you should be
+
+Unknown Speaker  1:07:43  
+like he's really into the simulation
+
+Unknown Speaker  1:07:50  
+to do it
+
+Lars Vilhuber  1:07:53  
+and then the document name or now we're just typing the document. So do it like I do here because I populated Download directory now with lots of stuff from the zip file, it probably shouldn't be there. So he's got some cleanup to do I apologize for that. So, follow along with what I'm doing here is I've got lots of other stuff. I've got a test folder, and I've got this info. So now enter the test folder. can now your present working directory is test. And now I can unzip. Well, where's that zip file? Well, it's one folder up.
+
+Okay, now we've encapsulated everything in that test folder, and it's unpack that file. Now we have the structure that the tutorial wants you to do. Okay, and the tutorial, the zip file had this level extra that we have called to your test could have called it project or whatever. And now we're there. Okay, so now when you type ls you'll see there's figure in there, there's all sorts of things there should be read me in there. Okay. Now you can do the good in it.
+
+Unknown Speaker  1:09:20  
+And you can do that just add duct.
+
+Lars Vilhuber  1:09:25  
+So the one clean up for those who did get in it before by simply going into the command line and typing get in it. Go to the command line again open up a new terminal and do RM minus r dot get in that terminal. That's the cleanup for what should not have happened. Okay.
+
+Unknown Speaker  1:09:56  
+So we've got the promise of adding permissions to income Speakers seated right
+
+Unknown Speaker  1:10:17  
+here now. Okay.
+
+Lars Vilhuber  1:10:23  
+Do you need to remove now if you're in that, yeah, get that when you do so you've got two channels open one is at the home.
+
+Unknown Speaker  1:10:31  
+Yeah one is on this. Yeah. So you're on the track given numbers.
+
+Unknown Speaker  1:10:41  
+Exactly. Now you can continue falling on your note. So
+
+Unknown Speaker  1:10:55  
+you are
+
+Lars Vilhuber  1:11:03  
+Ellis space
+
+Unknown Speaker  1:11:11  
+so this is so
+
+Unknown Speaker  1:11:19  
+add anything I didn't like I just
+
+Unknown Speaker  1:11:23  
+convention right now
+
+Unknown Speaker  1:12:20  
+See if you
+
+Unknown Speaker  1:12:23  
+see studio space
+
+Unknown Speaker  1:12:34  
+that's your
+
+Unknown Speaker  1:12:48  
+Chanel. If this didn't sit up Jeezy administrator, mine so all right
+
+Unknown Speaker  1:13:02  
+which you should never idea
+
+Unknown Speaker  1:13:06  
+the permissions or the characters I didn't allow
+
+Unknown Speaker  1:13:12  
+you didn't allow for accessing sooner.
+
+Unknown Speaker  1:13:26  
+You know, you don't even realize I was, as I said those were for those who
+
+Unknown Speaker  1:13:34  
+get in.
+
+Unknown Speaker  1:13:55  
+So
+
+Lars Vilhuber  1:13:59  
+anytime I commit to prompt you for it committed, committed message. And that's what you see. So go back to that window that popped up. That's the editor which happens to be configured now once a message. So now you can enter this is attached to our channel.
+
+Unknown Speaker  1:14:19  
+No in the editor. Okay,
+
+Unknown Speaker  1:14:22  
+it's got a prompt sitting there waiting for you.
+
+Unknown Speaker  1:14:31  
+And then you just save that.
+
+Unknown Speaker  1:14:38  
+Yeah, so
+
+Lars Vilhuber  1:14:41  
+depending on how your computer's configured, it'll prompt you to enter you commit. There are two ways to do that. One of them is that it pops up the editor you type the message and save an exit. And it'll do that The other way of doing that, which sometimes is quicker, especially if you only have a short one is that you just say dash m, and then whatever you need to type and then it won't prompt you separately for that it's in once you've got it.
+
+Now there is a bit sparse here to say it'll prompt you but that's confused. Sorry, I no longer think about some of those things because they have and my system is different the configured differently. So there are some things that are hard to test. So there these are the two ways you're either going to get an editor or you're going to be able to do it straight on the command line. If you do this dash m giving a message. It's satisfied once some message Except an empty message, but he wants some message.
+
+So we can stop the test there for now, many of the other things in there are not things that we're going to need to worry about initially. The thing that won't work right now is the steps after this is going to be a good push. So if after this, you type get status, you will get some information about what's going on. It should actually give you a blank list of things. There are no changes to be committed, there are no files stage, and you have one commit that's potentially ahead of something. So good status will also show you a few now So as one test what you could now do, you can do this from the command line. Give me a name of a file that's there since I don't have it downloaded.
+
+So if you say move read me that takes take to read me old texting. It's a
+
+Unknown Speaker  1:17:30  
+text or not. It's a word, not x. Oh, sorry.
+
+Unknown Speaker  1:17:37  
+I heard Don pics. Okay.
+
+Lars Vilhuber  1:17:44  
+If you do that you're renaming the file is move command on the on the at the command line but it essentially is a rename. Now type get status again.
+
+So it should show you essentially the old name and a arrow and the new name because get now has seen that something has changed you. Now we didn't do this using get. So we now need to add
+
+Unknown Speaker  1:18:27  
+both of these
+
+Lars Vilhuber  1:18:31  
+one which no longer is there and one which is
+
+Unknown Speaker  1:18:35  
+I'm sorry, apologies.
+
+Unknown Speaker  1:18:38  
+We're going to add
+
+Lars Vilhuber  1:18:42  
+the new name and we're going to remove the old name
+
+Unknown Speaker  1:18:53  
+then to get status again Okay,
+
+Lars Vilhuber  1:19:08  
+there's a shortcut for this particular operation which would have been if we'd simply prevented this with get get move. And that would have been the equivalent of doing those two operations one and physically moving the file that we've just done is essentially we've recorded that we've moved the file around and it doesn't see it as it changed file it knows that this is the same file that has moved around. And this works, you can move directories you can move around pure renames are recognized as such a good turn will be notifying you right after make command of my ad or move because it doesn't do that on mine. And so until I do get status that I finally know that I've the other ones are silent commands, they don't they're okay. So if you were now to change the text file, it would if you edited it, would show you that you would have to add it you could committed, etc. So one of the things why this is important is that a move clearly is not a change of the file of contents of the file. Okay? So for instance, if you're getting a new revision from the author, after we sent them the report and they've modified it, etc, you meet download the zip file, now, it'll be a v2 or something like that. And you'll unzip it exactly the same way we did before. It will show only those files when you type get status that have actually changed. So even though all the files have been re downloaded and overrode the version that was there, in principle, unless there are actually changes in these files, it status will only show you those files as change. Okay. So that's one of the things that we will be looking for, for instance, during revisions and things like that enables us to do much more easily. Okay, let's stop there for now. Okay, you can delete that whole directory, you can delete it from the command line, you can delete it from your file browser, that's your choice. Those two are equivalent.
+
+So in the training, there's also linked to some examples. So I said, do much of this again, as you can go through at your leisure. So you have the experience that when you type get committed popped up notepad as an editor. We're now going to be talking about text editors because commit messages, Program Files, etc. are all text files that we may want to modify. Now you may be used to opening state of file data, say to do finance data in MATLAB, m file and MATLAB, etc. Those all work. And they're actually suggested if you're actually programming that because it probably lots of tools they provide you with what is sort of the the next thing when you write a command its data or is this actually a valid MATLAB command, we want to talk a bit about text editors to do all sorts of things that work on all of these. So you can also open a.to file or a dot m file in a text editor. You could use Notepad, you could use the basic text edit on Mac. They aren't very good. And so you might want something more powerful. And in particular, since a lot of the editing that you will be doing is both programs, do whatever you want, but you might be running, looking at programs and possibly doing some obvious changes on your laptop that didn't have state installed, etc. So how do you do that? You do it in a text editor. And you see a line in there that says CD path at the researchers desktop to Whatever, you can already edit that on your laptop before you even run the code on sites, you don't have status. So how you do that use a text editor. The replication template is a markdown file. And what that does is that markdown gives you nice formatting but in the actual file is a very simple file. So having the field installing text editors and having it be a headline with pure bolded, and stuff like that is really very simple text. Adding a simple hashtag, makes it be a level one heading two hashtags, level two heading three hashtags, level three heading boulding are two stars. These are very readable files. You can see them in anything, it doesn't require a special program, but it's sometimes it's useful to also see what it looks like when it's pretty printed. And so the one that we say Just you install that has a lot of plugins that we will leverage that make life a lot easier for you is Microsoft Visual Studio code. Now it's Microsoft but it actually is cross platform compatible. It runs on Mac, it runs on Windows, it runs on Linux, you can use it anywhere. You can even install it on sides or even though sides are normally allow for installation of programs because installed here user directory, so it has all sorts of advantages. So we strongly suggest us that it provides a lot of useful tools. For some reason, I haven't added that here. There's a couple of plugins that come along with it that we use on a regular basis. One of them is enhanced preview. So Visual Studio Code knows and when you load a markdown file, it'll pop open and preview. So here's the prettyprint. Here's the code. It has plugins that allow you to do highlighting and checking of status code of MATLAB Python code of our code etc. It has abilities. If you have our Python installed to actually run them from within Visual Studio code as a sort of editor that replaces other editors that run these kinds of things. We're typically not going to do much of that. But we are going to be leveraging the fact that there's various ways to serve look at these files and that it's the same everywhere. Okay, so while we go on, if you don't already have it installed, go ahead and install that on your laptop.
+
+So why don't you click on it, download that one of the advantages of having sort of universal text editors that allows you to think about all these files within the same editor. Or a simple project. So Visual Studio code can be get aware. So you'll also have little things at the bottom that sort of indicate are there change files and things like that. So you could if you wanted to use that as your interface.
+
+Unknown Speaker  1:26:15  
+That's a preference, your choice to do
+
+Lars Vilhuber  1:26:19  
+that but it does allow you to consistently you're going to open that MATLAB file that are a file that Python file, etc, in the same editor, and get used to that. Like I said, it's not always the optimal way of doing but to look at code and not run it necessarily. It's it's very useful for that
+
+So we're not going to do very sophisticated markdown editing, our reports are in markdown they need to be valid markdown. That's what the preview helps you to construct. It looks weird on the mark on the preview, probably is because it isn't formatted completely. There are little things like you might need an empty line between when you have text and an enumeration that enumerations are certainly dashes and things like that. If you space things out, they might show up in a sort of pre formatted code and things like that. So I strongly encourage you to use the preview for that. I have a simple markdown tutorial marked here. We're not going to go through that but just do it on sort of your free time. It's very quick.
+
+Unknown Speaker  1:27:43  
+Right, it's online.
+
+Lars Vilhuber  1:27:50  
+You can see things that are happening there. There are various flavors. This is not a very formal standard that one company promulgated. So there's various flavors of this. You can go overboard on trying to do various other things with it. Just one of the modern methods to actually combine this with other tools to create static websites. A lot of academics are sort of switching to using sort of GitHub posted websites, they tend to use this kind of technology to serve prep some of these things. So it's worthwhile to have a look into it.
+
+Unknown Speaker  1:28:27  
+But don't go overboard on.
+
+Lars Vilhuber  1:28:50  
+So then let me we've got some of the tools covered that we need. essence with get and Visual Studio code, you've got all the tools that you probably will need on your laptop installed, ready to go for that? Again, I'll send out an invitation from the various bucket engineer systems to get you running on that, then we're mostly set up for these things. So let me have a brief sidebar on what the ideal reproducible code actually looks like. And I'm going to focus here on one particular example of that. That's the tier protocol. Tier stands for transparency and economic research. It is a set of practices that is focused very generically on undergraduate level research, generic research in general, and some basic student programming. The basic principles you're going to find in various guises all over the place. The basic idea is relatively simple. Think of buckets into which you drop certain things. Those might be folders might be areas on your disk pens on things. variations of this can work with big data with with complicated data. They might not have a single directory, they might have multiple sub directories. But the basic idea, again, think back on.
+
+Back on this very simple data flow, getting data, we've got cleaning programs, we're generating analysis data, we've got analysis programs, writing output that ultimately gets and ends up in a manuscript. This is where the original data go. This is where the analysis data go. Here's the code. And here's the documents. And they're all in discrete areas. Now whether or not you call this folder, original data, or you call it raw data, or you call it source data or whatever. needs to make sense to the person reading it, there is no standard that you need to comply with, right? If you call it analysis data or derived data or output or whatever, doesn't matter, but it's clear that it's not the same. And because this is where you drop files in, you've downloaded the manually and you're keeping some information about where you got it from as metadata. You can keep the metadata together with the actual files, you can, at the root of this, you might put a readme and update that README with these information, you might stick that information into the actual paper, you might be using a bibliography file x, Otero or something like that to keep track of these things and then sticking them into your document at the end. There's a variety of ways again, to capture the basic idea of what's happening. But the idea is, if you're getting it from somewhere else, its original data. You drop it in here. If you're drawing Arriving and in some fashion, you're creating it in from your programs in here. Okay. And this is sort of not obvious from the graph, but it is it'll show up in these principles, there is no transformation of these files in place. And there's no transformation of these into these without these that suggest that you're not going to be hand editing stuff. It doesn't mean that hand editing is not a useful data technique. It's just that it's an exploratory technique. And if you want it to be reproducible, you're going to code that same hand coding up into a program. Right? So if you've got something that says, I modified this particular cell, because inspectional the original data suggests that that 18 is actually an 81 it got transcribed because I went back to the sources and read it or whatever was You can also code that as part of a program. If cell number equals so and so then, right x equals and you on conditional on the original and being something is a valid data code. It's a very editing encoded into code, but it is reproducible. So if you re downloaded the original data, and you wiped out the analysis data, you could run that program again and get back to exactly the same, finding these cases and identifying them and doing a first pass, etc. Those might be done by hand and Excel, whatever, right? But then recording them as code rather than as something else would be the reproducible practice. So no changes between no flow between these two without a program. Right? There's no these cleaning programs to all and every single one of the changes that happened to this
+
+Unknown Speaker  1:33:56  
+so
+
+Lars Vilhuber  1:34:00  
+One of the key things that's implicit in this, again, there's variations on a rule is that the idea to separate data and code physically on disk and conceptually in the sort of processing and separating the acquired data from the generated or drive or analysis data. Excel doesn't do that very well. So things that sort of commingle code and data, like spreadsheets are not the ideal scenario. That doesn't mean that you can do this right in Excel just doesn't lend itself well to. You can be very precise. For instance, by having different tabs, here's the original data. Here's code that transforms the original data into something else. And if you drop a new original, it'll generate new drive data, etc. But it's not particularly transparent. It's not the best choice. When we go out and ask from researchers while you generate this graph Because of familiarity, etc used Excel, we'd like to have Excel, we're treating Excel as a sort of opaque, but reproducible programming of data, transformation of data into fears. But it should be such that whatever figured your startup program had, has to have been ingested into this itself. And if I drop new data in there, that graph will still work. That's a program that doesn't always work so well in Excel. So it's not ideal, but it's okay.
+
+Unknown Speaker  1:35:34  
+So
+
+Lars Vilhuber  1:35:37  
+we've talked about this a couple of times on a tear folks will have a simplified version of this is that when you've downloaded the data, you have to keep track of where you got it from. And, and ideally, that's part of why the part of the protocol you do that when you download, not five years after. You need to remember where you got it from. If you got it from somewhere else, and We wiped out that original data set, you should have all the information needed to get it again. The tear protocol says that each table should be one to one to a picture. I think that that's not necessary. We've comment on that it just needs to be clear where things are being generated. But it just needs to be very, very obvious just having things somehow flow out of it, are there one of the things that the simple protocol doesn't actually say, but is actually also good practice. And this becomes obvious when you have long running competitions is that to generate a figure from some very simple data is an almost instantaneous process. But to generate the very simple data that goes into figure that is represented by a figure might be a very long process. So if you have a ton of competition And then at the very end of the program, without writing out anything to disk generates, figure then writes out the figure. What happens if you want to change the style that figure, you're gonna run three weeks of programs again, to then generate the figure just because you change the style that's not particularly with solutions. To be thinking that way. You also want to separate the code logically by production steps, right? So you're running that long simulation. And when you're done, the output from that is written out. And now you're going to collapse that into data points that you want to graph. That's a separate step that you can run what you want to change that style change in the program. It runs for 10 seconds, you're done, you've got a new picture, right? But that intermediate data got written out, got written out into the analysis data set folder. There's a separate program for that, and it's followed by the Promote actually, right so the table suppose that you have stuff that needs to actually run on different computers. Some of this stuff might run on your laptop, but some of this other stuff has to run on sizer. Yet, how do you do that you separate the code into different pieces that could potentially be running at the same time. Right? little dirty secret, those six servers at sizer that a research note you can log on to all six and at the same time you can run six different programs at the same time that are running one program each everywhere. You are now parallel processing. Or what if that's on a compute cluster? Right? What if I need a particular hardware institution for some of these things? And then the downstream analysis of just creating the figures is done on my laptop? Well, that Julia program that I mentioned earlier that required 20,000 compute hours, generated intermediate data, that intermediate data was part of the data package and then the post processing of that the figures, the tables that are how many things how many times does this occur, what's the variance etc. All those are post processing of data that took 20,000 Peters do post processing takes 30 minutes. And that post processing might change, and I might want to modify it, etc. And so those are discrete steps that ran on different computers. And we can run one on a supercomputer and the other one on a laptop. Okay, so that suggests a certain structure for these things that simply decomposes the whole process into more manageable steps. More discrete steps were more robust steps because they don't break down just because one thing and for instance, the separation of data generating and estimation, from finger generation or finger formatting or table formatting, you will see that absent from a lot of the code that will run it, right. So that's best practices to separate those things out because it allows you to, to change some things. It allows you to suppose that that Excel spreadsheet is an example actually That if it actually uses the output from your data programs do the graph, you've just separated data generation from figure generation. So while the Excel spreadsheet is a bad idea, the separation is actually a good idea. And you might down the road, change out the Excel to for an art program that follows up on the state of program because you preferred are for the graph or you learn this cool new thing in our that does much prettier grads or whatever it is. But you've got functional separation of these things that are separated out by how long they take, what they use, etc. Finally, you might also think about
+
+truly parallel processing. So we've had a few cases where for instance, they said this code requires six different parameters. You can run it on six different computers, they all run for three weeks. Once you come back, we're going to combine them and do stuff. Again, functional separation between these things, these are actually run in parallel somewhere else, etc. There's a instruction to do so could you actually run some rapper program that does it, you can do. And so for instance, in some cases, you will find that the command files and potentially the analysis of additional structure to them. Command files might be separated out into data preparation, estimation, post processing, publication, or something else, each of which might have additional separate components. So this is an idealized simplified version of what the ideal structure should look like. You should look for some of these things in the code and code archives that you're going to be seen should certainly follow some of these practices. If you're doing your own. You will find that when you compare structures that don't follow this, with structures that do that they are much easier to do when they actually follow these practice. So it actually helps the process of replication not just for your own purpose, other people falling you're going to be those other people. It helps When you have this structure, because when you look at it, and you immediately know, oh, here's all the data files, here's the program code, the code, program code sequences, clear. I know what their purposes etc. Those are much easier to look at and to write through a court on and others that are a bit different.
+
+And I've already mentioned the necessity necessity of sort of define pens. One of the things I like to actually in our research group, it's what I impose, again in the files and you will see coming to your way that is not always the case, is to actually number programs, right? And so, they're prepended by a number that makes it painfully obvious and what order they're going to be running to and whether or not you wrap it into a master file or not. Doesn't really matter. It's just a very good Clear and what order they're going to be run. And then they're followed by, it's not just called 01 program 02 program there, followed by some mnemonic about what the program actually does. And maybe there's multiple levels. So 01 is preparation within 01, you've got 01, to do file a 02, to this other folder, free to combine them, etc. So you might have multiple hierarchies. When you look at them in a directory, you obviously immediately know even without starting to read, what the purpose of these things are and what quarter they're going to be rough. That is both very useful when you're actually coming back to your own code. On Wednesday, actually went in and looked at code that the last time any of us on the project and looked at was two years ago. The era is long since graduate and gone. It took me five minutes to figure out how we what we had done when order was in what the purpose was. OK, it helps an enormous lot because the situations that you're going to come back to something that you did a while ago, that note to yourself in the future, that is worth a lot, even if nobody ever else reads that code, etc just helps a lot. Okay, so that's the ideal rock and seal ideal. We're going to see variations on that ideal and we're going to see hints of that in terms of what's going on. So it is, you will see that there's a pattern that as more people do this, the younger authors are if you know anything about the author, we typically only know the names but if you were to Google them and find their CDs and stuff like that younger they are, the more likely you will find these practices implemented because they are sort of making their way and people discover them and and see that that's happening. Okay. So the last time we did this, we spread this out over several days. So by now you would already be on JIRA, you are not so we're not going to do a full work walk through through the So I'm going to sort of show you what the deer workflow is. And then we're going to go back to some of the examples of the replication report I had earlier, I've got three examples that I've posted out there. And I'm just going to quickly walk you through a few of them. And then we'll follow up on this with getting you on to these different systems. And then next week, we'll send you a couple of examples to kick the tires will touch base. There's no Monday meeting that would be too short. Anyway. So the week afterwards, we'll have a separate call with you guys on the Thursday, separate from the usual crowd, surf touch base on how you're doing, and then on the Monday afterwards, we'll we'll sit down and work through some of these examples and see how they, how they worked. Okay. So, what does this look like? These are the actual instructions that you will they're called training but they're actually the instructions if we tried to Keep us up to date as possible, you will be able to come back to this on a regular basis and check things because not everything is obvious and JIRA
+
+Unknown Speaker  1:46:13  
+has its quirks. But it does help guide.
+
+Lars Vilhuber  1:46:19  
+There's a line, there's no process, we have a data Citation Report not going to get into that today, we're going to get you first working on on the other stuff. So the basic workflow looks a bit complicated, but it covers most of the cases that we have here. And has changed a bit since the last time you saw Lewis. So when we get a ticket, it's an open state, it hasn't been assigned. We're gonna assign it to you and you will see a new state in there that I need to update this graph with that is assigned to you. Okay, and when you log into JIRA, there are ways to sort of see all the things that are assigned to you. There's lots of other stuff that you can see as well that's going on, but for you rather Mostly is what's assigned to me. When you actually start working on it, you will move it into in progress that gives us some indication that you've started on it. At a minimum, you've downloaded the paper that goes along with it, which is attached to the JIRA, etc. So that gives us an indication I've started on this done something typically didn't stay there very long because the very next step is to actually start doing the code download. But in progress means you're going to prepare the Bitbucket repository you're going to have a look at the paper you're going to check to have everything to start to actually have access to the code. Occasionally we forget to give you access to the pre publication ICPSR repository to have all those things etc. That's in progress. Okay. The JIRA ticket will have the link to the open ICPSR repository if it's an original one, if it is a revision, and typically we will try to get revision back to the era who actually ran the first one on him to serve give you that feedback and you're the best person set up to do that. It's your job to fill in the repository etc, we will have linked to previous tickets. So ticket for 15 might be a follow up to ticket free at seven. There'll be a link in JIRA that links the two and all this other information about what is the repository etc. Those are all going to be the old tickets, it's your job to fill in the new one. But you will have the ability to download pre publication materials for open recipes are good exercise just now we downloaded published one, you will see a slightly different interface for pre publication ones because the authors have not yet hit Publish. Okay. Okay, so you have verified that you can access that. Now you get to download that package, you're going to move this stuff to code. One thing we know is that the open ICPSR should always have code. So we're encoding Okay, you're gonna have a quick look at the code Okay, this is state of code, etc. All these kinds of things. What can I learn from the readme and the code potentially end the article about where the data is, by definition, it should, in an ideal scenario, that same package you downloaded has all the data, you've looked at all these different sources of information, and there is not a single source of information for this. So sometimes, you're going to have to look more closely. So you're not going to download all the data that's necessary. It was all in that open ICPSR package. We're done. It's already there. You get to describe a bit about the data. There are a few things there's a data citation report we have you fill out that sort of walks you through are the data cited, etc. And do we have all the data, okay, so, if we don't have all the data, then we may not be able to replicate it. And so there's various things that we need to look for. You're going to fill all that out in the preliminary reports. You're going to pull all that information together. Once you start on that. Do that as soon as possible. It's fresh in your mind. You've gone through the article. The article has 15 names of data sets, to which are cited 10 of which are in the package. So we're missing a few data citations, etc, we're all going to fill out a preliminary report, we have a look at the programs, it kind of looks complete. Not sure we're table five is etc. but it probably is. Okay, let's see if we can run this or we've got all that is just one data set Central, and we're just gonna run through it. So you're gonna write that preliminary report. Once you're done with that, there are two options. And they're driven in part by what you checked in the data. That's the current state. But I might actually want to change some of that right now, if we don't have all the data, we're going to default to just doing a code review. And there's a checkbox Do I have all the data? In practice, we've tried actually, if we have some data to run some of the code and figure out which part of the code that is,
+
+requires a bit more time so we may not always do that. So we'll see. We don't have, if we have none of the data, then we go straight to code review. That's the only thing we can do, we're not going to be able to do any data analysis, etc. So there isn't a long winding process, we're just going to go through the code, we're going to now confirm table five, I truly can't find it. There's no indication in there. But otherwise code is clean. Doesn't say what the data packages need to be involved. I found this call to something that I know is a state of package. So I'm going to list it as maybe you should have this out there. There's a limited number of things we can do there. It helps have a bit of experience, you'll get better at it. But this is not critical to list every possible failure because it's unlikely that most people will run. And so we're doing due diligence here, and we're trying to make it as quickly as possible. So to move from the preliminary report, in the absence of any data code review, writing the report, we should be done pretty quickly. So suppose you have one confidential data set 10 programs. That data said cited. You're done. You're through this in other An hour. Okay. Going to be rare, we have a few of those cases occasionally as well. So if you can go through very quickly, please do, right. So you've got all that stuff, you're going to write up the report. And when you're done with the report, submit the report. So that's under review. And from that point on, unless I have questions back to you, you're done. Occasionally, I need more information in the report, I'll reject the report, make it clear in the message on why I'm rejecting and what I eat. And I'll pop it back into the relevant state of where you are and assign it back to you. So again, check what is assigned to me about these kinds of things. And then we'll we'll figure this out. Okay. You're not normally going to find the ultimate workflow. But if you have data to run, then you're going to start the actual code verification. And this is a sort of clean slate implementation of this. So sometimes you might run the code and re update the report. That's fine. We want to add their preliminary report. as complete as possible, so that there's something meaningful already committed that we can discuss in our weekly meeting, or in the Thursday call, you're going to kick off all the programs can let them run, they run for 30 minutes. Now you've got 10 tables to analyze, they run for three days. So for those three days, you're not going to have much to do you're going to flip to something else. And when all is there, write the report, submit the report, you're done. And that's the basic workflow. Okay, now, there's various things that need to be checked on the way there, right. So from in progress to downloading the code, in order to move that forward, you need to have filled in information on where the code is that should have been filled out automatically once we identified the ICPSR repository. But sometimes it's not an ICPSR, sometimes somewhere else. So that may require a read of the journal to serve or the article or the readme to sort of say, Where is the actual code that I'm supposed to download because it might be on a different repository. And that's legit. But then we need to fill that in. And in principle, the gentleman gets autofill. At the time this gets submitted, but you can't move forward in case something got mangled, or etc, you're rarely going to find this. Okay? So now that you have downloaded the code, it also means you've initiated get repository. So before you can actually move forward to download the data, you need to get working location filled out. And because you're going to download the data, or you've already identified that you have download, because you pulled it out from it, this is our data provenance needs to have some information in there as well. Okay, so once those are filled out, the access, the data part is going to pop up, and you're going to be able to move it into that particular state. So these things are conditions to fill that out. Those are fields in the forum that are obvious, sometimes not but they'll become obvious over time, that need to be filled out in order to move these things forward. And we've automated as much of this as we can. So for instance, once you filled out the working location, You get to having downloaded the data. The location of the report that shows up here will actually be pre populated by JIRA. Having an automated location of data is where you downloaded the data, which may be your laptop, which may be cyber, which may be both reason for not accessibility, we're asking you to sort of give some indication of why you couldn't get the data unknown requires registration, those kinds of things. And then you can move through these various stages lose
+
+Unknown Speaker  1:55:36  
+weight. So how many of this sir, like the Google surveys, are there still? No.
+
+Lars Vilhuber  1:55:42  
+Okay. Oh, sorry. The data Citation Report is still on Google. Okay.
+
+Unknown Speaker  1:55:46  
+And that's only one. Yeah.
+
+Lars Vilhuber  1:55:48  
+So even incorporate a lot of the stuff that you saw us or the separate Google survey into the forums in JIRA, and we have a way of extracting and as well, then citational port is hard to do in JIRA. So we've kept that separate But that's still up there. We'll walk you guys through never seen it institutional important next week. Not going to do that today. Okay, so that's the generic workflow, you can always pull up this are the most current version of this workflow from within JIRA, there's always an option that I can't figure out why I can't move forward to the stage, show me the workflow, the workflow, and I've never found how to do this. And JIRA doesn't show what the conditions to having that option show up. So you're gonna have to refer to this table to do so which is why you're going to come back here occasionally.
+
+Unknown Speaker  1:56:35  
+But that's what it is.
+
+Lars Vilhuber  1:56:40  
+So there's a bit more detail down here about these various things. I'm not going to go each one because it really starts to make sense when you actually working through it. There's references here, for instance, to the code check spreadsheet, which is sort of guidance on how to do these, how to find all the tables and things like that. So various things are there. So let's have a quick look at the stuff that we didn't do earlier today have an actual report as it gets generated through this process.
+
+So, I've RP skated a bit what this article actually is, once you actually have access to JIRA, this is the actual number that the issue was. So this is the actual report as it came to us. And so, this is what it looks like. So let me first summarize something that I generate, this is what the RA would have generated. Okay. So data description, this paper used a bunch of surveys from the World Bank, right. The World Bank collected some of this stuff, the author, click somebody other stuff, it's not entirely clear where these things are. There's a bit of description about these. There's some description that the data have had their PII removed.
+
+Unknown Speaker  1:58:12  
+And what that is.
+
+Lars Vilhuber  1:58:17  
+There's some access information read me. And then as it turns out, since I know something about where this data is, there's this World Bank micro data catalog, I suggest to the authors, why don't you actually record it in there? You've had the world 10 conductors, the World Bank has a catalog. Why don't you put that out there and that gives you this stable your eye. But we could actually put in there right now it isn't because it's stuck somewhere else, etc. Those are things that the IRA won't necessarily know. But that's where we come in and serve as a second filter was applying some of the overall experiences we've accumulated over time. The ICPSR data deposit was deemed sufficient sufficient means that all the required elements are there. Some of the suggest admitted that elements were not there. Because this was about a country, that specific country, it actually makes sense to think about when the data were collected, what the geographic coverage is what time period coverages because all this was actually obvious from the article, so not really that hard to do. This could have come from the era because you had noticed that or identified it, this could have come from us as we edited the report. This is clearly something that I wrote because it's a motivation as to why the author should think about this because the idea is if you're looking for data on country x, you might actually stumble through this because you can search for data contracts. And that's one one enticement but it's, we'll see how much that takes. And we actually linked to the deposit guidance to help people fill these things out. And what they actually my
+
+Unknown Speaker  2:00:02  
+code description.
+
+Lars Vilhuber  2:00:09  
+So this is an example where a specific lines are in a single monolithic program correspond to it. They already found where each of these figures are being generated, there's actually additional information from the code check. Okay, the authors don't see the culture. So the code check is really, mostly for us. And what we do is we actually paste it in some cases to the end of this using functionality and visual code that allows us to copy from an Excel spreadsheet and paste a nice markdown table. And so the array could have done this. It's not part of our standard procedure. Meredith and I would be doing some of that team leaders might be doing some of that as well. Okay. Some information for me that these are written statements. There's a single master do program. Some of this information will also show up in the JIRA ticket because there's an option what software was present in this archive, and we should have sex data. Okay? They already noted that there's something that didn't work properly. Actually, this probably would have gone into the findings, not necessarily code description, bit of ambiguity between these two, but it's fine. We've left it in here, etc. There's some mention here that this could take a long time. So that's part of the code description. And these could take more a day or more that's very useful information in this case he offers provided that to us. And there are two fingers, but they're not actually empirical. They're probably maps for something like that. And so there's no code for those. Thank you for specifying that. It helps us This is what we need to do. So one of the suggestions might in the future become a requirement because we've identified that this is actually long, we actually want to think it might be useful to know it's long on what it's long on a big computer on a laptop on something that was created five years ago or something current and such, it's still allowed to benchmark them right? Something that for five years ago, rent for a long time today, my friend an hour and we're done. So those, she's thinking forward, this article is going to be sitting out there for the next seven years, that might be relevant. Couple of data checks. Ideally, there's some assessment on whether or not the PII results are actually false positives or not, because again, we're not actually sending this forward. Sometimes I make that assessment. It's part of the repository. So the RA will have committed this output to the repository. Ideally, we have some assessment it all looks like they're false positives, but absolutely sufficient about these three variables could you have a look at that would be in the report. But this is how it went down. So we put in there a bit about what the computing environment is that we ran it on. So like I said, it's a relatively novel step that will also record how long it took us to run this. So that would probably end up being took a day to run. And then here's what they are actually did download it, they didn't code fix those directory errors we had out there and changed a typo in the master do which kind of suggests that this was an exposed adjustment to the new file, it wasn't actually run because it failed for us because of entitled probably feel for them because of a type of ran the file, replicated all tables and figures. We know that our standard language about adding a set of programs serve install that table and to debug it but in this case, it really that's about all there is to do there's a typo in the packages that are out there. So this is a very clean stuff, but it has some minor issues. And so these minor directory issues, that's kind of a thing that we are not certain is that operating error or not, but we had a quick fix, we have manual changes for it. I had a quick look at it, and it turned out to not be very robust. That's one way of doing it. We did find a few really minor things in the tables. The statistics were slightly off. This is not going to change any conclusions in the paper. But it doesn't say so here. We just note, here's the differences that we have
+
+Unknown Speaker  2:04:43  
+in the paper. Okay.
+
+Lars Vilhuber  2:04:48  
+So our standard text here, again, you might take that from our standard language or we when we realize importable add that in there is that there's two options here. Either we're doing something Wrong, or they transcribed something wrong, or there's a third explanation that is there's just some variability that we can't control. So some explanation needs to be done. Here, the two most obvious fixes, fix the tables or fix three. And then a note about the fingers. They're all replicated. There are no index numbers. So this is a full replication with minor issues. And here's the sort of generic result table one had this and then the rest. These one aren't replicated because they're not empirical and the rest has a yes to them. Right. So this came straight out of the out of the Excel file. we copied it in here, but it's nice way to sort of keep track of what you're doing as you walk through the track. Okay, so this is the version as it went back to the authors
+
+Unknown Speaker  2:05:55  
+using this one
+
+Lars Vilhuber  2:06:00  
+Okay, this is a different one. I didn't show you the revision of that. They solved all those things. And then we've passed on. And so this is another one that has a few different things going on. So we may actually be using this one to replicate. It's actually a simulation, but it pulls in data from a different article. And we are sort of pointing to our sample references for the fact that yes, it's great that you're citing article, we also want you to cite supplemental data to the earth because you're using it. And it's one thing to say authors find such and such and a different things saying I'm using the data from authors. Okay. Well, as we'll find there's incomplete code, and there's some discrepancies in the data. This is a nice example that will work. Okay. So the article is cited but the supplementary data There's not decided. And there's modified data. Now this in this particular case, the era didn't identify this modified data I did. Because I actually went back and downloaded the original data, which turns out to be 20 lines of data. It's a very sparse data set. And it's all about standard errors and uncertainty and stuff like that. But the data is actually different. All I noted here is that the data files don't look to be the same. It's not clear that central data is in pure CSV. There's very sparse documentation on this. So this is clearly not ideal. But again, we're not going to go overboard. This is 15 lines of data. And the readme provides some information. The code provides enough other information to know that from the article, we know what z and is, these are the Z scores from research and these are the sample sizes within those different papers. So we kind of kimbap it in there. We kind of a Understand the data that is the basic idea of data documentation, we have enough to understand what the data is supposed to mean. It's not ideal, but it's okay. Like a passing grade, but not an excellent.
+
+I know, here's some data differences in the code description, in part, because we don't have a code to identify why these data changes are happening. Right? And so comparing these things in a very heuristic way downloaded, etc. There are sort of discrepancies in there that we can fully explain. Okay, and so here's the notification of that. And so one requirement here was, look, your data are different than the ones that you actually cite, you've done some sort of transformation or subsetting, or its interest, some explanation is needed. And so we'd like to know that Okay, this isn't a sort of ideal case normally isn't that easy to do? It really was easy to identify it here because we only had these 15 observations, but was obvious is that we didn't have a transformation program. I probably would not have bothered for 15 minutes a day or to look at a transformation program with the data had been the same because they weren't. We asked for it. Okay, we've got two MATLAB programs, some auxiliary thing that does a few markers and the main program that generates for your for, but as it turns out, there are more figures in the year and their appendix figures. No program 20 of those their simulations so they're not core to the final empirical exercise that is figure four and some of the pending stuff. But they are coming from simulations and as per guidance, sure, doing numbers and putting them on on a figure you need the programs to do so. Okay, and there's a few numbers in there, etc, that are not explained. Okay, this was a MATLAB thing. And so this is replicated here qualifies as a partial application because running the program that we did have degenerate the finger and was the key thing. simulations are sort of a minor thing. So doesn't exactly satisfy that 25% rule. But in this case, weighted by importance, this is sort of the decision that Okay, so as you can see, it's very sparse. These are literally the only two MATLAB programs in there. It's very concise there of four figures in the two appendix fingers. It's not very complicated, and very obviously, is a very quickly written paper as well, because it actually responded to paper that was published in the same year. Right. So short paper, short data, but not ideal. And that's what we said. And that's what the author responded to said. Thank you.
+
+Unknown Speaker  2:11:06  
+And
+
+Lars Vilhuber  2:11:09  
+this is what the modified report says serve is a combination of describing what does revision look like and what are the changes that the author implement to get there. The key summary here is that all figures are now replicated. All numbers are now. So we solve a problem. Okay. The authors now provide code to go from the original files to the current one, it was actually an explanation in the letter back saying that the original authors actually, according to this author, didn't completely compute disease statistics correctly. So the code correct for that and uses the correct the statistics and then does its own simulation and stuff like that. We now have some auxiliary data. As it turns out, this is actually an errand report that should have been removed. We now have one program for each finger, including the appendix fingers. There's an explanation that the numbers for some of these figures come from one of the programs, and they're now well identified. And so everything just runs smoothly and swimmingly, and we're done. Okay, this is the ideal scenario, right? So we had a few well defined shortcomings, they're really minor. But let's we're dotting the i's and crossing the T's. And please, let's have that thought and the have that cross. And the author responded and we were done with it was a process. This is a very short one. As we'll work through it, you'll see it really isn't very complicated. some subtleties, not every one of them is as concise and so we have others that have far more data sets. are more programs sometimes far more problems in percentage terms? Others okay.
+
+Unknown Speaker  2:13:13  
+So let me stop there
+
+Lars Vilhuber  2:13:16  
+half past three
+
+Unknown Speaker  2:13:19  
+starting to lose my voice
+
+Lars Vilhuber  2:13:23  
+we have a follow up to do to get you guys on to all the systems will send you examples so the next couple of steps are to walk you through this repeatedly through well defined examples will get you all working on an existing same example everybody does the same and then we might give you a few different ones and then we'll ease you into actually doing some actual replications The sooner the better but it really is a matter of having you be comfortable with this entire process what is needed to work through. You've gotten the most difficult part getting your head around, get in what to do locally. And these kinds of things. So we'll do some of the simple things will have you work on sizer get you comfortable with what that means is you don't all have experience with that. And then we'll work it through. We're going to pick an example given that most of you have some nightclub, our experience that is actually Matlab is this last example, we'll have a few data ones to get to us to that as well since that is going to be the majority of ones that we have. So walk you through that. My guess is that you should all be comfortable writing state of code to that you have experienced running other software programs that are similar. Fundamentally, it's always the same thing you started programming, floats, data, stuff, spits out stuff, it's debugging it that will be more of a chore when you don't necessarily know what the what the basics is. So I do encourage you, this whole both be of use to you and be useful here for the class to actually Take one of the sizer classes actually see
+
+Unknown Speaker  2:15:05  
+when they have their workshops,
+
+Unknown Speaker  2:15:09  
+training
+
+Unknown Speaker  2:15:17  
+Yeah, right.
+
+Unknown Speaker  2:15:20  
+When will they finally update their website?
+
+Lars Vilhuber  2:15:24  
+Really? Okay, I'll let you guys know I have a straight line to build a plane about this not being up to the
+
+page might be completely out of date because they actually run this on a different system now.
+
+Unknown Speaker  2:15:56  
+Okay, I'll let you guys know
+
+Lars Vilhuber  2:16:00  
+It might be enough to just download the materials for one of those are intro to status to serve See, in particular, the one thing that you will encounter quite frequently is it will complain about a command not being there, you will the command it belongs to this particular package, you install the package you move on. And you document that was part of the problem. That is the most frequent one. The key hook there is to identify program command that is being called doesn't correspond necessarily to the name of a student package that you need to install, but both internal state of health you can search for that. And googling some of that will almost always yield the right result. If not, there's our mailing list to figure that one out if it's a particular strange command or things like that. And then it's a matter of just keeping up with that will walk you through our preferred configuration for state Oh, it's not gonna be relevant for the MATLAB part of having a config file and potentially Using actually our suggested setup program to install all these things as part of the sequence, those are insert a line here, insert a line here and fill out these blanks. So again, you will learn how to do that. But you don't, you should be able to pick that up very quickly and in terms of doing them. And that's, I think all I have to say, right now. I think you're sitting on on the path here. You're probably now drowning with all the information that's been dumped on you today. So digest that. If you have questions, pop them our way in which any time, you'll see the welcome message to the mailing list soon. But feel free to send both Meredith and myself questions privately as well. If these are questions that are of general purpose, and initially if you're confused, you're probably not alone. So to post it to the mailing list, because the answer might be useful for everybody. But
+
+Unknown Speaker  2:18:02  
+That's that's the first steps. Okay.
+
+Lars Vilhuber  2:18:09  
+And then very practically, somebody still wants to take us out which home for dinner,
+
+Unknown Speaker  2:18:13  
+you still have lots left.
+
+Unknown Speaker  2:18:16  
+Wait, so we're working on one example the speed.
+
+Lars Vilhuber  2:18:20  
+Yeah, I'll send that over the weekend, or on Monday, Monday, we're closed. We're not actually having the Monday meeting and they'll send you that example to work through. You will be assigned the example on JIRA. So you get to experiment both with what it means to run that Philip report and to navigate through the direct system, which should be relatively straightforward. So, you will see both the invitation to JIRA and then you should check in when I let you know for the first time in the last time that you've got something assigned on how to do that,
+
+Unknown Speaker  2:18:52  
+and I'm assuming we're skipping the second he
+
+Lars Vilhuber  2:18:56  
+will do that as a second step after you've gone through the first exam.
+
+Unknown Speaker  2:19:02  
+Okay, so So in the first examples like workflow, like, because I sort of remember there was like a part where you had to, like fill out the URL of Lincoln survey or
+
+Lars Vilhuber  2:19:10  
+something, right? Yeah. So I skipped most about it. The data centers report, we focused on what data look like this petitions look like. There is a report, it's linked in the JIRA to where you should fill it out. You should be doing that and using that to do that. But I want to get you comfortable first with the actual workflow into your own will attach that additional element in when it gets there. So we're starting with examples where these are trivial. It will get much more complicated. So to your question, there is a field to fill in when it was filled out. And we will initially for the city's first example not ignore that
+
+Unknown Speaker  2:19:59  
+okay. Questions
+
+Transcribed by https://otter.ai
