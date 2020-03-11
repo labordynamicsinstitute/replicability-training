@@ -1,23 +1,27 @@
 # LDI Replication Lab Teams
 
-## Current Teams (2020-01)
+## Current Teams (2020-03)
 
  As of 2020-01 
 
 | Team          | Name                    |           |
-|---------------|-------------------------|-----------|
-| *Green Lead*         | *Steve Yeh*     |
-| Green Special        | Naomi Li      |
-| Green                | Jiayin Song   |
-|                      | Kirubeal T\. Wondimu |
-|                      | Luis Lopez Cabrera   |
-|                      | Louis Liu            |
-|                      | Weilun Shi           |
-| *Blue Lead*          | *Ryan Ali*      |
-| Blue                 | Joshua Passel |
-|                      | Jeong Hyun Lee       |
-|                      | Mary\-Jo Ajiduah     |
-|                      | Siyang \(Elaine\) Yu |
+|----------------|--------|----------------------------|
+| **Green Lead**     | sy458  | **Steve Yeh**                  | 
+| Green          | nwl27  | *Naomi Li*                   | 
+|                | js2664 | Jiayin Song                | 
+|                | ek489  | Ejin Leah Kim              | 
+|                | lgl44  | Luis Lopez Cabrera         | 
+|                | ll677  | Louis Liu                  | 
+|                | ws395  | Weilun Shi                 | 
+|                | zik4   | Zechariah Immanuel Karsana | 
+| **Blue  Lead**     | ra536  | **Ryan Ali**                  | 
+| Blue           | jgp87  | Joshua Passel              | 
+|                | jl2374 | Jeong Hyun Lee             | 
+|                | mea224 | Mary\-Jo Ajiduah           | 
+|                | sv289  | Syon Verma                 | 
+|                | yc2295 | Yanyun \(Iris\) Chen       | 
+|                | zx88   | Zebang Xu                  | 
+
 
 
 ## Structure
