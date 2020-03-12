@@ -3,7 +3,7 @@
 ### Before entering the meeting
 
 -   Ensure your technology works correctly BEFORE the meeting.
-    - If you've switched devices, find out if they are working
+    - If you've switched devices, find out if they are working. There is a feature in Zoom to test your microphone and speakers. 
     - If you know your internet is slow, use phone dial-in for voice (and understand how that works)
 -   Be on time (not really a videoconferencing rule - it's always a rule!).
     - Being late on a videoconferencing meeting may be as disruptive as walking past the presenter in a in-person meeting!
@@ -34,6 +34,7 @@
     - if in a big room, introduce yourself when speaking (the far end may not always be able to clearly see your face). This is not necessary when in a single-person location.
 - Don't carry on side conversations. 
     - Especially not with the microphone on!
+- We may ask you to share your screen to help troubleshoot issues. Please familiarize yourself with this feature. 
 
 
 ### Sources
