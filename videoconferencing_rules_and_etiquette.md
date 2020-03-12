@@ -1,5 +1,11 @@
 ## Videoconferencing Rules and Etiquette
 
+### What you will need
+- Your laptop 
+- A web camera (if not already on your laptop) 
+- Headphones with a microphone 
+- A quiet place
+
 ### Before entering the meeting
 
 -   Ensure your technology works correctly BEFORE the meeting.
