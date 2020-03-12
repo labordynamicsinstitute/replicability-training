@@ -11,6 +11,7 @@
 -   Ensure your technology works correctly **BEFORE** the meeting.
     - If you've switched devices, find out if they are working. There is a feature in Zoom to test your microphone and speakers. 
     - If you know your internet is slow, use phone dial-in for voice (and understand how that works)
+    - Understand how the transmission speed works in your location - just because you can see others does not mean they can see you. Choose a location with stable Wifi, plugin an ethernet cable (if possible), use the phone dial-in so your voice is guaranteed to be heard.
 -   Be **on time** (not really a videoconferencing rule - it's always a rule!).
     - Being late on a videoconferencing meeting may be as disruptive as walking past the presenter in a in-person meeting!
 -   Be in a place where **you are not disturbed**
@@ -31,7 +32,9 @@
 - Speak clearly. Don't shout.
 - **Mute your microphone if not speaking**. 
    - But also know when to unmute your microphone!
+   - Be mindful of your own desk noise in proximity to the microphone (keyboard, paper shuffling)
 -   Look into the camera. Keep the camera on!
+   - Leave the "self view" on to remind what you look like to others (no making faces)
 -   Pay attention. (That's why you keep the camera on!)
 -   When hiccups occur, handle them silently.
     - if your call drops, dial-in again - and when you are back, don't shout "I'm back".
