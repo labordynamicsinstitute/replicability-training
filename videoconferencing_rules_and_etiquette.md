@@ -2,6 +2,7 @@
 
 ### What you will need
 - Your laptop 
+  - While a cell phone can work in a pinch, it is not ideal on a number of dimensions
 - A web camera (if not already on your laptop) 
 - Headphones with a microphone 
 - A quiet place
