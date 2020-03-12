@@ -47,5 +47,6 @@
 
 ### Sources
 
+- My own 20 years of doing this
 - [OWLLabs](https://www.owllabs.com/blog/video-conferencing-etiquette)
 - [Inc.](https://www.inc.com/ss/video-conferencing-best-practices)
