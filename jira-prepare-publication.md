@@ -37,7 +37,7 @@ For "Accept" or "Accept with changes", we move the issue to "Prepare for publica
 
 1. Open the issue on Jira
 2. Click on the "Prepare for publication" transition
-   - FOR ACCEPT WITH CHANGES: If there is special information to be added to the openICPSR repository, click on the "Pending openICPSR changes" transition
+   - FOR ACCEPT WITH CHANGES: If there is special information to be added to the openICPSR repository, click on the "Wait for response on ICPSR" transition to "Pending openICPSR changes"
 3. In the pop-up, you should have all the necessary information.
    - Note: links in the pop-up window are not clickable: double-click, then use right-click to "Open in New Tab"
    - `Code provenance` should point to openICPSR. If not, go to the final step.
