@@ -147,13 +147,16 @@ Now you will establish a **list of Datasets used** and fill out the **Data Citat
 
 Do a first pass through the code files provided:
 
+> Do NOT run any code!
+
 - [ ] review the code in detail. 
-- [ ] In the template, you will find `[code-check.xlsx](https://github.com/AEADataEditor/replication-template/blob/master/code-check.xlsx)`. Use this to create a list of all Tables and Figures in the paper, and use this to guide you in [REPLICATION.md](https://github.com/AEADataEditor/replication-template/blob/master/REPLICATION.md).
+- [ ] In the template, you will find *[code-check.xlsx](https://github.com/AEADataEditor/replication-template/blob/master/code-check.xlsx)*. Use this to create a list of all Tables and Figures in the paper, and use this to guide you in [REPLICATION.md](https://github.com/AEADataEditor/replication-template/blob/master/REPLICATION.md).
 - [ ] Fill out the "Code Description" section of the REPLICATION.md
   - Provide some information about the program files (are there 3 Stata files? Are there 5 Matlab programs?). You will use this information to fill out the `Software Used` later as well, but provide details here.
   - Did you have difficulty aligning the README with the files? Does the sequence suggested by the programs differ from what's written in the README? 
+  - Are all the REQUIREMENTS listed? How long does the author say the code will run?
   - Are there files in the archive not explained in the README?
-  - **[EXPERT TIP]** You do **not** need to run the code at this time, only read the program code! (You can do this on your laptop)
+  - **[EXPERT TIP]** You should **not**   run the code at this time, only read the program code! (You can do this on your laptop)
 
 Next fill out the following fields in the Jira ticket:
 options (e.g. start typing "Stata" and you will see it pop up).
@@ -170,16 +173,20 @@ You can now proceed to change the status to `Data`. As you select that transitio
 
 ### Data
 
-- [ ] Download the data (if not already done in the previous step).
+- [ ] Download the data (if not already done in the previous step, and if available).
   - Data should be stored locally (currently) / in [Git LFS](https://confluence.atlassian.com/bitbucket/git-large-file-storage-in-bitbucket-829078514.html) (soon)
-- [ ] Run the PII-checking code, review the output, and record the result in the REPLICATION.md
+- [ ] If there is data: Run the PII-checking code, review the output, and record the result in the REPLICATION.md
+  - You should check the output - it is not automatic.
+  - You should use words, and examples, from the output if it looks like there is Personally Identifying Information (PII) like names, addresses, etc. in the output.
+  - The author will NOT see the output from the program unless you copy **relevant** parts of it into the report.
 - [ ] Describe the data 
   - [ ] do relevant variables have labels? 
   - [ ] Is the data readable?
   - [ ] Is the data in archive-ready formats (`csv` or `txt` are the preferred formats by librarians, but `dta` or `spss` are also OK; `mat` files are discouraged)
 
 Fill out the following Jira fields:
-  - [ ] `DATA PROVENANCE` Where, specifically, are you accessing the data? Typically this is the openICPSR repo URL (same as `CODE PROVENANCE`), but may be a user-provided URL or DOI.
+  - [ ] `DATA PROVENANCE` Where, specifically, are you accessing the data? Typically this is the openICPSR repo URL (same as `CODE PROVENANCE`), but may be a user-provided URL or DOI. 
+    - if the data is in multiple places, enter "Multiple" here, and record the details in the REPLICATION.md
   - [ ] `WORKING LOCATION OF THE DATA` Where did you put the data? Examples: CISER, laptop, or Git LFS, or somewhere else
 
 You can now proceed to change the status to `Write Preliminary Report`. You will be asked to provide additional information:
@@ -199,11 +206,16 @@ At this stage, you need to fill out the REPLICATION.md up to the "Replication st
 
 
 This stage allows for earlier identification of  issues that might warrant changes to the procedure. 
-  - In particular, this is the stage where you might have identified that some, but not all data are not provided, and we can undertake steps there.
+  - This is the stage where you might have identified that some, but not all data are not provided, and we can undertake steps there.
+  - You might also have concerns about the REQUIREMENTS - the code might require software that you do not know how to use, or that is not available.
+  - The authors might have identified computational requirements that you do not have access to, or do not have the time to run ("compute cluster with 100 nodes", "Fortran compiler").
+
 
 > Commit! 
 
-- Advance the ticket to one of three options: `Verification`, `Code Review`, or `Incomplete`
+> !! If you identify any of the elements above that prevent you from completing the issue on time, you should notify your supervisor. DO NOT ADVANCE THE TICKET!!
+
+- Otherwise, advance the ticket to one of three options: `Verification`, `Code Review`, or `Incomplete`
   - `Verification`: at least some of the data is accessible. In order to progress to this state,
     - [ ] `Working location of data`has to be filled out
     - [ ] `Computing environment` has to be selected.
