@@ -23,7 +23,7 @@ until a resolution can be found.
 | From         | Transition           | → To           | Condition |
 |:-------------|:---------------------|:---------------|:----------|
 | Assigned     | Start task           | → In Progress  |           |
-| In Progress  | Download code        | → Code         | `Code provenance` have been filled out, `Journal` has been identified. |
+| In Progress  | Download code        | → Code         | `Code provenance` have been filled out, `Journal` has been identified, `Empirical Article`=`Yes` |
 | Code         | Access data          | →	Data          | `Git working location`, `Data provenance` has been filled out. |
 | Data         | Prepare preliminary report | → Write Preliminary Report | |
 | Write Preliminary Report | Data is accessible   | →	Verification  | `Location of data` has been filled out.|
