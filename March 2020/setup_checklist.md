@@ -2,7 +2,7 @@
 
 ## Accounts you will need to sign up for (action required)
 
-- [ ] CISER account (for computing access) - [Request a **research account** with Lars as a sponsor](https://ciser.cornell.edu/computing/request-an-account/)
+- [ ] CISER account (for computing access) - [Select "Apply for Research account" and list Lars as a sponsor.](https://ciser.cornell.edu/computing/request-an-account/) Do not select "Reqeust Secure Data Services account". 
    - If not already installed on Mac, install [Remote Desktop Software](https://itunes.apple.com/us/app/microsoft-remote-desktop-10/id1295203466) (pre-installed on Windows)
    - [How to log on to CISER](https://ciser.cornell.edu/computing/computing-help/how-to-login/) (also includes download links)
 
