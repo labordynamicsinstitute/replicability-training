@@ -6,21 +6,22 @@
 
 | Team          | Name                    |           |
 |----------------|--------|----------------------------|
-| **Green Lead**     | sy458  | **Steve Yeh**                  | 
-| Green          | nwl27  | *Naomi Li*                   | 
-|                | js2664 | Jiayin Song                | 
-|                | ek489  | Ejin Leah Kim              | 
-|                | lgl44  | Luis Lopez Cabrera         | 
-|                | ll677  | Louis Liu                  | 
+| **Green Lead** | sy458  | Steve Yeh                  | 
+|*Green  Special*| nwl27  | Naomi Li                   | 
+| Green          | ll677  | Louis Liu                  | 
+|                | rm999  | Rubal Mistry               | 
 |                | ws395  | Weilun Shi                 | 
-|                | zik4   | Zechariah Immanuel Karsana | 
-| **Blue  Lead**     | ra536  | **Ryan Ali**                  | 
+|                | yc2295 | Yanyun \(Iris\) Chen       | 
+| **Blue  Lead** | ra536  | Ryan Ali                   |
 | Blue           | jgp87  | Joshua Passel              | 
 |                | jl2374 | Jeong Hyun Lee             | 
+|                | lgl44  | Luis Lopez Cabrera         | 
 |                | mea224 | Mary\-Jo Ajiduah           | 
+|                | nnj6   | Nehedin Juarez             | 
 |                | sv289  | Syon Verma                 | 
-|                | yc2295 | Yanyun \(Iris\) Chen       | 
+|                | zik4   | Zechariah Immanuel Karsana | 
 |                | zx88   | Zebang Xu                  | 
+
 
 
 
