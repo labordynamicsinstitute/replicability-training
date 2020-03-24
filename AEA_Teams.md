@@ -2,9 +2,9 @@
 
 ## Current Teams (2020-03)
 
- As of 2020-01 
+ As of 2020-03-23
 
-| Team          | Name                    |           |
+| Team          | ID |Name                    |
 |----------------|--------|----------------------------|
 | **Green Lead** | sy458  | Steve Yeh                  | 
 |*Green  Special*| nwl27  | Naomi Li                   | 
@@ -12,6 +12,7 @@
 |                | rm999  | Rubal Mistry               | 
 |                | ws395  | Weilun Shi                 | 
 |                | yc2295 | Yanyun \(Iris\) Chen       | 
+|                | ek489	 | Ejin Leah Kim |
 | **Blue  Lead** | ra536  | Ryan Ali                   |
 | Blue           | jgp87  | Joshua Passel              | 
 |                | jl2374 | Jeong Hyun Lee             | 
