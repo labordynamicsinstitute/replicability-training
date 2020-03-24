@@ -1,6 +1,6 @@
 # Training and Guidance for assessing replicability
 
-- [March 2020](March%202020/Training_Agenda.md)
+- [March 2020](March%202020/0_Agenda.md)
 
 Please see the [wiki](https://github.com/labordynamicsinstitute/replicability-training/wiki) for additional content and tips. 
 
