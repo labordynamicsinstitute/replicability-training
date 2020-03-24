@@ -1,5 +1,7 @@
 # Training and Guidance for assessing replicability
 
-Please see the [wiki](https://github.com/labordynamicsinstitute/replicability-training/wiki) for most content right now. The rest of the materials are a bit of dumping ground.
+- [March 2020](March%202020/Training_Agenda.md)
 
-- [Fall 2019](Fall2019/Training_Agenda.md)
+Please see the [wiki](https://github.com/labordynamicsinstitute/replicability-training/wiki) for additional content and tips. 
+
+> Content is [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/).
