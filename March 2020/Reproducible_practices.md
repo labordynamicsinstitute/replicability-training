@@ -4,7 +4,8 @@ The analysis in a scientific article should be reproducible by others.
 
 - [An introduction](https://labordynamicsinstitute.github.io/computing4economists/documents/basics_of_version_control.pdf)
 
-# The TIER protocol
+## The TIER protocol
+
 The TIER (Transparency in Economic Research) Protocol is one instantiation of good practices. Others have taught these same practices for years, without labeling or disseminating them. Thus you will find many examples of this, and many versions of this. But for illustration purposes, let's walk through the basic principles as explained by the TIER Protocol.
 
 ![TIER protocol](https://bucketeer-82911c16-8ccd-4854-b255-5b3ebba24d7c.s3.amazonaws.com/images/TIER-folder-illustration-v3.0.width-800.png)
@@ -14,13 +15,14 @@ There are a few key concepts. Good code and data management
 - separates _acquired data_ ("original data" in the TIER terminology) from _created data_ ("Analysis data")
 - document _provenance_ - where does the acquired data come from, and possibly, where does the code come from
 
-## A few subtleties
+### A few subtleties
+
 - Notice that this doesn't work with Excel - which does not have a separation between data and code
 - Excel is not alone, a few other software packages (which you may encounter) are mostly or purely "point-and-click"
 
 ![stay away](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Creative-Tail-biohazard.svg/128px-Creative-Tail-biohazard.svg.png)
 
-# A generic workflow
+## A generic workflow
 
 - [An example](https://github.com/ncrncornell/workflow-text/blob/master/text/ced2ar-workflow.pdf)
 - [Data flow concept](https://github.com/labordynamicsinstitute/replicability-training/wiki/Data-flow)
@@ -33,6 +35,7 @@ There are a few key concepts. Good code and data management
 
 
 ## Making it reproducible
+
 - the data and its source  should clearly identified
   - URL or DOI
   - Citation

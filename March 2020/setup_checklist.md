@@ -17,9 +17,11 @@
 
 - [x] Command line (PowerShell, or Terminal, your choice) - pre-installed
 - [ ] Windows Remote Desktop (see above)
-- [ ] Git command line tool ([download location](https://git-scm.com/downloads))
+- [ ] Git command line tool ([download location](https://git-scm.com/downloads), [Installing Git on your computer](https://github.com/labordynamicsinstitute/ldi-lab-standards/wiki/Setting-up-Git)
 - [ ] Visual Studio Code ([download location](https://code.visualstudio.com/)), a powerful text editor
 - [ ] Sourcetree (Git graphical interface optimized for Bitbucket) [download location](https://www.sourcetreeapp.com/) (OPTIONAL)
+
+Other software is optional. You will use statistical software on other computers [that we will get you access to](Access_to_computers.md).
 
 ## Text editor vs. Word processor
 
