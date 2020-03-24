@@ -10,7 +10,7 @@ We use email (yes, we know 🙄) through a mailing list
 
 When you expect to be absent/ cannot handle a request in a timely fashion
 
-- email David and Lars
+- email Meredith and Lars
 
 ### Jira
 

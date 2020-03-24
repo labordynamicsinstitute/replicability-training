@@ -14,11 +14,9 @@ November 2019
 -   We will use a replication package that has already been published on
     openICPSR: \#110803
 
--   You will need to set up an account on openICPSR
-
 -   Do each step on your computer
 
--   Keep the Wiki open in another tab
+-   Keep the [Wiki](https://github.com/labordynamicsinstitute/replicability-training/wiki) and the [Jira workflow](https://github.com/labordynamicsinstitute/replicability-training/blob/master/jira-workflow-training.md) open in another tab
 
 
 ## Outline
@@ -38,7 +36,7 @@ November 2019
 -   The pdf of the manuscript will be attached to the JIRA issue
 
 -   The openICPSR project URL will already be in the Code Provenance field, click on it
-        - If not, request access from the JIRA administrator (Lars or David) via a note in the comments
+        - If not, request access from the JIRA administrator (Lars or Meredith) via a note in the comments
 -   Follow the [directions](https://github.com/labordynamicsinstitute/replicability-training/blob/master/openICPSR_training.md) on the wiki for downloading them.
 
 -   You should see a project named “Data and Code for Uncertainty and Business Cycles Replication File”
@@ -51,8 +49,7 @@ November 2019
     [https://bitbucket.org/aeaverification/](https://bitbucket.org/aeaverification/)
 
 -   Follow the instructions in the Wiki for [creating a new repo](https://github.com/labordynamicsinstitute/replicability-training/wiki/Setting-up-a-repository-on-Bitbucket)
-
--   **Today only**: Add your netid to the end of the repo name
+    - You will want to use the Import Repository function to populate your new repo with the replication template materials. 
 
 -   Repository name should be the same as the JIRA ticket number, e.g.
     `aearep-14` or `training-10`
@@ -61,10 +58,12 @@ November 2019
 
 ## Populate repo
 
--   Follow the instructions in the Wiki for [cloning a repo](https://github.com/labordynamicsinstitute/replicability-training/wiki/Populating_repository_for_replication)
+-   Follow the instructions in the Wiki for [populating a repo](https://github.com/labordynamicsinstitute/replicability-training/wiki/Populating_repository_for_replication)
 
 -   Delete unneccessary files from the template: for this example, you should only save: REPLICATION.md, .gitignore,
     and SRC
+
+- Download the manuscript from the Jira issue and save in your repo
 
 -   Save the downloaded materials from the openICPSR deposit in your repo (hint: they are probably in your downloads folder).
 
@@ -99,22 +98,26 @@ November 2019
 
 -   Log into CISER
 
--   Create a directory in Documents for this example called
-    “jira_example”
+-   Now is a good time to set up a space on CISER to store all your LDI Replication work. Create a directory in Documents called 
+    “aea_workspace” (or something else you prefer)
+
+- Open Powershell (this is like terminal on a Mac) and navigate to the aea_workspace directory 
 
 -   Use `git clone` to get your Bitbucket repo and its contents into this folder
 
+- You will need to re-download the data from the openICPSR repository since this does not get stored on the remote Bitbucket repository. Download the data again and move it into the local version of your repo. 
+
 -   Open `gen_figure1.m` in Matlab and run it
 
--   What do you find?
+-   What do you find? Compare this to Figure 1 in the manuscript. 
 
-Committing and pushing to repo
-------------------------------
 
 ## Committing and pushing to repo
 
--   After running the code, we will write our report and then `git commit` and `git push` again.
+-   After running the code, make sure to save any changes you made to the project code, the output you created, and your changes to the report. 
 
--   Always remember: commit frequently, push (at least) daily
+- Push everything to the remote Bitbucket repository using `git add`,  `git commit`, and `git push` again. 
+
+-   Always remember: commit frequently, push (at least) daily. 
 
 

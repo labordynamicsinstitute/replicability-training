@@ -5,6 +5,8 @@
 - [ ] CISER account (for computing access) - [Select "Apply for Research account" and list Lars as a sponsor.](https://ciser.cornell.edu/computing/request-an-account/) Do not select "Reqeust Secure Data Services account". 
    - If not already installed on Mac, install [Remote Desktop Software](https://itunes.apple.com/us/app/microsoft-remote-desktop-10/id1295203466) (pre-installed on Windows)
    - [How to log on to CISER](https://ciser.cornell.edu/computing/computing-help/how-to-login/) (also includes download links)
+- [ ] openICPSR account - for downloading [pre-publication materials](https://www.icpsr.umich.edu/cgi-bin/newacct) 
+   - Please be sure to use your Cornell e-mail
 
 ## Accounts you will be signed up for (no action required)
 
