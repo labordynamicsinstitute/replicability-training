@@ -2,7 +2,7 @@
 
 ## Accounts you will need to sign up for (action required)
 
-- [ ] CISER account (for computing access) - [Select "Apply for Research account" and list Lars as a sponsor.](https://ciser.cornell.edu/computing/request-an-account/) Do not select "Reqeust Secure Data Services account". 
+- [ ] CISER account (for computing access) - [Select "Apply for Research account" and list Lars as a sponsor.](https://ciser.cornell.edu/computing/request-an-account/) Do not select "Reqeust Secure Data Services account". If prompted about using sensitive or restricted data, please select No. Otherwise, this will take you to a window to sign up for a CRADC account instead, which is not necessary. If you encounter this issue, please email the [CISER help desk](https://ciser.cornell.edu/consulting/ciser-helpdesk/) asking them cancel the CRADC account request. 
    - If not already installed on Mac, install [Remote Desktop Software](https://itunes.apple.com/us/app/microsoft-remote-desktop-10/id1295203466) (pre-installed on Windows)
    - [How to log on to CISER](https://ciser.cornell.edu/computing/computing-help/how-to-login/) (also includes download links)
 - [ ] openICPSR account - for downloading [pre-publication materials](https://www.icpsr.umich.edu/cgi-bin/newacct) 
