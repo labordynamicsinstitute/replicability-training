@@ -81,11 +81,13 @@ The first thing you must do is advance the ticket from `Open` to `In Progress`.
 - This lets us know that you have started working on replication.
 
 At this stage, you are collecting information. 
-- [ ] start by [creating a repository](https://bitbucket.org/repo/create) (for detailed instructions, see the [Wiki page](https://github.com/labordynamicsinstitute/replicability-training/wiki/Setting-up-a-repository-on-Bitbucket))
+- [ ] start by [creating a repository](https://bitbucket.org/repo/import) (for detailed instructions, see the [Wiki page](https://github.com/labordynamicsinstitute/replicability-training/wiki/Setting-up-a-repository-on-Bitbucket))
   - the repository name should be the name of the JIRA issue (e.g., `aearep-123`)
   - Be sure that `aeaverification` is always the "owner" of the report on Bitbucket. 
 - [x] populate the repository with the latest version of the [template](https://github.com/AEADataEditor/replication-template) (*If you used the "Import Repository" technique outlined on the [wiki](https://github.com/labordynamicsinstitute/replicability-training/wiki/Setting-up-a-repository-on-Bitbucket), this is already done!*) 
-  - [ ] Delete (`git rm`) unused files from the template! Example: `git rm README.md template-config.R` if the replication archive does not contain any R files (you can do this at any time before writing the **Preliminary Report**)
+
+- [ ] Clone the Bitbucket repository onto the computer you are working on (`git clone https://yourname@bitbucket.org/aeaverification/aearep-xxx.git` )
+- [ ] Delete (`git rm`) unused files from the template! Example: `git rm README.md template-config.R` if the replication archive does not contain any R files (you can do this at any time before writing the **Preliminary Report**)
 - [ ] From the JIRA issue, download and add Manuscript, README. 
   - Download from Jira issue attachments. The manuscript is often called `PDF_Proof.pdf`. 
   - Add to the root of the repository, and add them to the Git repo (e.g., `git add PDF_Proof.pdf readme.pdf`)
@@ -98,6 +100,7 @@ PII_stata_scan.do
 readme.pdf
 REPLICATION.md
 ```
+- `git commit, git push`...
 - [ ] Then fill out the following fields in the Jira ticket (some may be pre-populated):
   - [ ] `Code provenance` In almost all cases, this is the openICPSR repo for which you will have received a notification email.
     - If code and/or data are provided by email, `Code provenance` should be filled out with  "https://email", otherwise with a URL.
@@ -113,9 +116,18 @@ You can now proceed to change the status to `Code`.
 
 ### Code
 In this stage, download the code or the entire replication package, and populate the Bitbucket repository.
+
+---
+
+> You now need to decide where you are going to do the data analysis - that should be the place you do the next few steps. 
+
+This is because the git setup we use does not allow you to include the data files in the Bitbucket repository, so when you download the replication package from openICPSR or elsewhere, they do not get added to the Bitbucket repository.
+
+---
+
 - [ ] Download the code from openICPSR (typicaly for most cases). See [openICPSR repositories](openICPSR_training.md) for instructions on downloading these materials. Typically called `111234.zip`.
 - [ ] Populate the Bitbucket repository:
-  - If not already done, use `git clone` to clone the Bitbucket repository onto your local computer or CISER. It should be named something like `aearep-123`.
+  - If not already done, use `git clone` to clone the Bitbucket repository onto CISER (or your laptop, but see below). It should be named something like `aearep-123`.
     - **[EXPERT TIP]** It may be more convenient to do this FIRST on CISER, so that the data files are there. Data files are NOT committed to the repository. You can then later update the repository on your local computer.
   - Copy/paste the downloaded openICPSR folder (ZIP file) into the local copy of the `aearep-123` repository. The local repository should now have the relevant LDI replication template materials and the openICPSR folder containing the replication materials provided by the authors.
   - Unzip the openICPSR folder. On Windows, double-click. On OSX, [replace me]. From bash: `mkdir 111234; cd 111234; unzip ../111234.zip; cd ..`
