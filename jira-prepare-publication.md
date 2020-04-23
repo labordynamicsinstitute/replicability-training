@@ -35,16 +35,22 @@
 # Preparing Deposit for Publication
 For "Accept" or "Accept with changes", we move the issue to "Prepare for publication". Otherwise, you are done.
 
+FOR ACCEPT WITH CHANGES:
+1. Open the issue on Jira
+2. Click on the "Wait for response on openICPSR" transition
+3. If there is special information to be added to the openICPSR repository, click on the "Wait for response on ICPSR" transition to "Pending openICPSR changes"
+4. on openICPSR,
+   - FOR ACCEPT WITH CHANGES: sometimes there may be a special message, and you should NOT post the standard acceptance language. Instead, post the special message to openICPSR and include the lines here:
+   > Once completed, do not resubmit to Manuscript Central. Please use the openICPSR Project Communication log, specifying AEAREP-xxx.
+
+FOR ACCEPT:
 1. Open the issue on Jira
 2. Click on the "Prepare for publication" transition
-   - FOR ACCEPT WITH CHANGES: If there is special information to be added to the openICPSR repository, click on the "Wait for response on ICPSR" transition to "Pending openICPSR changes"
 3. In the pop-up, you should have all the necessary information.
    - Note: links in the pop-up window are not clickable: double-click, then use right-click to "Open in New Tab"
    - `Code provenance` should point to openICPSR. If not, go to the final step.
    - Make a note of the issue number again.
 4. on openICPSR,
-   - FOR ACCEPT WITH CHANGES: sometimes there may be a special message, and you should NOT post the standard acceptance language. Instead, post the special message to openICPSR and include the lines here:
-   > Once completed, do not resubmit to Manuscript Central. Please use the openICPSR Project Communication log, specifying AEAREP-xxx.
    - remove any RAs from the Share list (leave anybody who is on there!)
    - post to the Communication log a standard message with the last few lines from https://raw.githubusercontent.com/AEADataEditor/aea-de-guidance/master/sample-language-report.md. This generates an email message (copied to all admin privs) with the same text.
 5. In your email, 
