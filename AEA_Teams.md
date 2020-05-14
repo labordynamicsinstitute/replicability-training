@@ -6,22 +6,34 @@
 
 | Team          | ID |Name                    |
 |----------------|--------|----------------------------|
-| **Green Lead** | sy458  | Steve Yeh                  | 
-|*Green  Special*| nwl27  | Naomi Li                   | 
-| Green          | ll677  | Louis Liu                  | 
-|                | rm999  | Rubal Mistry               | 
-|                | ws395  | Weilun Shi                 | 
-|                | yc2295 | Yanyun \(Iris\) Chen       | 
-|                | ek489	 | Ejin Leah Kim |
-| **Blue  Lead** | ra536  | Ryan Ali                   |
-| Blue           | jgp87  | Joshua Passel              | 
-|                | jl2374 | Jeong Hyun Lee             | 
-|                | lgl44  | Luis Lopez Cabrera         | 
-|                | mea224 | Mary\-Jo Ajiduah           | 
-|                | nnj6   | Nehedin Juarez             | 
-|                | sv289  | Syon Verma                 | 
-|                | zik4   | Zechariah Immanuel Karsana | 
-|                | zx88   | Zebang Xu                  | 
+| **Turquoise leader** | nwl27  | Naomi Li                   |
+| Turquoise        | sk2347 | Seong Hwan Kim             |
+|                  | zz264  |  Zhaojiahong Zhu           |
+|                  | foo6   | Franklin Omullo            |
+|                  | lc635  | Liam P\. Cushen            |
+|                  | obo7   | Ololade Omotoba            |
+|                  | xs72   | May Shen                   |
+|                  | zik4   | Zechariah Immanuel Karsana |
+| **Green Leader**     | sy458  | Steve Yeh                  |
+| Green            | ws395  | Weilun Shi                 |
+|                  | zx88   | Zebang Xu                  |
+|                  | lr397  | Lydia Reiner               |
+|                  | xl288  | Xiangru Li                 |
+|                  | les277 | Lauren Stubbs              |
+|                  | mc2234 | Melanie Chen               |
+|                  | mkg72  | Manas Gogula               |
+|                  | rm999  | Rubal Mistry               |
+| **Blue Lead**        | ra536 | Ryan Ali                 |
+|         | ll677  | Louis Liu                  |
+| Blue             | lgl44  | Luis Lopez Cabrera         |
+|                  | mea224 | Mary\-Jo Ajiduah           |
+|                  | prs235 | Peter Rafael Sanchez       |
+|                  | yc2295 | Yanyun \(Iris\) Chen       |
+|                  | jgp87  | Joshua Passel              |
+|                  | jnc59  | Jill Crosby                |
+|                  | mhw78  | Matthew H\. Wang           |
+|                  | nnj6   | Nehedin Juarez             |
+
 
 
 
