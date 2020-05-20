@@ -23,8 +23,7 @@
 |                  | mc2234 | Melanie Chen               |
 |                  | mkg72  | Manas Gogula               |
 |                  | rm999  | Rubal Mistry               |
-| **Blue Lead**        | ra536 | Ryan Ali                 |
-|         | ll677  | Louis Liu                  |
+| **Blue Lead**        | ll677  | Louis Liu               |
 | Blue             | lgl44  | Luis Lopez Cabrera         |
 |                  | mea224 | Mary\-Jo Ajiduah           |
 |                  | prs235 | Peter Rafael Sanchez       |
