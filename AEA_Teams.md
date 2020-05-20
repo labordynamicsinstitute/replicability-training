@@ -32,6 +32,7 @@
 |                  | jnc59  | Jill Crosby                |
 |                  | mhw78  | Matthew H\. Wang           |
 |                  | nnj6   | Nehedin Juarez             |
+| Special tasks.   | vgs22	 | Valerie Setiawan |
 
 
 
