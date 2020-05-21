@@ -2,14 +2,15 @@
 
 For pre-publication verification, we use a Jira-based workflow similar to the post-publication processes described in the [Wiki](https://github.com/labordynamicsinstitute/replicability-training/wiki).
 
-**Pre-publication verification is a priority and should be completed within a week of being assigned.**
+> **Pre-publication verification is a priority and should be completed within a week of being assigned.**
 - Typically these replications involve interacting with [openICPSR repositories](openICPSR_training.md) where code and data are stored.
 - In addition to the information you will fill out in Jira, there is also a separate Data Citation Report (more on that below)
 
 ## Scope
 Your supervisor will assign you to this workflow. This workflow covers code and data, even when data may not be accessible. Supervisor, see [other document](jira-supervisor-notes.md) for details.
 
-This workflow **DOES NOT** cover assessment of data citations. This is covered by a different training.
+- This workflow **DOES NOT** cover assessment of data citations. This is covered by a different training.
+- This workflow **DOES NOT** cover simple metadata assessment of openICPSR deposits, for instance for AEA Papers and Proceedings deposits. See [Instructions PandP Checks](Instructions-PandP-Checks.md).
 
 ## Overview
 
@@ -151,6 +152,7 @@ Now you will establish a **list of Datasets used** and fill out the **Data Citat
 - [ ] Now you will fill out the **[Data Citation and Information](https://goo.gl/forms/3IaMu6PCG7P7WhK43)** report:
   - A [link to the report](https://goo.gl/forms/3IaMu6PCG7P7WhK43) can be found in the tall grey bar on the left side of the ticket. If this tall grey bar is not visible, then edit the url according to the directions above.
   - [ ] Fill out the `DATA CITATION REPORT` field on Jira with the date on which you complete this report.
+    - If there are more than 10 datasets that you can see, get approval from your Team Lead to fill out [this spreadsheet](https://drive.google.com/file/d/1-4Ah3AvNVmFJCs6IfjTKUrMOvZ9BHiO6/view?usp=sharing) instead. You should fill out the FIRST dataset on the **[Data Citation and Information form](https://goo.gl/forms/3IaMu6PCG7P7WhK43)**, all others can then be entered on the spreadsheet. The spreadsheet should then be added to the repo (add, commit, push), and a note added to the JIRA comments. 
   - Use the list of datasets to guide you when filling this out.
   - [ ] **AT THE SAME TIME:** write the corresponding `Data description` section of REPLICATION.md. This should provide detail about the datasets that are not obvious from the **Data Citation and Information** . 
   - [ ] In particular, check each provided URL, and verify if there is a **"Data Use Agreement", "Citation requirement", "License"** on the web page. Check any such data use agreement for conditions. These may require that the authors cite a particular paper, or cite the data in a particular way (check this), or that the authors may not actually redistribute (provide) the data (check this!). If you have doubts, check with your supervisor. 
