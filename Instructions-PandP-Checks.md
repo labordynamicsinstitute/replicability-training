@@ -25,8 +25,7 @@ You should now do the following:
 
 <!-- -->
 
--   Open the form:
-    > [https://fillabledocument.page.link/Kei1](https://fillabledocument.page.link/Kei1)
+-   Open the form: [link here](https://docs.google.com/document/d/1Dzvp9AUIJFGf_3I4nO0a-bPaKIGonFBydsLWLYHwZTQ/edit?usp=sharing)
 
 -   Assess the repository, filling out the form as you go along
 
