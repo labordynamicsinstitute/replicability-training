@@ -45,7 +45,7 @@ For "Accept" or "Accept with changes", we move the issue to "Prepare for publica
    - Message content: 
      - the contents of the repository-specific "for openICPSR.md"
      - then the following lines: 
-   > Details in the full report, which you will receive via Manuscript Central. Once completed, do not resubmit to Manuscript Central. Please use the openICPSR Project Communication log, specifying AEAREP-xxx.
+   > Details in the full report, which you will receive via Manuscript Central shortly. The manuscript is accepted, the author should address the remaining issue in the openICPSR repository. Once completed, do not resubmit to Manuscript Central. Please use the openICPSR Project Communication log, specifying AEAREP-xxx.
 
 ## FOR ACCEPT:
 1. Open the issue on Jira
