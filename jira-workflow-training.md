@@ -55,7 +55,7 @@ The following are only relevant for "Publishers"  (if you have not been told you
 |:-------------|:---------------------|:---------------|:----------|
 | Approved     | Submit to MC         | →  Submitted to MC    | `MCRecommendationV2` is filled out          |
 | Submitted to MC     | Wait for response on ICPSR | → Pending openICPSR changes | `MCRecommendationV2` is `Accepted with changes` and notes to be added on openICPSR  |
-| Submitted to MC  | Prepare for publication   | →  Pending Publication | `openICPSRVersion` is filled out |
+| Submitted to MC  | Prepare for publication   | →  Pending Publication | `openICPSRVersion` is filled out, issue is NOT an `R&R`|
 | Pending openICPSR changes | Prepare for publication | --> Pending Publication | `openICPSRVersion` is filled out, Changes have been satisfied on openICPSR| 
 | Pending Publication | Publish              | →  Published    |`openICPSRDOI` is set|
 
