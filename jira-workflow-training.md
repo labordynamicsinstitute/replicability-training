@@ -171,6 +171,7 @@ Do a first pass through the code files provided:
   - Are all the REQUIREMENTS listed? How long does the author say the code will run?
   - Are there files in the archive not explained in the README?
   - **[EXPERT TIP]** You should **not**   run the code at this time, only read the program code! (You can do this on your laptop)
+  - It may be useful to copy-and-paste the *code-check.xlsx* into the code description part, listing the programs. Use the [Excel-to-Markdown plugin](https://marketplace.visualstudio.com/items?itemName=csholmq.excel-to-markdown-table) for VSCode. Alternatively, this can be pasted in under "Findings".
 
 Next fill out the following fields in the Jira ticket:
 options (e.g. start typing "Stata" and you will see it pop up).
@@ -267,6 +268,7 @@ You can now proceed to change the status to `Writing Report`.
 At this stage, you will write the final version of the report.
 - There is sample language for commonly encountered problems at the [Fragments for REPLICATION.md](https://raw.githubusercontent.com/AEADataEditor/aea-de-guidance/master/sample-language-report.md) link in the tall grey bar
 - Clean up the REPLICATION.md - it should be factual, objective, and not written in the first person.
+- It may be useful to copy-and-paste the *code-check.xlsx*, including the column "Replicated?" and any notes column, into the "Findings" part. Use the [Excel-to-Markdown plugin](https://marketplace.visualstudio.com/items?itemName=csholmq.excel-to-markdown-table) for VSCode. 
 - Delete all of the instructional lines in REPLICATION.md  before finishing the report.
 
 To complete this stage, enter the direct URL of the report, i.e., in the relevant repository (if not already pre-filled):
@@ -289,7 +291,7 @@ You can now submit your report for review by changing the status to `Under Revie
 - **Conditional Acceptance** - the Data Editor expects to see a response from the authors to the report.
 - **Revise and resubmit** - the Data Editor has detected a serious problem which needs to go back to the "Revise and resubmit" phase of the publishing workflow. This is only invoked if there are significant concerns as to the validity of the manuscript's conclusions based on the reproduction attempt. Rarely used.
 
-See [Report review guidelines](jira-report-review.md) for details.
+See [Report review guidelines](jira-report-review.md) and [Preapprovers](Preapprovers.md) for details.
 
 ## Publication
 
