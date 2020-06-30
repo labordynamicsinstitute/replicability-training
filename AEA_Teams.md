@@ -2,44 +2,46 @@
 
 ## Current Teams (2020-03)
 
- As of 2020-03-23
+ As of 2020-07-05
 
-| Team          | ID |Name                    |
-|----------------|--------|----------------------------|
-| **Turquoise leader** | nwl27  | Naomi Li                   |
-| Turquoise        | sk2347 | Seong Hwan Kim             |
-|                  | zz264  |  Zhaojiahong Zhu           |
-|                  | foo6   | Franklin Omullo            |
-|                  | lc635  | Liam P\. Cushen            |
-|                  | obo7   | Ololade Omotoba            |
-|                  | xs72   | May Shen                   |
-|                  | zik4   | Zechariah Immanuel Karsana |
-| **Green Leader**     | sy458  | Steve Yeh                  |
-| Green            | ws395  | Weilun Shi                 |
-|                  | zx88   | Zebang Xu                  |
-|                  | lr397  | Lydia Reiner               |
-|                  | xl288  | Xiangru Li                 |
-|                  | les277 | Lauren Stubbs              |
-|                  | mc2234 | Melanie Chen               |
-|                  | mkg72  | Manas Gogula               |
-|                  | rm999  | Rubal Mistry               |
-| **Blue Lead**        | ll677  | Louis Liu               |
-| Blue             | lgl44  | Luis Lopez Cabrera         |
-|                  | mea224 | Mary\-Jo Ajiduah           |
-|                  | prs235 | Peter Rafael Sanchez       |
-|                  | yc2295 | Yanyun \(Iris\) Chen       |
-|                  | jgp87  | Joshua Passel              |
-|                  | jnc59  | Jill Crosby                |
-|                  | mhw78  | Matthew H\. Wang           |
-|                  | nnj6   | Nehedin Juarez             |
-| Special tasks.   | vgs22	 | Valerie Setiawan |
+| Team       | Name                       |
+|------------|----------------------------|
+| **Green Lead** | **Syon Verma**                 |
+| Green      | Lydia Reiner               |
+|            | Xiangru Li                 |
+|            | Franklin Omullo            |
+|            | Liam P. Cushen             |
+|            | Melanie Chen               |
+|            | Weilun Shi                 |
+|            | Zebang Xu                  |
+| **Blue Lead**  | **Louis Liu**                  |
+| Blue       | Peter Rafael Sanchez       |
+|            | Mary-Jo Ajiduah            |
+|            | Joshua Passel              |
+|            | Jill Crosby                |
+|            | Matthew H. Wang            |
+|            | Nehedin Juarez             |
+|            | Ololade Omotoba            |
+|            | Zechariah Immanuel Karsana |
+| Special tasks.   	 | Valerie Setiawan |
 
 
 
 
 
 ## Structure
-Each team has a Team Leader, and multiple members. 
+Each team has a Team Leader, and multiple members. Some team members, including all Team Leaders, are pre-approvers
+
+## Pre-approvers
+
+Pre-approvers do the following tasks (see [Preapprovals](Preapprovals.md)) for  Preliminary Reports and Submitted Reports
+
+- A first pass through Preliminary Reports, as well as Submitted Reports (other team members may also have a "pre-approver" role).
+- Pre-approvers will write the Summary of each report, and style the report according to the [pre-approval guidelines](Preapprovals.md)
+- Pre-approvers will assess the completeness of the issue information, including the Data Citation Report
+- Pre-approvers will then move an issue to Preliminary Approval
+- Team members remain responsible for fixing any issues identified by Pre-approvers
+
 
 ## Responsibilities of Team Leaders
 Team Leaders are responsible for the following activities:
@@ -47,13 +49,7 @@ Team Leaders are responsible for the following activities:
    - As soon as an issue arises, team members should bring it up with the team leader.
    - Team members remain responsible for making a note of any issues in the Jira issue
    - Team leaders will attempt to respond to issues first, and escalate to Graduate Assistant or Data Editor as necessary
-2. reviewing Preliminary Reports and Submitted Reports
-   - Team leaders are respondible for a first pass through Preliminary Reports, as well as Submitted Reports.
-   - Team leaders will write the Summary of each report, and style the report according to the usual guidelines
-   - Team leaders will assess the completeness of the issue information, including the Data Citation Report
-   - Team leaders will then move an issue to Preliminary Approval
-   - Team members remain responsible for fixing any issues identified by Team leaders
-3. leading status call-ins 
+2. leading status call-ins 
    - Team members will check in with Team leaders during the weekly (phone-only) status meetings
    - A senior member (Data Editor or Graduate Assistant) will also be on the call
 
