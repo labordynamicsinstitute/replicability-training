@@ -1,3 +1,3 @@
 # Report review guidelines
 
-Soon.
+See [https://github.com/labordynamicsinstitute/replicability-training/wiki/Revision-to-a-Replication-report](https://github.com/labordynamicsinstitute/replicability-training/wiki/Revision-to-a-Replication-report).
