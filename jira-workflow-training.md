@@ -157,6 +157,7 @@ Now you will establish a **list of Datasets used** and fill out the **Data Citat
   - [ ] **AT THE SAME TIME:** write the corresponding `Data description` section of REPLICATION.md. This should provide detail about the datasets that are not obvious from the **Data Citation and Information** . 
   - [ ] In particular, check each provided URL, and verify if there is a **"Data Use Agreement", "Citation requirement", "License"** on the web page. Check any such data use agreement for conditions. These may require that the authors cite a particular paper, or cite the data in a particular way (check this), or that the authors may not actually redistribute (provide) the data (check this!). If you have doubts, check with your supervisor. 
 - [ ] Add the list of datasets to the repository by committing the preliminary version of the REPLICATION.md (`git add`, `git commit`, `git push`)
+- [ ] Fill out the `DataCitationSummary` field indicating how many data citations are in order: all, some, or none. 
 - [ ] Fill out the `Data Provenance` section - is the data in the openICPSR repository, or is it someplace else? "Various" is a legitimate answer if it is in various locations.
 
 Do a first pass through the code files provided:
@@ -274,6 +275,7 @@ At this stage, you will write the final version of the report.
 - Highlight differences:
   - if only a small number of table entries: mention them by table in the report
   - if a larger number: Highlight on the reproduced images (of figures, screenshots of tables) the differences you have observed
+- Check that the `DataCitationSummary` field is filled out indicating how many data citations are in order: all, some, or none. 
 
 To complete this stage, enter the direct URL of the report, i.e., in the relevant repository (if not already pre-filled):
 > https://bitbucket.org/aeaverification/aearep-123/src/master/REPLICATION.md
