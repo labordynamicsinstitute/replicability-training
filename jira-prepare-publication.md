@@ -39,7 +39,7 @@ For "Accept" or "Accept with changes", we move the issue to "Prepare for publica
 1. Open the issue on Jira
 2. Click on the "Wait for response on openICPSR" transition to "Pending openICPSR changes"
 3. Look for a file "for openICPSR.md" in the repository.
-4. on openICPSR,
+4. on openICPSR, post to the Communication log: 
    - Do NOT post the standard acceptance language. 
    - Subject line: *Please make the following changes (AEAREP-xxx)*
    - Message content: 
