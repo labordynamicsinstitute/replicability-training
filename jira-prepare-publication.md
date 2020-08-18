@@ -1,3 +1,9 @@
+# Permissions 
+
+- submitters needs password to ScholarOne (Lars shares via LastPass)
+- submitters need permissions on openICPSR (Lars requests from openICPSR)
+- submitters need "Publisher" permission on Jira (can be set in Project -> Settings -> People in Jira)
+
 # Submitting to Manuscript Central
 
 1. Open the issue on JIRA
