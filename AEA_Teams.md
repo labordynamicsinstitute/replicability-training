@@ -1,29 +1,28 @@
 # LDI Replication Lab Teams
 
-## Current Teams (2020-03)
+## Current Teams 
 
- As of 2020-07-05
+ As of 2020-08-20
 
 | Team       | Name                       |
 |------------|----------------------------|
-| **Green Lead** | **Syon Verma**                 |
+| **Green Lead** | **(absent)**                 |
 | Green      | Lydia Reiner               |
 |            | Xiangru Li                 |
-|            | Franklin Omullo            |
 |            | Liam P. Cushen             |
 |            | Melanie Chen               |
-|            | Weilun Shi                 |
 |            | Zebang Xu                  |
+|            | Jill Crosby                |
+|            | Zechariah Immanuel Karsana |
 | **Blue Lead**  | **Louis Liu**                  |
 | Blue       | Peter Rafael Sanchez       |
 |            | Mary-Jo Ajiduah            |
 |            | Joshua Passel              |
-|            | Jill Crosby                |
 |            | Matthew H. Wang            |
 |            | Nehedin Juarez             |
 |            | Ololade Omotoba            |
-|            | Zechariah Immanuel Karsana |
-| Special tasks.   	 | Valerie Setiawan |
+| Special tasks.   	 | Valerie Setiawan  |
+|                 	 | Jill Crosby       |
 
 
 
