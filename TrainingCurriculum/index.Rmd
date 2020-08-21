@@ -16,7 +16,8 @@ description: "We provide training for students who will verify the reproducibili
 ---
 
 
-![GitHub issues](https://img.shields.io/github/issues-raw/labordynamicsinstitute/replicability-training.svg?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/labordynamicsinstitute/replicability-training.svg?style=flat)
+![GitHub issues](https://img.shields.io/github/issues-raw/labordynamicsinstitute/replicability-training.svg?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/labordynamicsinstitute/replicability-training.svg?style=flat) [![Build Status](https://travis-ci.com/labordynamicsinstitute/replicability-training.svg?branch=master)](https://travis-ci.com/labordynamicsinstitute/replicability-training)
+
 
 # Tentative Agenda
 
