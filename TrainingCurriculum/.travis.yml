@@ -17,4 +17,4 @@ deploy:
     target-branch: gh-pages
     verbose: true
     on:
-      branch: training-2020-fall
+      branch: master
