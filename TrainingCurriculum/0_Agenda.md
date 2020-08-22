@@ -42,3 +42,8 @@ Items that are **bolded** are joint with the [Computational Tools for Social Sci
 | 3:00 |  **Reproducible practices, data citation**        |  **A prototypical replication report**                  |   Small group peer mentoring   | Small group peer mentoring                     | Follow-up on test articles (whole group) |
 | 4:00 |  *A Markdown reproducible report with Stata and R*|  A walkthrough of the workflow for unpublished articles |  (reserved for working on test articles)    | (reserved for working on test articles)    |                            |
 | 5:00 |  What will you be doing in the Lab                |  *Basics and advanced version control*                  |  (reserved for working on test articles)  | (reserved for working on test articles)  |                            |
+
+Full Training Materials
+----------------------
+
+Please go to [https://labordynamicsinstitute.github.io/replicability-training-curriculum/](https://labordynamicsinstitute.github.io/replicability-training-curriculum/) for the full training materials.
