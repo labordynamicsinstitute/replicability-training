@@ -39,9 +39,12 @@
    - Create a list of required items.
    - Use a script or manually copy-paste all of the `[REQUIRED]` tags to this list.
       - [aeareq.bash](https://gist.github.com/larsvilhuber/d4e1d8d55da0d6daecd6415acbbe974f) extracts the `[REQUIRED]` tags and places them at the top of the REPLICATION.md 
-      - [aeaready.bash](https://gist.github.com/larsvilhuber/a89e6d842b563e3ab3fcf9e86fd37e48) creates the PDF from the REPLICATION.md, crafts the commit message and pushes it to the repository.  It requires additional pieces of software that are noted in the link.
    - Repeat for `[SUGGESTED]` tag items.
-10. Commit and push all changes to the repository.  Advance the JIRA ticket to "Pre-approved."  The pre-approval is now complete!
+10. (Re)generate the PDF of the report.
+   - Use MarkdownPDF package if you are using Visual Studio Code
+   - Use a script: [aeaready.bash](https://gist.github.com/larsvilhuber/a89e6d842b563e3ab3fcf9e86fd37e48) creates the PDF from the REPLICATION.md, crafts the commit message and pushes it to the repository.  It requires additional pieces of software that are noted in the link.
+
+11. Commit and push all changes to the repository.  Advance the JIRA ticket to "Pre-approved."  The pre-approval is now complete!
 
 **Notes:** The pre-approver should reach out to the original replicator for clarifications should there be any confusions during the course of pre-approving the report.  If bugs in the code seem trivial i.e. missing packages, missing `Results` directory, replicator cannot find output etc., the pre-approver should reach out to the original replicator for further clarification.
 
