@@ -28,6 +28,7 @@
    9. Click on "Submit"
 6. Back in the pop-up, 
    1. Click on "Submit to MC"
+7. Move the Jira ticket to "Done" to remove it from assigned list.
    
 ## For R&Rs
 - For R&R's, the AEA editorial office has not changed the criteria for our response. Your options will be:
