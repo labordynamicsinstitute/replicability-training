@@ -1,3 +1,3 @@
 # Report review guidelines
 
-See [https://github.com/labordynamicsinstitute/replicability-training/wiki/Revision-to-a-Replication-report](https://github.com/labordynamicsinstitute/replicability-training/wiki/Revision-to-a-Replication-report).
+Moved to [https://labordynamicsinstitute.github.io/replicability-training-curriculum/aea-revision-reports-after-author-resubmission.html](https://labordynamicsinstitute.github.io/replicability-training-curriculum/aea-revision-reports-after-author-resubmission.html)
