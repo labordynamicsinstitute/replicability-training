@@ -31,10 +31,10 @@ Items that are **bolded** are live lectures. Items that are *italicized* are in 
 | 11:00 |  **Intro to: Reproducible practices**      |                                                        |                               |                              |                                   |
 | 12:00 |  **Reproducible practices, data citation** |                                                        |                               |                              |                                   |
 | 13:00 |  lunch break                               | *Breakout groups: debugging software and accounts*     | Work on test article          |Work on test article          | Work on test article 3            |
-| 14:00 |  **What will you be doing in the Lab**     | Work with version control                              | *Small group peer mentoring*  |*Small group peer mentoring*  | Work on test article 3            |
-| 15:00 |  --                                        | **Prototypical replication report**                    | Work on test article          |Work on test article          | **Wrap-up of first week, next steps** |
-| 16:00 |  --                                        | **Walkthrough of workflow for unpublished articles**   | *Small group peer mentoring*  |*Small group peer mentoring*  |                                   |
-| 17:00 |  Command line/Git/Markdown/Version control | **Start on first test article**                        | **Follow-up on test articles**|**Follow-up on test articles**|                                   |
+| 14:00 |  **What will you be doing in the Lab**     |  **Prototypical replication report**                   | *Small group peer mentoring*  |*Small group peer mentoring*  | Work on test article 3            |
+| 15:00 |**Command line/Git/Markdown/Version control**| **Data provenance, data citations**                   | Work on test article          |Work on test article          | **Wrap-up of first week, next steps** |
+| 16:00 |                                            | **Walkthrough of workflow for unpublished articles**   | *Small group peer mentoring*  |*Small group peer mentoring*  |                                   |
+| 17:00 |                                            | *Start on first test article*                          | **Follow-up on test articles**|**Follow-up on test articles**|                                   |
 | 18:00 |                                            |                                                        |                               |                              |                                   |
 
 Full Training Materials
