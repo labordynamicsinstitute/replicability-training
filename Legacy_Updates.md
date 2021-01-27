@@ -7,7 +7,7 @@ A new Jira issue should be created to keep a record of all email corresponence a
 Necessary steps from our end:
 1. Request a transfer of deposit ownership from AEA to the author. They should receive a notification from OpenICPSR.
 2. Share the deposit with all authors of the manuscript, giving them full rights (including the right to re-submit).
-3. Once the authors have finished and re-submitted the deposit, we will need to check the deposit for completeness. This involves verifying any changes made do not violate the AEA revision policy and ensuring that they have updated the README to accurately reflect the new state of the deposit.
+3. Once the authors have finished and re-submitted the deposit, we will need to check the deposit for completeness. This involves verifying any changes made do not violate the AEA revision policy and ensuring that they have updated the README to accurately reflect the new state of the deposit. Since we are not verifying anything, the resolution should always be "Evaluation Only."
 4. Take steps to prepare deposit for publication.
 
 
