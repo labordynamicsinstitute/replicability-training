@@ -9,7 +9,7 @@ We received a request to conduct the AEA reproducibility check for your manuscri
 
 Please see the link below for guidance on sharing restricted data with the Data Editor. If you have any questions please do not hesitate to ask.
 
-https://aeadataeditor.github.io/aea-de-guidance/sharing-restricted-data.html).
+https://aeadataeditor.github.io/aea-de-guidance/sharing-restricted-data.html
 
 Thank you!
 
