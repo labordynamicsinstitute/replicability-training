@@ -2,6 +2,11 @@
 
 ## Responsibilities
 
+The complete general sequence is as follows:
+1. Publish ICPSR deposit
+2. Publish AEA article
+3. Update the "related publication" link using the "Import from DOI functionality."
+
 In general, publication of the deposit is done by the AEA Editorial Office, in synchronization with the publication of a the manuscript.
 
 In certain circumstances, this may also be done by the AEA Data Editor's office.
