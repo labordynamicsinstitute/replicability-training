@@ -28,13 +28,13 @@ Once we've completed the steps above, you will be able to update the deposit.
 Please don't hesitate to ask if you have any questions.
 ```
 
-#### Original Jira Issue
+### Original Jira Issue
 
 One of the most efficient ways to search for the original Jira issue would be to take the Manuscript Number from the ICPSR deposit and search for it in Jira. If an original Jira issue does exist, link the two issues. 
 
 Since in these cases the original deposit was created prior to July 2019, it is very possible that no original Jira issue exists (the paper pre-dates the current Data Editor process). In this case, post a comment to this effect on the new Jira issue and post another comment with the paper DOI.
 
-#### Jira Fields
+### Jira Fields
 
 - Journal
 - Manuscript Central Identifier
@@ -42,17 +42,17 @@ Since in these cases the original deposit was created prior to July 2019, it is 
 - MCStatus should be "Update" ("Revision" is also acceptable)
 
 
-#### Author Access
+### Author Access
 
 Necessary steps from our end:
 1. Request a transfer of deposit ownership from AEA to the author. They should receive a notification from OpenICPSR.
 2. Share the deposit with all authors of the manuscript, giving them full rights (including the right to re-submit).
 
-#### Transition
+### Transition
 
 There is a specific transition in the Jira workflow called "Author submitted post-publication modifications" which enables the user to move the issue from "Assigned" straight to "Pending openICPSR changes."
 
-#### Checks
+### Checks
 
 Ensure that authors have "submitted to AEA", and that an updated README as well as any updated files are present.
 
@@ -60,10 +60,10 @@ In these cases we are only checking to verify what specific changes were made an
 
 The resolution should always be "Evaluation only."
 
-#### Moving to Publication
+### Moving to Publication
 
 From here on, follow the usual workflow to publication of the deposit. In general, the AEA Data Editor, not the Editorial Office will publish the deposit. 
 
-#### Communicating to AEA Editorial Office
+### Communicating to AEA Editorial Office
 
 See Revision policy (link above). If the version of record is changed, this needs to be notified to the editorial office, so they can update the records. If a new version is created, no further action is needed.
