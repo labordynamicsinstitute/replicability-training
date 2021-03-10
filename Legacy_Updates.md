@@ -50,7 +50,7 @@ Necessary steps from our end:
 
 ### Transition
 
-There is a specific transition in the Jira workflow called "Author submitted post-publication modifications" which enables the user to move the issue from "Assigned" straight to "Pending openICPSR changes."
+There is a specific transition in the Jira workflow called "Author submitted post-publication modifications" which enables the user to move the issue from "In progress" straight to "Pending openICPSR changes."
 
 ### Checks
 
