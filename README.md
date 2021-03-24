@@ -22,20 +22,36 @@ Please have a look at the [list of tasks](https://labordynamicsinstitute.github.
 Tentative Agenda
 ----------------
 
+The training will start with an intensive day of lectures/discussions, followed by exercises that you will do on your own, with weekly touch-base meetings.
+
 Items that are **bolded** are live lectures. Items that are *italicized* are in informal groups, but live. Other itmes are on your own time, but the time slot is the suggested time you should be doing them. 
 
+| Time  |  April 26                                                 |
+|-------|-----------------------------------------------------------|
+| 10:00 |  **Intro to: Reproducible practices**                     |
+| 11:00 |  **Reproducible practices, data citation**                |
+| 12:00 |  Lunch Break                                              |
+|       |  As needed: *debugging software and accounts*             |
+| 13:00 |  **What will you be doing in the Lab**                    |
+| 14:00 |  **Command line/Git/Markdown/Version control**            |
+| 15:00 |  **A prototypical replication report**                    |
+| 16:00 |  **A walkthrough of the workflow for unpublished articles** |
+| 17:00 |  Start on first test article                            |
+
+After April 26
+
+- as needed: Email questions
+- organized in small groups: *Live Peer group mentoring with existing replicators*
+- each test article should take you no more than 10 hours of work (typically less)
 
 
-| Time  |  January 25                                | Jan 26                                                 | Jan 27                        | Jan 28                       | Jan 29                            |
-|-------|--------------------------------------------|--------------------------------------------------------|-------------------------------|------------------------------|-----------------------------------|
-| 11:00 |  **Intro to: Reproducible practices**      |                                                        |                               |                              |                                   |
-| 12:00 |  **Reproducible practices, data citation** |                                                        |                               |                              |                                   |
-| 13:00 |  lunch break                               | *Breakout groups: debugging software and accounts*     | Work on test article          |Work on test article          | Work on test article 3            |
-| 14:00 |  **What will you be doing in the Lab**     |  **Prototypical replication report**                   | *Small group peer mentoring*  |*Small group peer mentoring*  | Work on test article 3            |
-| 15:00 |**Command line/Git/Markdown/Version control**| **Data provenance, data citations**                   | Work on test article          |Work on test article          | **Wrap-up of first week, next steps** |
-| 16:00 |                                            | **Walkthrough of workflow for unpublished articles**   | *Small group peer mentoring*  |*Small group peer mentoring*  |                                   |
-| 17:00 |                                            | *Start on first test article*                          | **Follow-up on test articles**|**Follow-up on test articles**|                                   |
-| 18:00 |                                            |                                                        |                               |                              |                                   |
+| Time     | May 3                               |  May 10                               | May 17 | 
+|----------|-------------------------------------|---------------------------------------|--------|
+|          | Finish first test article           |  Finish second test article           |  Finish third test article          | 
+| Time TBD | **Data provenance, data citations** |  **Follow-up on second test article** | **Follow-up on third test article** |
+| Time TBD | **Follow-up on first test article** |  Start on third test article          | **Wrap-up of training, next steps** |
+| | Start on second test article    | | |
+
 
 Full Training Materials
 ----------------------
