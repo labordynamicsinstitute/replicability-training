@@ -25,7 +25,7 @@ You should now do the following:
 
 <!-- -->
 
--   Open the form: [link here](https://docs.google.com/document/d/1Dzvp9AUIJFGf_3I4nO0a-bPaKIGonFBydsLWLYHwZTQ/edit?usp=sharing)
+-   Open the form: [link here](https://docs.google.com/forms/d/e/1FAIpQLSfcc4JDJsHRHZpkdBuNwbjYusjIsbSTXK6pZyuUBC7HyUW8iQ/viewform?usp=pp_url)
 
 -   Assess the repository, filling out the form as you go along
 
@@ -34,16 +34,16 @@ You should now do the following:
     -  If you need to find a repository, use this link: [https://www.openicpsr.org/openicpsr/tenant/openicpsr/module/aea/reports](https://www.openicpsr.org/openicpsr/tenant/openicpsr/module/aea/reports)
 -   Submit the form.
 
-- The form will get added to the issue after some delay (typically an
-hour), as a PDF.
-
 - Close the form after each issue, and open it again for the next one.
+
+- Navigate to the survey responses [here](https://docs.google.com/forms/d/1iNNCneII1HfUKV9WC-k1xl6ze0C74Dvf-O_us6PUjVA/edit#responses) and "print to PDF" the response which you just filled out.
 
 In Jira:
 
 -   Move the issue forward by choosing "**Process PandP**" to status
      "*Submitted PandP Form*"
--   This indicates that you are waiting for the form to arrive
+-   This indicates that you have completed the form
+-   Attach the PDF to the Jira ticket
 
 ## Step 2
 
