@@ -66,7 +66,7 @@ Once the form PDF has been added to the issue, you should return to the openICPS
 
 ### If the form does not have all "required" elements checked, make the following entry:
 
-
+On ICPSR, if `Deposit Status` = `Deposit in Progress`
 -   Write a "Project communication log" entry
 
     -   *Subject line:* AEAREP-XXX Modifications to make to your P&P
@@ -78,6 +78,22 @@ Once the form PDF has been added to the issue, you should return to the openICPS
          make.
 
     -   Attach the PDF from the issue to the communication log.
+
+On ICPSR, if `Deposit Status` = `Submitted`
+- Chang the status of the deposit to "Request Revisions" with the note:
+    -   Please see the attached form for modifications to make.
+-   Write a "Project communication log" entry
+
+    -   *Subject line:* AEAREP-XXX Modifications to make to your P&P
+        deposit
+
+    -   *Content:* Thank you for uploading your code and data. We have
+         checked the deposit for compliance with the required metadata
+        elements. Please see the attached form for modifications to
+         make.
+
+    -   Attach the PDF from the issue to the communication log.
+
 
 -   Back in Jira,
 
