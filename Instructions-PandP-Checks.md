@@ -36,7 +36,7 @@ You should now do the following:
 
 - Close the form after each issue, and open it again for the next one.
 
-- Navigate to the survey responses [here](https://docs.google.com/forms/d/1iNNCneII1HfUKV9WC-k1xl6ze0C74Dvf-O_us6PUjVA/edit#responses) and "print to PDF" the response which you just filled out.
+- Navigate to the "PandP Docs" Google Drive folder [here](https://drive.google.com/drive/folders/1h5AiNQjlCTGPU3bICpqGoNqorzlc8yPb), locate the PDf with the manuscript number of the case you are working on, and download the file.  
 
 In Jira:
 
