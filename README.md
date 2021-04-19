@@ -28,13 +28,13 @@ Items that are **bolded** are live lectures. Items that are *italicized* are in 
 
 | Time  |  April 26                                                 |
 |-------|-----------------------------------------------------------|
-| 10:00 |  **Intro to: Reproducible practices**                     |
-| 11:00 |  **Reproducible practices, data citation**                |
+| 10:00 |  **Intro to: Reproducible practice, data citation**       |
+| 11:00 |  **Command line/Markdown**   tutorial                     |
 | 12:00 |  Lunch Break                                              |
 |       |  As needed: *debugging software and accounts*             |
 | 13:00 |  **What will you be doing in the Lab**                    |
-| 14:00 |  **Command line/Git/Markdown/Version control**            |
-| 15:00 |  **A prototypical replication report**                    |
+| 14:00 |  **A prototypical replication report**                    |
+| 15:00 |  **Git/Version control** tutorial                         |
 | 16:00 |  **A walkthrough of the workflow for unpublished articles** |
 | 17:00 |  Start on first test article                            |
 
