@@ -23,42 +23,45 @@ You should now do the following:
 
 -   Open the link in (4) on openICPSR
 
+    -  If you need to find the openICPSR repository, use this link: [https://www.openicpsr.org/openicpsr/tenant/openicpsr/module/aea/reports](https://www.openicpsr.org/openicpsr/tenant/openicpsr/module/aea/reports)
+    
 <!-- -->
 
 -   Open the form: [link here](https://docs.google.com/forms/d/e/1FAIpQLSfcc4JDJsHRHZpkdBuNwbjYusjIsbSTXK6pZyuUBC7HyUW8iQ/viewform?usp=pp_url)
 
--   Assess the repository, filling out the form as you go along
+-   Assess the openICPSR repository, filling out the form as you go along
 
     -   It is important that you enter the AEAREP and Manuscript numbers accurately. We suggest copying-and-pasting.
 
-    -  If you need to find a repository, use this link: [https://www.openicpsr.org/openicpsr/tenant/openicpsr/module/aea/reports](https://www.openicpsr.org/openicpsr/tenant/openicpsr/module/aea/reports)
 -   Submit the form.
 
 - Close the form after each issue, and open it again for the next one.
 
-- Navigate to the "PandP Docs" Google Drive folder [here](https://drive.google.com/drive/folders/1h5AiNQjlCTGPU3bICpqGoNqorzlc8yPb), locate the PDf with the manuscript number of the case you are working on, and download the file.  
+- Navigate to the "PandP Docs" Google Drive folder [here](https://drive.google.com/drive/folders/1h5AiNQjlCTGPU3bICpqGoNqorzlc8yPb), locate the PDF with the manuscript number of the case you are working on, and download the file. This is the PDF version of the checklist form using the information you entered.
 
 In Jira:
 
 -   Move the issue forward by choosing "**Process PandP**" to status
      "*Submitted PandP Form*"
--   This indicates that you have completed the form
--   Attach the PDF to the Jira ticket
+    -   This indicates that you have completed the form.
+-   Attach the downloaded PDF to the Jira ticket.
 
 ## Step 2
 
-Once the form PDF has been added to the issue, you should return to the openICPSR repository. Depending on what's on the form, proceed to do one of the following:
+Once the form PDF has been added to the issue, you should first return to the openICPSR repository, and then come back to Jira. Depending on what's on the form, proceed to do one of the following:
 
 ### If the form has all "required" elements checked, you should "sign off":
 
-- Write a "Project communication log" entry
-    -   *Subject line:* AEAREP-xxx Data and Code Deposit for P&P  submission accepted
+#### On openICPSR
+- Write a "Project communication log" entry. After clicking on "+ add entry", copy the following to the relevant cell. Update AEAREP number accordingly.
+    -   *Subject line:* AEAREP-xxx Data and Code Deposit for P&P submission accepted
 
     -   *Content*: Thank you for uploading your code and data. This
          deposit is accepted. No computational verification was
          conducted, only compliance with required metadata was checked.
 
--   Back in Jira, move it through the workflow
+#### Back in Jira
+- Move it through the workflow
 
     -   Choose "**Prepare for publication**"
         -   Resolution: *Evaluation only*
@@ -66,8 +69,9 @@ Once the form PDF has been added to the issue, you should return to the openICPS
 
 ### If the form does not have all "required" elements checked, make the following entry:
 
-On ICPSR, if `Deposit Status` = `Deposit in Progress`
--   Write a "Project communication log" entry
+#### On openICPSR
+1) If `Deposit Status` = `Deposit in Progress`, 
+- Write a "Project communication log" entry
 
     -   *Subject line:* AEAREP-XXX Modifications to make to your P&P
         deposit
@@ -79,9 +83,10 @@ On ICPSR, if `Deposit Status` = `Deposit in Progress`
 
     -   Attach the PDF from the issue to the communication log.
 
-On ICPSR, if `Deposit Status` = `Submitted`
-- Chang the status of the deposit to "Request Revisions" with the note:
+2) If `Deposit Status` = `Submitted`, 
+- Change the status of the deposit to "Request Revisions" with the note:
     -   Please see the attached form for modifications to make.
+    
 -   Write a "Project communication log" entry
 
     -   *Subject line:* AEAREP-XXX Modifications to make to your P&P
@@ -95,12 +100,11 @@ On ICPSR, if `Deposit Status` = `Submitted`
     -   Attach the PDF from the issue to the communication log.
 
 
--   Back in Jira,
-
-    -   Choose "**Wait for openICPSR response (PandP)**"
-        -   Resolution: "*Evaluation only*"
+#### Back in Jira,
+- Choose "**Wait for openICPSR response (PandP)**"
+    -   Resolution: "*Evaluation only*"
         -   MCRecommendationV2 = "Accept with changes"
 
-    -   Later, once the issues have been resolved (typically days or
+-   Later, once the issues have been resolved (typically days or
         weeks later) follow the process under "required elements
         checked"
