@@ -26,6 +26,8 @@ The training will start with an intensive day of lectures/discussions, followed 
 
 Items that are **bolded** are live lectures. Items that are *italicized* are in informal groups, but live. Other itmes are on your own time, but the time slot is the suggested time you should be doing them. 
 
+> If you have not received an invitation and you think you should have, contact LDI.
+
 | Time  |  April 26                                                 |
 |-------|-----------------------------------------------------------|
 | 10:00 |  **Intro to: Reproducible practice, data citation**       |
