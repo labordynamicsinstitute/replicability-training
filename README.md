@@ -44,15 +44,21 @@ After April 26
 
 - as needed: Email questions
 - organized in small groups: *Live Peer group mentoring with existing replicators*
+  - April 29, 17:00 (first test article) (Lars/Harry/Melanie/Lydia)
+  - April 30, 17:00 (first test article) (Steve)
+  - May 4, 17:00 (second test article) (Steve/Melanie)
+  - May 6, 17:00 (second test article) (Steve/Melanie)
+  - May 12, 17:00 (third test article) (Melanie/Lydia)
+  - May 14, 16:30 (third test article) (Lydia/Steve)
 - each test article should take you no more than 10 hours of work (typically less)
 
 
 | Time     | May 3                               |  May 10                               | May 17 | 
 |----------|-------------------------------------|---------------------------------------|--------|
 |          | Finish first test article           |  Finish second test article           |  Finish third test article          | 
-| Time TBD | **Data provenance, data citations** |  **Follow-up on second test article** | **Follow-up on third test article** |
-| Time TBD | **Follow-up on first test article** |  Start on third test article          | **Wrap-up of training, next steps** |
-| | Start on second test article    | | |
+| 16:00    | **Data provenance, data citations** |  **Follow-up on second test article** | **Follow-up on third test article** |
+|          | **Follow-up on first test article** |                                       | **Wrap-up of training, next steps** |
+| | Start on second test article    | Start on third test article | |
 
 
 Full Training Materials
