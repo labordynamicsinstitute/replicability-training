@@ -14,6 +14,8 @@ Take note of the 4 highlighted fields:
 
 -   \(4) the link for "Code Provenance", which should direct you directly to openICPSR
 
+Additionally, certain steps below (i.e. transitioning to "Pending Publication") require that you have "Publisher" permission in Jira. If it is unclear whether or not you have that permission, please reach out to a supervisor.  
+
 > Here's the guidance document:
 [https://aeadataeditor.github.io/aea-de-guidance/data-deposit-aea-guidance.html](https://aeadataeditor.github.io/aea-de-guidance/data-deposit-aea-guidance.html)
 
