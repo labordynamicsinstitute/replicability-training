@@ -4,8 +4,9 @@
 - The language for the `[REQUIRED]` tag comments is drawn from the [Sample Language for Reports](https://github.com/AEADataEditor/aea-de-guidance/blob/fab4c3f3c52e619a696dfafc4a55dacb6460f54a/sample-language-report.md). To ensure uniformity across reports, pre-approvers are encouraged to use the phrases verbatim.
 
 ## Preliminary Steps for Pre-approving Reports
-1. Clone the Bitbucket repository of the report that requires pre-approval to the local machine or CISER machine. **Do not download the openICPSR deposit!**  The pre-approver checks and finalizes the report but does not redo the whole replication.
-2. Skim through the report and note if it is an original replication or a revision.  Follow the steps below correspondingly.
+1. The "Review for pre-approval" transition in Jira requires specific permissions. If you have not been granted this permission, please reach out to your supervisor. 
+2. Clone the Bitbucket repository of the report that requires pre-approval to the local machine or CISER machine. **Do not download the openICPSR deposit!**  The pre-approver checks and finalizes the report but does not redo the whole replication.
+3. Skim through the report and note if it is an original replication or a revision.  Follow the steps below correspondingly.
 
 
 ## Original Replication Report
