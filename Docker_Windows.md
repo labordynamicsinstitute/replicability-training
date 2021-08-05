@@ -84,7 +84,7 @@ r(603);
 
 2. Navigate to the directory with all the Fortran model codes: ```cd PATH/to/model_codes```
 3. Hit multiple issues attempting to run in Bash shell:
-   ![bash error](Docker_Error.png)
+   ![bash error](images/Docker_Error.png)
 4. On Windows 10, opened a Command Prompt (cmd) instead.
 5. Typed the following into the command line to run the shell script which executes all Fortran code:
 ```docker run --rm -it -w /code -v %cd%:/code intel/oneapi-hpckit:2021.2-devel-ubuntu18.04 /code/run_all.sh > run_all.output.txt```
