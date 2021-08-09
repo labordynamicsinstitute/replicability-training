@@ -13,6 +13,9 @@ See separate notes
 ## On CodeOcean
 
 - all runs should be completed, and all editing done.
+- Ensure that the `metadata` tab is completed, corresponding to openICPSR deposit (if available) and/or the manuscript
+  - Title should start with "Compute Capsule for:" instead of "Code and Data for:"!
+  - Ensure that a license was selected. If authors have not specified a license, use "BSD-3" for code and "CC-BY" for data.
 - download the capsule (Menu "Capsule -> Export..." and tick the box to include the data)
 
 ## On the Bitbucket repo
@@ -40,3 +43,9 @@ git commit -m 'Files from CodeOcean capsule 0687784'
 git push
 ```
 
+## On ICPSR
+
+> REMINDER: Be sure to have a recent downloaded ZIP file available!
+
+- Delete all existing files
+- Import the ZIP file from CodeOcean (e.g., `57033059-76d7-422d-8301-d173e3520f07.zip`
