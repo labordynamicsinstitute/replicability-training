@@ -71,7 +71,8 @@ r(603);
   -v %cd%/tables:/tables ^
   %IMG% 
 ```
-22. Done!
+22. Again, cd into "/programs" and execute `master.do`. 
+23. Done!
 
 
 
