@@ -49,3 +49,16 @@ git push
 
 - Delete all existing files
 - Import the ZIP file from CodeOcean (e.g., `57033059-76d7-422d-8301-d173e3520f07.zip`
+
+## Waiting on sign-off from authors
+
+If doing this process on behalf of authors,
+
+- request them to signoff on the modified openICPSR deposit
+- request them to signoff on the publication of the CodeOcean capsule (in addition to the openICPSR deposit)
+
+```
+- Please CONFIRM that the licenses chosen for data and code are OK with you (they conform to AEA guidance, but this is entirely your choice)
+- Please review the openICPSR deposit, then RESUBMIT (please choose "Other" as License)
+- Please CONFIRM that the separate but otherwise identical compute capsule on CodeOcean can be published (made public, with a DOI) (it will be linked to from the code deposit, but is independently findable)
+```
