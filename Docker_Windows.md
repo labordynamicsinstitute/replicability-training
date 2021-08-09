@@ -92,3 +92,37 @@ r(603);
    - This maps the current directory (model_codes) to the docker image as "/code" and runs `run_all.sh`, creating the log file `run_all.output.txt`. 
 
 
+
+## Wait, what is docker and what did we just do?
+
+Docker is a platform of services for the use of 'containers'. These containers allow the sharing of programs or apps in isolation of their enviroment. In the imperfect example above, we 'mounted' our local folders to the container and then run code inside it using the Stata 16. We did the same thing in the Fortran example, except then we used a Fortran container. It may be helpful to know [the difference between a docker image and a docker container.](https://phoenixnap.com/kb/docker-image-vs-container) 
+
+It may also be helpful to understand the basics of the commands we just run: 
+
+1.  `docker pull dataeditors/stata16:2021-06-09 `: This command is pulling the image "dataeditors/stata16" with the tag "2021-06-09" so we can used it in our machine.
+
+2. 
+```
+docker run -it --rm ^
+  -v C:/Users/mjd443/Documents/aea-licenses/stata.lic.%VERSION%:/usr/local/stata%VERSION%/stata.lic ^
+  -v %cd%/programs:/programs ^
+  -v %cd%/data:/data ^
+  -v %cd%/tables:/tables ^
+  %IMG% 
+
+```
+We used `docker run` to create a container based on a specified image (dataeditors/stata16) and then start it.  Lets undestand some of the options we used:
+
+- `-i` is short for `--interactive`, `-t` is short for `--tty` and is used for allocating a pseudo-TTY ([whatever that means](https://stackoverflow.com/questions/30137135/confused-about-docker-t-option-to-allocate-a-pseudo-tty)). They are often used together, as we did: `-it`. They allow us to work interactively with Stata inside the container. 
+
+- `--rm` is used to automatically remove the container when it exits.
+
+- `-v` is used to bind mount a volume. In other words, we are mapping a folder in our machine to where we want that folder to be in the container (`-v our/folder:container/folder`). So `%cd%/programs` is our current.directory/programs folder, and we "mount it" in the container, creating a "programs" folder inside it. We did the same for the stata license, as well as for "data", and "tables" folders. 
+
+Note that at the end of the line we have `%IMG%`, which is a local variable we previously had set to be equal to the image we are using: `dataeditors/stata16:2021-06-09"`. All of that allowed us to have an interactive Stata inside the container with access to the data and .do files that we needed to replicate the project.
+
+3. In the Fortran example when we used:
+
+```docker run --rm -it -w /code -v %cd%:/code intel/oneapi-hpckit:2021.2-devel-ubuntu18.04 /code/run_all.sh > run_all.output.txt```
+
+where the option `-w` sets the working directory inside the containers to a the existing folder called "code". Then, we "mounted" the current working directory in the host machine to the "code" folder inside the container. We use the image  `intel/oneapi-hpckit` with the tag `2021.2-devel-ubuntu18.04` to create and start a container that run the the bash script as described previously.
