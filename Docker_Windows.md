@@ -68,7 +68,7 @@ r(603);
 23. Adjust the docker run command to account for the results folder:
 ```
    docker run -it --rm ^
-  -v C:/Users/mjd443/Documents/aea-licenses/stata.lic.%VERSION%:/usr/local/stata%VERSION%/stata.lic ^
+  -v C:/path/to/stata_license/stata.lic.%VERSION%:/usr/local/stata%VERSION%/stata.lic ^
   -v %cd%:/code ^
   -v %cd%/../data:/data ^
   -v %cd%/../tables:/tables ^
@@ -78,8 +78,20 @@ r(603);
 24. Again, and execute `master.do`. 
 25. Done!
 
-
-
+It is also possible to execute the program outside of an interactive Stata session:
+1. Use the following docker command:
+```
+   docker run -it --rm ^
+  -v C:/path/to/stata_license/stata.lic.%VERSION%:/usr/local/stata%VERSION%/stata.lic ^
+  -v %cd%:/code ^
+  -v %cd%/../data:/data ^
+  -v %cd%/../tables:/tables ^
+  -w /code ^
+  --entrypoint /bin/bash ^
+  %IMG% 
+```
+2. Issue the following shell command:
+```stata -b do master.do``` to execute `master.do`.
 
 
 ### Fortran Example (aearep-2367)
