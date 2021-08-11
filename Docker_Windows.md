@@ -40,39 +40,42 @@ To generate this message, Docker took the following steps:
 9. Paste into command line.
 10. Set version: `set VERSION="16"` and image: `set IMG="dataeditors/stata16:2021-06-09"`.
 11. Test with: `echo %VERSION%`
-12. Run the Docker image:
+12. Next, cd into the "programs" folder: `cd /programs`.
+13. Update the globals in `config.do` to reflect that the "programs" directory is the current working directory.
+14. Run the Docker image:
 ```
    docker run -it --rm ^
   -v C:/path/to/stata_license/stata.lic.%VERSION%:/usr/local/stata%VERSION%/stata.lic ^
-  -v %cd%/programs:/programs ^
-  -v %cd%/data:/data ^
+  -v %cd%:/code ^
+  -v %cd%/../data:/data ^
   %IMG% 
 ```
-13. This opens an interactive Stata session. Next, cd into the "programs" folder: `cd /programs`
-14. Execute the master file: `do master.do`
-15. Hit error: 
+15. This opens an interactive Stata session. 
+16. Execute the master file: `do master.do`
+17. Hit error: 
 ```
 save `dtahu', replace  /* save housing unit data */
 (note: file /programs/../data/outputdata/housing.dta not found)
 file /programs/../data/outputdata/housing.dta could not be opened
 r(603);
 ```
-16. Looks like there's no folder "data/outputdata/". A global was already defined for this so we can just `cap mkdir $outputdata` to create that folder. Re-run `master.do`.
-17. Another error: `command latab is unrecognized`. Install the "latab" package and re-run.
-18. No "tables" folder in the root directory to send the output tables to. However, this folder wasn't mapped to the Docker image so we'll have to create the directory and map it in our docker run command.
-19. End the Stata session: `exit, STATA clear`.
-20. Make the tables directory from the command line: `mkdir tables`.
-21. Adjust the docker run command to account for the results folder:
+18. Looks like there's no folder "data/outputdata/". A global was already defined for this so we can add `cap mkdir $outputdata` to the `config.do` file to create that folder. Re-run `master.do`.
+19. Another error: `command latab is unrecognized`. Add the "latab" package to `00_setup_stata.do` and re-run.
+20. No "tables" folder in the root directory to send the output tables to. However, this folder wasn't mapped to the Docker image so we'll have to create the directory and map it in our docker run command.
+21. End the Stata session: `exit, STATA clear`.
+22. Make the tables directory from the command line: `mkdir tables`.
+23. Adjust the docker run command to account for the results folder:
 ```
    docker run -it --rm ^
   -v C:/Users/mjd443/Documents/aea-licenses/stata.lic.%VERSION%:/usr/local/stata%VERSION%/stata.lic ^
-  -v %cd%/programs:/programs ^
-  -v %cd%/data:/data ^
-  -v %cd%/tables:/tables ^
+  -v %cd%:/code ^
+  -v %cd%/../data:/data ^
+  -v %cd%/../tables:/tables ^
+  -w /code ^
   %IMG% 
 ```
-22. Again, cd into "/programs" and execute `master.do`. 
-23. Done!
+24. Again, and execute `master.do`. 
+25. Done!
 
 
 
