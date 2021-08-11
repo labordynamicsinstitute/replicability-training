@@ -8,6 +8,7 @@
 - Pay close attention to the system requirements:
     - WSL 2
     - Hyper-V
+- For anyone using a University computer it may be necessary to run as administrator. 
 
 ### Testing Setup
 
