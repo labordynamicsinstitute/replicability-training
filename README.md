@@ -48,9 +48,9 @@ Items that are **bolded** are live meetings (in person if indicated, Zoom otherw
 
 - as needed: Email questions
 - organized in small groups: *Live Peer group mentoring with existing replicators*
-  - August 23, 17:30 (first test article) (Lars/Harry/Melanie/Lydia)
+  - August 23, 17:30 (first test article) (TBD)
   - August 24, 17:30 (second test article) (Melanie)
-  - August 25, 17:30 (third test article) (Melanie/Lydia)
+  - August 25, 17:30 (third test article) (TBD)
 - each test article should take you no more than 5-10 hours of work (typically much less)
 
 
