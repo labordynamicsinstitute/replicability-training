@@ -5,7 +5,7 @@ TRAINING For Reproducibility Verification
 ![GitHub issues](https://img.shields.io/github/issues-raw/labordynamicsinstitute/replicability-training.svg?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/labordynamicsinstitute/replicability-training.svg?style=flat)
 
 > Training will occur virtually, through a combination of required self-study and live Zoom meetings. 
-> - The live part of the training will take place April 26, 2021. Additional meetings will happen on the following 3 Mondays, and work sessions will be planned during those weeks.
+> - The live part of the training will take place August 20, 2021. Additional meetings will happen on the following days using Zoom.
 > - If your application to the LDI Replication Lab was accepted,  you will be receiving a calendar invite with the Zoom information soon. 
 > - All the remaining information here is open to anybody. 
 > - Content is [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/).
@@ -28,11 +28,11 @@ Items that are **bolded** are live meetings (in person if indicated, Zoom otherw
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  August 20, 2021     (live)                                       |
+| Time  |  August 20, 2021     (live: Doherty Lounge, Ives 281 unless otherwise indicated)                                       |
 |-------|-----------------------------------------------------------|
 | 8:00 |  **Introduction**       |
-| 9:00 |  **A template README, Reproducible practices**                     |
-| 10:00| **Data provenance, data citations** |
+| 9:00 |  **A template README, Reproducible practices** (Ives 111)                    |
+| 10:00| **Data provenance, data citations**  (Ives 111) |
 | 11:00 |  **What will you be doing in the Lab**                    |
 | 12:00 |  Lunch Break                                              |
 | 13:00 |  **Command line/Git/Markdown/Version control**                    |
