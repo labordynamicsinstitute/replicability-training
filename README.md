@@ -24,41 +24,41 @@ Tentative Agenda
 
 The training will start with an intensive day of lectures/discussions, followed by exercises that you will do on your own, with weekly touch-base meetings.
 
-Items that are **bolded** are live lectures. Items that are *italicized* are in informal groups, but live. Other itmes are on your own time, but the time slot is the suggested time you should be doing them. 
+Items that are **bolded** are live meetings (in person if indicated, Zoom otherwise). Items that are *italicized* are in informal groups, but live. Other items are on your own time, but the time slot is the suggested time you should be doing them. 
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  April 26                                                 |
+| Time  |  August 20, 2021     (live)                                       |
 |-------|-----------------------------------------------------------|
-| 10:00 |  **Intro to: Reproducible practice, data citation**       |
-| 11:00 |  **Command line/Markdown**   tutorial                     |
+| 8:00 |  **Introduction**       |
+| 9:00 |  **A template README, Reproducible practices**                     |
+| 10:00| **Data provenance, data citations** |
+| 11:00 |  **What will you be doing in the Lab**                    |
 | 12:00 |  Lunch Break                                              |
-|       |  As needed: *debugging software and accounts*             |
-| 13:00 |  **What will you be doing in the Lab**                    |
-| 14:00 |  **A prototypical replication report**                    |
-| 15:00 |  **Git/Version control** tutorial                         |
-| 16:00 |  **A walkthrough of the workflow for unpublished articles** |
-| 17:00 |  Start on first test article                            |
+| 13:00 |  **Command line/Git/Markdown/Version control**                    |
+| 14:00 |  **A prototypical replication report**                        |
+| 15:00 |  **A walkthrough of the workflow for unpublished articles** |
+| 16:00 |  End                           |
 
-After April 26
+| Time  |  August 23, 2021                                            |
+|-------|-----------------------------------------------------------|
+| 9:00 |  **Start on first article (Zoom)**      |
+
+
 
 - as needed: Email questions
 - organized in small groups: *Live Peer group mentoring with existing replicators*
-  - April 29, 17:00 (first test article) (Lars/Harry/Melanie/Lydia)
-  - April 30, 17:00 (first test article) (Steve)
-  - May 4, 17:00 (second test article) (Steve/Melanie)
-  - May 6, 17:00 (second test article) (Steve/Melanie)
-  - May 12, 17:00 (third test article) (Melanie/Lydia)
-  - May 14, 16:30 (third test article) (Lydia/Steve)
-- each test article should take you no more than 10 hours of work (typically less)
+  - August 23, 17:30 (first test article) (Lars/Harry/Melanie/Lydia)
+  - August 24, 17:30 (second test article) (Melanie)
+  - August 25, 17:30 (third test article) (Melanie/Lydia)
+- each test article should take you no more than 5-10 hours of work (typically much less)
 
 
-| Time     | May 3                               |  May 10                               | May 17 | 
-|----------|-------------------------------------|---------------------------------------|--------|
-|          | Finish first test article           |  Finish second test article           |  Finish third test article          | 
-| 16:00    | **Data provenance, data citations** |  **Follow-up on second test article** | **Follow-up on third test article** |
-|          | **Follow-up on first test article** |                                       | **Wrap-up of training, next steps** |
-| | Start on second test article    | Start on third test article | |
+| Time     | August 23                           |  August 24                            | August 25                              | August 30 |
+|----------|-------------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
+| 17:00    |                                     | **Follow-up on first test article**   |  **Follow-up on second test article**  | **Follow-up on third test article** | 
+| 17:30    | *Work on first test article* (peer) | *Work on second test article* (peer)  |  *Work on third test article* (peer)   | **Wrap-up of training, next steps** |
+|          | Finish first test article           |  Finish second test article           |  Finish third test article    ||                                   
 
 
 Full Training Materials
