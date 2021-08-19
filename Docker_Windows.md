@@ -6,7 +6,7 @@
 
 - Follow these [instructions](https://docs.docker.com/docker-for-windows/install/) to install Docker Desktop for Windows.
 - Pay close attention to the system requirements:
-    - WSL 2
+    - [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
     - Hyper-V
 - For anyone using a University computer it may be necessary to run as administrator. 
 
