@@ -28,13 +28,13 @@ Items that are **bolded** are live meetings (in person if indicated, Zoom otherw
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  August 20, 2021     (live: Doherty Lounge, Ives 281 unless otherwise indicated)                                       |
+| Time  |  August 20, 2021     (live: Ives 115 unless otherwise indicated)                                       |
 |-------|-----------------------------------------------------------|
-| 8:00 |  **Introduction**       |
-| 9:00 |  **A template README, Reproducible practices** (Ives 111)                    |
-| 10:00| **Data provenance, data citations**  (Ives 111) |
+| 8:00 |  **Introduction**  (Doherty Lounge Ives 281)     |
+| 9:00 |  **A template README, Reproducible practices**                     |
+| 10:00| **Data provenance, data citations**  |
 | 11:00 |  **What will you be doing in the Lab**                    |
-| 12:00 |  Lunch Break                                              |
+| 12:00 |  Lunch Break         (Doherty Lounge Ives 281)                                      |
 | 13:00 |  **Command line/Git/Markdown/Version control**                    |
 | 14:00 |  **A prototypical replication report**                        |
 | 15:00 |  **A walkthrough of the workflow for unpublished articles** |
