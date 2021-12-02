@@ -28,19 +28,19 @@ Items that are **bolded** are live meetings (in person if indicated, Zoom otherw
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  August 20, 2021     (live: Ives 115 unless otherwise indicated)                                       |
+| Time  |  January 18, 2022     (live: TBD)                                       |
 |-------|-----------------------------------------------------------|
-| 8:00 |  **Introduction**  (Doherty Lounge Ives 281)     |
+| 8:00 |  **Introduction**  (TBD)     |
 | 9:00 |  **A template README, Reproducible practices**                     |
 | 10:00| **Data provenance, data citations**  |
 | 11:00 |  **What will you be doing in the Lab**                    |
-| 12:00 |  Lunch Break         (Doherty Lounge Ives 281)                                      |
+| 12:00 |  Lunch Break         (TBD)                                      |
 | 13:00 |  **Command line/Git/Markdown/Version control**                    |
 | 14:00 |  **A prototypical replication report**                        |
 | 15:00 |  **A walkthrough of the workflow for unpublished articles** |
 | 16:00 |  End                           |
 
-| Time  |  August 23, 2021                                            |
+| Time  |  January 19, 2022                                            |
 |-------|-----------------------------------------------------------|
 | 9:00 |  **Start on first article (Zoom)**      |
 
@@ -48,13 +48,13 @@ Items that are **bolded** are live meetings (in person if indicated, Zoom otherw
 
 - as needed: Email questions
 - organized in small groups: *Live Peer group mentoring with existing replicators*
-  - August 23, 17:30 (first test article) (TBD)
-  - August 24, 17:30 (second test article) (Melanie)
-  - August 25, 17:30 (third test article) (TBD)
+  - January 20, 17:30 (first test article) (TBD)
+  - January 21, 17:30 (second test article) (TBD)
+  - January 24, 17:30 (third test article) (TBD)
 - each test article should take you no more than 5-10 hours of work (typically much less)
 
 
-| Time     | August 23                           |  August 24                            | August 25                              | August 30 |
+| Time     | January 19                          |  January 20                           | January 21                             | January 24 |
 |----------|-------------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
 | 17:00    |                                     | **Follow-up on first test article**   |  **Follow-up on second test article**  | **Follow-up on third test article** | 
 | 17:30    | *Work on first test article* (peer) | *Work on second test article* (peer)  |  *Work on third test article* (peer)   | **Wrap-up of training, next steps** |
