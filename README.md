@@ -28,7 +28,7 @@ Items that are **bolded** are live meetings (in person if indicated, Zoom otherw
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  January 18, 2022     (live: TBD)                                       |
+| Time  |  January 18, 2022     (live: Conference Center rm 329)                                       |
 |-------|-----------------------------------------------------------|
 | 8:00 |  **Introduction**  (TBD)     |
 | 9:00 |  **A template README, Reproducible practices**                     |
@@ -48,9 +48,9 @@ Items that are **bolded** are live meetings (in person if indicated, Zoom otherw
 
 - as needed: Email questions
 - organized in small groups: *Live Peer group mentoring with existing replicators*
-  - January 20, 17:30 (first test article) (TBD)
-  - January 21, 17:30 (second test article) (TBD)
-  - January 24, 17:30 (third test article) (TBD)
+  - January 20, 17:30 (first test article) (location TBD)
+  - January 21, 17:30 (second test article) (location TBD)
+  - January 24, 17:30 (third test article) (location TBD)
 - each test article should take you no more than 5-10 hours of work (typically much less)
 
 
