@@ -22,27 +22,27 @@ Please have a look at the [list of tasks](https://labordynamicsinstitute.github.
 Tentative Agenda
 ----------------
 
-The training will start with an intensive day of lectures/discussions, followed by exercises that you will do on your own, with weekly touch-base meetings.
+The training will start with an intensive day of lectures/discussions, followed by exercises that you will do on your own, with daily touch-base meetings.
 
-Items that are **bolded** are live meetings (in person if indicated, Zoom otherwise). Items that are *italicized* are in informal groups, but live. Other items are on your own time, but the time slot is the suggested time you should be doing them. 
+Items that are **bolded** are live meetings (Zoom). Items that are *italicized* are in informal groups, but live. Other items are on your own time, but the time slot is the suggested time you should be doing them. 
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  January 18, 2022     (live: Conference Center rm 329)                                       |
+| Time  |  January 18, 2022     (Zoom)                                       |
 |-------|-----------------------------------------------------------|
-| 8:00 |  **Introduction**  (TBD)     |
-| 9:00 |  **A template README, Reproducible practices**                     |
-| 10:00| **Data provenance, data citations**  |
-| 11:00 |  **What will you be doing in the Lab**                    |
-| 12:00 |  Lunch Break         (TBD)                                      |
-| 13:00 |  **Command line/Git/Markdown/Version control**                    |
-| 14:00 |  **A prototypical replication report**                        |
-| 15:00 |  **A walkthrough of the workflow for unpublished articles** |
-| 16:00 |  End                           |
+| 10:00 |  **Introduction**  (TBD)     |
+| 11:00 |  **A template README, Reproducible practices**                     |
+| 12:00| **Data provenance, data citations**  |
+| 13:00 |  Lunch Break         (TBD)                                      |
+| 14:00 |  **What will you be doing in the Lab**                    |
+| 15:00 |  **Command line/Git/Markdown/Version control**                    |
+| 16:00 |  **A prototypical replication report**                        |
+| 17:00 |  **A walkthrough of the workflow for unpublished articles** |
+| 18:00 |  End                           |
 
 | Time  |  January 19, 2022                                            |
 |-------|-----------------------------------------------------------|
-| 9:00 |  **Start on first article (Zoom)**      |
+| 10:00 |  **Start on first article (Zoom)**      |
 
 
 
@@ -56,8 +56,9 @@ Items that are **bolded** are live meetings (in person if indicated, Zoom otherw
 
 | Time     | January 19                          |  January 20                           | January 21                             | January 24 |
 |----------|-------------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
-| 17:00    |                                     | **Follow-up on first test article**   |  **Follow-up on second test article**  | **Follow-up on third test article** | 
-| 17:30    | *Work on first test article* (peer) | *Work on second test article* (peer)  |  *Work on third test article* (peer)   | **Wrap-up of training, next steps** |
+| 16:30    |                                     |                                       |                                        | **Follow-up on third test article** |
+| 17:00    |                                     | **Follow-up on first test article**   |  **Follow-up on second test article**  | **Wrap-up of training, next steps** | 
+| 17:30    | *Work on first test article* (peer) | *Work on second test article* (peer)  |  *Work on third test article* (peer)   | (Join the regular Lab meeting) |
 |          | Finish first test article           |  Finish second test article           |  Finish third test article    ||                                   
 
 
