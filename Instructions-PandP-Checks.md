@@ -34,6 +34,7 @@ You should now do the following:
 -   Assess the openICPSR repository, filling out the form as you go along
 
     -   It is important that you enter the AEAREP and Manuscript numbers accurately. We suggest copying-and-pasting.
+    -   Quickly assess the README.
 
 -   Submit the form.
 
@@ -47,6 +48,7 @@ In Jira:
      "*Submitted PandP Form*"
     -   This indicates that you have completed the form.
 -   Attach the downloaded PDF to the Jira ticket.
+-   Fill out the `DCAF_README_compliant` field under the `Repl. info` tab. If the README utilized the data editor template, check `Fully`. If the README did not use the template, but has all the information that we require check `Content only`. Finally, if the README does not satisfy either of those conditions, check `No`. 
 
 ## Step 2
 
