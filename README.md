@@ -30,10 +30,10 @@ Items that are **bolded** are live meetings (Zoom). Items that are *italicized* 
 
 | Time  |  January 18, 2022     (Zoom)                                       |
 |-------|-----------------------------------------------------------|
-| 10:00 |  **Introduction**  (TBD)     |
+| 10:00 |  **Introduction**      |
 | 11:00 |  **A template README, Reproducible practices**                     |
-| 12:00| **Data provenance, data citations**  |
-| 13:00 |  Lunch Break         (TBD)                                      |
+| 12:00 | **Data provenance, data citations**  |
+| 13:00 |  Lunch Break                                               |
 | 14:00 |  **What will you be doing in the Lab**                    |
 | 15:00 |  **Command line/Git/Markdown/Version control**                    |
 | 16:00 |  **A prototypical replication report**                        |
@@ -48,16 +48,16 @@ Items that are **bolded** are live meetings (Zoom). Items that are *italicized* 
 
 - as needed: Email questions
 - organized in small groups: *Live Peer group mentoring with existing replicators*
-  - January 20, 17:30 (first test article) (location TBD)
-  - January 21, 17:30 (second test article) (location TBD)
-  - January 24, 17:30 (third test article) (location TBD)
+  - January 20, 17:30 (first test article) (Zoom)
+  - January 21, 17:30 (second test article) (Zoom)
+  - January 24, 17:30 (third test article) (Zoom)
 - each test article should take you no more than 5-10 hours of work (typically much less)
 
 
 | Time     | January 19                          |  January 20                           | January 21                             | January 24 |
 |----------|-------------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
 | 16:30    |                                     |                                       |                                        | **Follow-up on third test article** |
-| 17:00    |                                     | **Follow-up on first test article**   |  **Follow-up on second test article**  | **Wrap-up of training, next steps** | 
+| 17:00    |                                     | **Follow-up on first test article**<br>How to run Stata code   |  **Follow-up on second test article**  | **Wrap-up of training, next steps** | 
 | 17:30    | *Work on first test article* (peer) | *Work on second test article* (peer)  |  *Work on third test article* (peer)   | (Join the regular Lab meeting) |
 |          | Finish first test article           |  Finish second test article           |  Finish third test article    ||                                   
 
