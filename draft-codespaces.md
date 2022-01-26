@@ -21,7 +21,7 @@ If neither of those options appear, contact the LDI Lab Administrator.
 - Open a terminal (top menu, Terminal, New Terminal, or shortcut `shift-ctrl-\``.
 - `cd ..` to be in `/workspaces`
 - You can clone a Bitbucket case as usual. 
-  - special command available: `aeagit [NNNN] http` where `[NNN]` is the `AEAREP-NNNN` number. 
+  - special command available: `aeagit [NNNN] http` where `[NNN]` is the `AEAREP-NNNN` number. The command should open a new VS Code instance, with the cloned repository in the file pane.
 - All command line git functions should work, as should command line Stata.
 
 
