@@ -56,9 +56,8 @@ Items that are **bolded** are live meetings (Zoom). Items that are *italicized* 
 
 | Time     | April 25                          |  April 28                           | May 3                             | May 6 |
 |----------|-------------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
-| 16:30    |                                     |                                       |                                        | **Follow-up on third test article** |
-| 17:00    |                                     | **Follow-up on first test article**<br>How to run Stata code   |  **Follow-up on second test article**  | **Wrap-up of training, next steps** | 
-| 17:30    | *Work on first test article* (peer)<br>TBD | *Work on second test article* (peer) <br>TBD |  *Work on third test article* (peer) <br>TBD  |  |
+| 8:00    |                                     | **Follow-up on first test article**  |  **Follow-up on second test article**  | **Follow-up on third test article**<br>**Wrap-up of training, next steps** | 
+| 17:30    | *Work on first test article* (peer)<br>TBD | <br>How to run Stata code <br>*Work on second test article* (peer) <br>TBD |  *Work on third test article* (peer) <br>TBD  |  |
 |          | Finish first test article           |  Finish second test article           |  Finish third test article    ||                                   
 
 And then, on **May 9**, Join the regular Lab meeting (17:30 until summer starts).
