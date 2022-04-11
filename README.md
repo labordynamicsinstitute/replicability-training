@@ -40,9 +40,6 @@ Items that are **bolded** are live meetings (Zoom). Items that are *italicized* 
 | 17:00 |  **A walkthrough of the workflow for unpublished articles** |
 | 18:00 |  End                           |
 
-| Time  |  April 25, 2022                                            |
-|-------|-----------------------------------------------------------|
-| 8:00 |  **Start on first article (Zoom)**      |
 
 
 
@@ -56,7 +53,7 @@ Items that are **bolded** are live meetings (Zoom). Items that are *italicized* 
 
 | Time     | April 25                          |  April 28                           | May 3                             | May 6 |
 |----------|-------------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
-| 8:00    |                                     | **Follow-up on first test article**  |  **Follow-up on second test article**  | **Follow-up on third test article**<br>**Wrap-up of training, next steps** | 
+| 8:00    |  **Start on first article (Zoom)**  | **Follow-up on first test article**  |  **Follow-up on second test article**  | **Follow-up on third test article**<br>**Wrap-up of training, next steps** | 
 | 17:30    | *Work on first test article* (peer)<br>TBD | <br>How to run Stata code <br>*Work on second test article* (peer) <br>TBD |  *Work on third test article* (peer) <br>TBD  |  |
 |          | Finish first test article           |  Finish second test article           |  Finish third test article    ||                                   
 
