@@ -5,7 +5,7 @@ TRAINING For Reproducibility Verification
 ![GitHub issues](https://img.shields.io/github/issues-raw/labordynamicsinstitute/replicability-training.svg?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/labordynamicsinstitute/replicability-training.svg?style=flat)
 
 > Training will occur virtually, through a combination of required self-study and live Zoom meetings. 
-> - The live part of the training will take place January 18, 2022. Additional meetings will happen on the following days using Zoom.
+> - The live part of the training will take place April 23, 2022. Additional meetings will happen on the following days using Zoom.
 > - If your application to the LDI Replication Lab was accepted,  you will be receiving a calendar invite with the Zoom information soon. 
 > - All the remaining information here is open to anybody. 
 > - Content is [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/).
@@ -28,7 +28,7 @@ Items that are **bolded** are live meetings (Zoom). Items that are *italicized* 
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  January 18, 2022     (Zoom)                                       |
+| Time  |  April 23, 2022     (Zoom)                                       |
 |-------|-----------------------------------------------------------|
 | 10:00 |  **Introduction**      |
 | 11:00 |  **A template README, Reproducible practices**                     |
@@ -40,21 +40,21 @@ Items that are **bolded** are live meetings (Zoom). Items that are *italicized* 
 | 17:00 |  **A walkthrough of the workflow for unpublished articles** |
 | 18:00 |  End                           |
 
-| Time  |  January 19, 2022                                            |
+| Time  |  April 25, 2022                                            |
 |-------|-----------------------------------------------------------|
-| 10:00 |  **Start on first article (Zoom)**      |
+| 8:00 |  **Start on first article (Zoom)**      |
 
 
 
 - as needed: Email questions
 - organized in small groups: *Live Peer group mentoring with existing replicators*
-  - January 19, 17:30 (first test article) (Zoom)
-  - January 20, 17:30 (second test article) (Zoom)
-  - January 21, 17:30 (third test article) (Zoom)
+  - April 19, 17:30 (first test article) (Zoom)
+  - April 20, 17:30 (second test article) (Zoom)
+  - April 21, 17:30 (third test article) (Zoom)
 - each test article should take you no more than 5-10 hours of work (typically much less)
 
 
-| Time     | January 19                          |  January 20                           | January 21                             | January 24 |
+| Time     | April 25                          |  April 28                           | May 3                             | May 6 |
 |----------|-------------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
 | 16:30    |                                     |                                       |                                        | **Follow-up on third test article** |
 | 17:00    |                                     | **Follow-up on first test article**<br>How to run Stata code   |  **Follow-up on second test article**  | **Wrap-up of training, next steps** | 
