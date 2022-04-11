@@ -48,9 +48,9 @@ Items that are **bolded** are live meetings (Zoom). Items that are *italicized* 
 
 - as needed: Email questions
 - organized in small groups: *Live Peer group mentoring with existing replicators*
-  - April 19, 17:30 (first test article) (Zoom)
-  - April 20, 17:30 (second test article) (Zoom)
-  - April 21, 17:30 (third test article) (Zoom)
+  - April 25, 17:30 (first test article) (Zoom)
+  - April 28, 17:30 (second test article) (Zoom)
+  - May 3, 17:30 (third test article) (Zoom)
 - each test article should take you no more than 5-10 hours of work (typically much less)
 
 
