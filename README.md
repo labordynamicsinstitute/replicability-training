@@ -28,7 +28,7 @@ Items that are **bolded** are live meetings (Zoom). Items that are *italicized* 
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  April 23, 2022     (Zoom)                                       |
+| Time  |  April 23, 2022     (ILR Ives 381)                                       |
 |-------|-----------------------------------------------------------|
 | 10:00 |  **Introduction**      |
 | 11:00 |  **A template README, Reproducible practices**                     |
