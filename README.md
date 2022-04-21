@@ -5,7 +5,7 @@ TRAINING For Reproducibility Verification
 ![GitHub issues](https://img.shields.io/github/issues-raw/labordynamicsinstitute/replicability-training.svg?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/labordynamicsinstitute/replicability-training.svg?style=flat)
 
 > Training will occur virtually, through a combination of required self-study and live Zoom meetings. 
-> - The live part of the training will take place April 23, 2022. Additional meetings will happen on the following days using Zoom.
+> - The live part of the training will take place April 23, 2022, via Zoom. Additional meetings will happen on the following days using Zoom.
 > - If your application to the LDI Replication Lab was accepted,  you will be receiving a calendar invite with the Zoom information soon. 
 > - All the remaining information here is open to anybody. 
 > - Content is [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/).
@@ -28,7 +28,7 @@ Items that are **bolded** are live meetings (Zoom). Items that are *italicized* 
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  April 23, 2022     (ILR Ives 381)                                       |
+| Time  |  April 23, 2022     (Zoom)                                       |
 |-------|-----------------------------------------------------------|
 | 10:00 |  **Introduction**      |
 | 11:00 |  **A template README, Reproducible practices**                     |
