@@ -14,7 +14,7 @@ We are dedicated to providing a welcoming and supportive environment for all peo
 * Focus on what is best for the community
 * Show courtesy and respect towards other community members
 
-If you believe someone is violating the Code of Conduct, we ask that you report it to The Carpentries Code of Conduct Committee [completing this form][reporting-form], who will take the appropriate action to address the situation.
+If you believe someone is violating the Code of Conduct, we ask that you report it to Cornell University, who will take the appropriate action to address the situation.
 
 #### Code of Conduct (Detailed View)
 
