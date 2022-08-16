@@ -54,7 +54,7 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 
 | Time     | August 18                         |  August 19                          | August 23                          | August 25 |
 |----------|-----------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
-| 8:00     | **Start on first article (Zoom)** | **Follow-up on first test article, introduce second test article** (Zoom)  |  **Follow-up on second test article, introduce the third test article** (Zoom) | **Follow-up on third test article**<br>**Wrap-up of training, next steps** (Zoom) | 
+| 8:30     | **Start on first article (Zoom)** | **Follow-up on first test article, introduce second test article** (Zoom)  |  **Follow-up on second test article, introduce the third test article** (Zoom) | **Follow-up on third test article**<br>**Wrap-up of training, next steps** (Zoom) | 
 | 17:30    | *Work on first test article* <br>TBD | *Work on second test article* TBD |  *Work on third test article* TBD  |  |
 |          | Finish first test article           |  Finish second test article           |  Finish third test article    ||                                   
 
