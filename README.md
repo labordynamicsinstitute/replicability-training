@@ -28,8 +28,9 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  August 17, 2022     (Room TBD)                           |
+| Time  |  August 17, 2022     (Room Ives 108)                           |
 |-------|-----------------------------------------------------------|
+|  8:00 | Breakfast (Room Ives 281) |
 |  9:00 |  **Introduction**      |
 | 10:00 |  **A template README, Reproducible practices**                     |
 | 11:00 | **Data provenance, data citations**  |
@@ -55,7 +56,7 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 | Time     | August 18                         |  August 19                          | August 23                          | August 25 |
 |----------|-----------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
 | 8:30     | **Start on first article (Zoom)** | **Follow-up on first test article, introduce second test article** (Zoom)  |  **Follow-up on second test article, introduce the third test article** (Zoom) | **Follow-up on third test article**<br>**Wrap-up of training, next steps** (Zoom) | 
-| 17:30    | *Work on first test article* <br>TBD | *Work on second test article* TBD |  *Work on third test article* TBD  |  |
+| 17:30    | *Work on first test article* <br>(Zoom) | *Work on second test article* (Zoom) |  *Work on third test article* (Zoom)  |  |
 |          | Finish first test article           |  Finish second test article           |  Finish third test article    ||                                   
 
 And then, on **August 29**, Join the regular Lab meeting (17:30).
