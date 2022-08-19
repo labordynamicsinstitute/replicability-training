@@ -48,12 +48,12 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 - as needed: Email questions
 - *Live Peer group mentoring with existing replicators*
   - August 18, 17:30 (first test article) **Linda**, Ilona, Jessica (Zoom)
-  - August 19, 17:30 (second test article) **Jessica**, Linda (Zoom)
-  - August 23, 17:30 (third test article) **Ilona**, Andres (Zoom)
+  - August 22, 17:30 (second test article) **Jessica**, Linda (Zoom)
+  - August 24, 17:30 (third test article) **Ilona**, Andres (Zoom)
 - each test article should take you no more than 5-10 hours of work (typically much less)
 
 
-| Time     | August 18                         |  August 19                          | August 23                          | August 25 |
+| Time     | August 18                         |  August 22                          | August 24                          | August 26 |
 |----------|-----------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
 | 8:30     | **Start on first article (Zoom)** | **Follow-up on first test article, introduce second test article** (Zoom)  |  **Follow-up on second test article, introduce the third test article** (Zoom) | **Follow-up on third test article**<br>**Wrap-up of training, next steps** (Zoom) | 
 | 17:30    | *Work on first test article* <br>(Zoom) | *Work on second test article* (Zoom) |  *Work on third test article* (Zoom)  |  |
