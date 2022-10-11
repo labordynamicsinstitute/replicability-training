@@ -1,3 +1,10 @@
+---
+
+This has been moved to the [Curriculum](https://labordynamicsinstitute.github.io/replicability-training-curriculum/).
+
+---
+
+
 ## Generic Guidance
 - Pre-approvals usually can be completed rather quickly and should be prioritized.
 - The pre-approver should not be running any of the code or downloading any of the data unless asked to do so.

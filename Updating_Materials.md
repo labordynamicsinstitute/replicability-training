@@ -1,5 +1,11 @@
 # Updating Replication Materials
 
+---
+
+This has been moved to the [Curriculum](https://labordynamicsinstitute.github.io/replicability-training-curriculum/).
+
+---
+
 While you move through the [revision workflow](https://labordynamicsinstitute.github.io/replicability-training-curriculum/aea-revision-reports-after-author-resubmission.html), step **12.3.2 Code** instructs you to download the updated ICPSR deposit and commit the files to the Bitbucket repository. This document will detail the most efficient way of executing this process.
 
 1. On the ICPSR deposit, navigate to "View Log" under "Share Project" and "Change Owner." This log will tell you all the changes that have been made to the deposit and when. Verify that changes have been made to the deposit since the recent revisions were requested. If no changes have been made since the previous round, it may be a sign that the authors have created a new deposit instead of updating their existing deposit. If no changes have been made, contact a supervisor.  
