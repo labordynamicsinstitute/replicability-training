@@ -1,8 +1,6 @@
----
 
-This has been moved to the [Curriculum](https://labordynamicsinstitute.github.io/replicability-training-curriculum/).
+> This has been moved to the [Curriculum](https://labordynamicsinstitute.github.io/replicability-training-curriculum/).
 
----
 
 
 ## Generic Guidance
