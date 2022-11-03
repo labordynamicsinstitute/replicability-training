@@ -1,5 +1,6 @@
-TRAINING For Reproducibility Verification
-=========================================
+---
+title: TRAINING For Reproducibility Verification
+---
 
 
 ![GitHub issues](https://img.shields.io/github/issues-raw/labordynamicsinstitute/replicability-training.svg?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/labordynamicsinstitute/replicability-training.svg?style=flat)
