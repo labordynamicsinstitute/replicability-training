@@ -18,6 +18,10 @@ We will provide you with the code in a Git repository (the data will be separate
 
 > You should NOT use the file upload capability of the web-based interface (i.e., Github.com, Bitbucket.com) if you can avoid it.
 
+- [Quick Git Tutorial slides](https://alicelepissier.com/git-tutorial/slides.html#1)
+- [Somewhat customized short tutorial](https://labordynamicsinstitute.github.io/replicability-training-presentation/part4.html)
+- [Longer tutorial on Carpentries](https://swcarpentry.github.io/git-novice/) - highly recommended!
+
 ## Follow the procedures in the authors' README
 
 You should follow instructions as closely as possible. However,
