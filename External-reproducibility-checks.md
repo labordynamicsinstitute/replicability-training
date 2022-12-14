@@ -113,7 +113,7 @@ Once you have completed the task, and committed all changes to the Git repo we p
 
 You can have access to all the resources we regularly use:
 
-- [CCSS ("CISER") compute nodes](https://ciser.cornell.edu/computing/computing-help/how-to-login/). If you do not have an account, request a Research account with "lv39" as sponsor. Do not use the restricted data access!
+- [CCSS ("CISER") compute nodes](https://ciser.cornell.edu/computing/computing-help/how-to-login/). If you do not have an account, request a Research account with "lv39" as sponsor. Do NOT use the restricted data access (do not request a CRADC account)!
 - [BioHPC compute cluster](https://biohpc.cornell.edu/lab/lab.aspx). If you do not have an account, request one. Even if you have an account, request to be added to the "lv39" lab.
 - [CodeOcean](https://www.codeocean.com) - Don't forget to share with "dataeditor@aeapubs.org". Instructions are [here](https://labordynamicsinstitute.github.io/replicability-training-curriculum/access-to-computers.html#reproducibility-checks-in-codeocean)
 - [WholeTale](https://labordynamicsinstitute.github.io/replicability-training-curriculum/access-to-computers.html#conducting-reproducibility-checks-on-wholetale)
