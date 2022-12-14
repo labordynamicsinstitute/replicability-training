@@ -22,6 +22,19 @@ We will provide you with the code in a Git repository (the data will be separate
 - [Somewhat customized short tutorial](https://labordynamicsinstitute.github.io/replicability-training-presentation/part4.html)
 - [Longer tutorial on Carpentries](https://swcarpentry.github.io/git-novice/) - highly recommended!
 
+## Download the materials
+
+You will get
+
+- access to a Bitbucket repository that already has the authors' code (pulled in from openICPSR by us). It will be of the form `https://bitbucket.org/aeaverification/aearep-3769/`.
+  - Git clone preferred
+  - Download is also OK, if you do not want to use Git
+- access to a pre-publication openICPSR deposit. Details are [here](https://labordynamicsinstitute.github.io/replicability-training-curriculum/downloading-data.html). It will be of the form `https://www.openicpsr.org/openicpsr/workspace?goToPath=/openicpsr/183346`
+  - You should "overlay" the deposit on the code in the Bitbucket repository. Each Bitbucket repo already has a directory with the number of the openICPSR deposit, e.g., `183346`. 
+  - Unzip the downloaded file from openICPSR (called `183346`) on top of the existing directory. You should not need to overwrite any existing files, this just makes sure that all the **data** files are also there.
+  - If you use the command line: `python3 tools/download_openicpsr_private.py 183346 && unzip -n 183346.zip -d 183346` (told you the command line is a lot easier...)
+
+
 ## Follow the procedures in the authors' README
 
 You should follow instructions as closely as possible. However,
