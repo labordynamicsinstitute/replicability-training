@@ -28,9 +28,9 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  January 18, 2022     (Room Ives TBD)                           |
+| Time  |  January 18, 2022     (Room ILR CC 329)                           |
 |-------|-----------------------------------------------------------|
-|  8:00 | Breakfast (Room Ives TBD) |
+|  8:00 | Breakfast (next door) |
 |  9:00 |  **Introduction**      |
 | 10:00 |  **A template README, Reproducible practices**                     |
 | 11:00 | **Data provenance, data citations**  |
@@ -67,11 +67,13 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 And then, on **January 30**, Join the regular Lab meeting (17:30).
 
 - *Live Peer group mentoring with existing replicators*
-  - January 19, 17:30 (first test article)  TBD, TBD (Zoom)
-  - January 22, 17:30 (second test article) TBD, TBD (Zoom)
-  - January 25, 17:30 (third test article) TBD, TBD (Zoom)
+  - January 19, 17:30 (first test article)  Ilona, Linda (Zoom)
+  - January 22, 17:30 (second test article) Jessica, Sofia (Zoom)
+  - January 25, 17:30 (third test article) Lars (Zoom)
 
 Full Training Materials
 ----------------------
 
 Please go to [https://labordynamicsinstitute.github.io/replicability-training-curriculum/](https://labordynamicsinstitute.github.io/replicability-training-curriculum/) for the full training materials.
+
+> A new version of the Training Manual is being finalized, please find the [draft version here](https://labordynamicsinstitute.github.io/replicability-training-manual-new). Once finalized, it will be available at [https://labordynamicsinstitute.github.io/ldi-lab-manual](https://labordynamicsinstitute.github.io/ldi-lab-manual) .
