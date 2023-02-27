@@ -15,7 +15,7 @@ TRAINING For Reproducibility Verification
 prior to Training
 ------
 
-Please have a look at the [list of tasks](https://labordynamicsinstitute.github.io/replicability-training-curriculum/pre-training.html) that should be accomplished before the first meeting. 
+Please have a look at the [list of tasks](https://labordynamicsinstitute.github.io/ldilab-manual/02-02-pre-training-tasks.html) that should be accomplished before the first meeting. 
 
 ---
 
