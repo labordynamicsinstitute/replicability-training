@@ -22,7 +22,7 @@ Please have a look at the [list of tasks](https://labordynamicsinstitute.github.
 Tentative Agenda
 ----------------
 
-The training will start with an intensive day of lectures/discussions, followed by exercises that you will do on your own, with daily touch-base meetings.
+The training will start with an intensive (**in person**) day of lectures/discussions, followed by exercises that you will do on your own, with daily touch-base meetings over Zoom.
 
 Items that are **bolded** are live meetings. Items that are *italicized* are in informal groups with peers, but live (in person or on Zoom). Other items are on your own time, but the time slot is the suggested time you should be doing them. 
 
