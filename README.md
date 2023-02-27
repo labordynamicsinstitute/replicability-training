@@ -5,7 +5,7 @@ TRAINING For Reproducibility Verification
 ![GitHub issues](https://img.shields.io/github/issues-raw/labordynamicsinstitute/replicability-training.svg?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/labordynamicsinstitute/replicability-training.svg?style=flat)
 
 > Training will occur virtually, through a combination of required self-study and live Zoom meetings. 
-> - The live part of the training will take place January 18, 2023, in person. Additional meetings will happen on the following days using Zoom.
+> - The live part of the training will take place April 22, 2023, in person. Additional meetings will happen on the following days using Zoom.
 > - If your application to the LDI Replication Lab was accepted,  you will be receiving a calendar invite with the Zoom information soon. 
 > - All the remaining information here is open to anybody. 
 > - Content is [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/).
@@ -28,7 +28,7 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  January 18, 2022     (Room ILR CC 329)                           |
+| Time  |  April 22, 2023     (Room TBD)                           |
 |-------|-----------------------------------------------------------|
 |  8:00 | Breakfast (next door) |
 |  9:00 |  **Introduction**      |
@@ -42,10 +42,6 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 | 18:00 | End                           |
 
 
-| Time  |  January 20, 2022     (Zoom)                           |
-|-------|-----------------------------------------------------------|
-| 8:30 |  **A walkthrough of the workflow for unpublished articles** |
-
 
 - as needed: Email questions
 
@@ -55,25 +51,24 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
   - Test article 3: Data is available, Matlab
 
 
-| Time     | January 19 (Zoom)                 |  January 20 (Zoom)                    | January 25                          | January 26 |
+| Time     | April 24 (Zoom)                 |  April 28 (Zoom)                    | May 1                          | May 4 |
 |----------|-----------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
-| 8:30     | **Start on first article (Zoom)** | **Follow-up on first test article**   |  **Follow-up on second test article, introduce  third test article**  | **Follow-up on third test article**<br>**Wrap-up of training, next steps** (Zoom) | 
+| 8:00     | **Start on first article (Zoom)** | **Follow-up on first test article**   |  **Follow-up on second test article, introduce  third test article**  | **Follow-up on third test article**<br>**Wrap-up of training, next steps** (Zoom) | 
 | 9:00     |                                   | **A walkthrough of the workflow for unpublished articles** ||
 | 9:30     |                                   | **Introduce second test article**     |
 | (self-paced)| Work on first test article     | Work on second article                | Work on third article
 | 17:30    | *Work on first test article* <br>(Peer mentoring) | *Work on second test article*<br/> (Peer mentoring) |  *Work on third test article*<br/> (Peer mentoring)  |  |
 |          | Finish first test article           |  Finish second test article         |  Finish third test article    ||                                   
 
-And then, on **January 30**, Join the regular Lab meeting (17:30).
+And then, on **May 8**, Join the regular Lab meeting (17:30).
 
 - *Live Peer group mentoring with existing replicators*
-  - January 19, 17:30 (first test article)  Ilona, Linda (Zoom)
-  - January 22, 17:30 (second test article) Jessica, Sofia (Zoom)
-  - January 25, 17:30 (third test article) Lars (Zoom)
+  - April 24, 17:30 (first test article)  Ilona, Linda (Zoom)
+  - April 28, 17:30 (second test article) Jessica, Sofia (Zoom)
+  - May 1, 17:30 (third test article) Lars (Zoom)
 
 Full Training Materials
 ----------------------
 
-Please go to [https://labordynamicsinstitute.github.io/replicability-training-curriculum/](https://labordynamicsinstitute.github.io/replicability-training-curriculum/) for the full training materials.
+Please go to [https://labordynamicsinstitute.github.io/ldilab-manual/](https://labordynamicsinstitute.github.io/ldilab-manual/) for the full training materials.
 
-> A new version of the Training Manual is being finalized, please find the [draft version here](https://labordynamicsinstitute.github.io/replicability-training-manual-new). Once finalized, it will be available at [https://labordynamicsinstitute.github.io/ldi-lab-manual](https://labordynamicsinstitute.github.io/ldi-lab-manual) .
