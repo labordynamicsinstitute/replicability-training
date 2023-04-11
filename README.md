@@ -63,9 +63,9 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 And then, on **May 8**, Join the regular Lab meeting (17:30).
 
 - *Live Peer group mentoring with existing replicators*
-  - April 24, 17:30 (first test article)  Ilona, Linda (Zoom)
-  - April 28, 17:30 (second test article) Jessica, Sofia (Zoom)
-  - May 1, 17:30 (third test article) Lars (Zoom)
+  - April 24, 17:30 (first test article)  Jessica, Jaeyoung (Zoom)
+  - April 28, 17:30 (second test article) Jaeyoung, Bianca (Zoom)
+  - May 1, 17:30 (third test article) Bianca, Jessica (Zoom)
 
 Full Training Materials
 ----------------------
