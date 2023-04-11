@@ -28,9 +28,9 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  April 22, 2023     (Room TBD)                           |
+| Time  |  April 22, 2023     (Room Ives 215)                           |
 |-------|-----------------------------------------------------------|
-|  8:00 | Breakfast (next door) |
+|  8:00 | Breakfast  |
 |  9:00 |  **Introduction**      |
 | 10:00 |  **A template README, Reproducible practices**                     |
 | 11:00 | **Data provenance, data citations**  |
@@ -38,7 +38,8 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 | 13:00 |  **What will you be doing in the Lab**                    |
 | 14:00 |  **Command line/Git/Markdown/Version control**                    |
 | 15:00 |  **A prototypical replication report**                        |
-| 16:00 | **How to run Stata code** |
+| 16:00 | **A walkthrough of the workflow for unpublished articles**|
+| 17:00 | **How to run Stata code** |
 | 18:00 | End                           |
 
 
