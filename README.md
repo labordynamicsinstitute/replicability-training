@@ -55,18 +55,18 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 | Time     | April 24 (Zoom)                 |  April 28 (Zoom)                    | May 1                          | May 4 |
 |----------|-----------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
 | 8:00     | **Start on first article (Zoom)** | **Follow-up on first test article**   |  **Follow-up on second test article, introduce  third test article**  | **Follow-up on third test article**<br>**Wrap-up of training, next steps** (Zoom) | 
-| 9:00     |                                   | **A walkthrough of the workflow for unpublished articles** ||
-| 9:30     |                                   | **Introduce second test article**     |
+| 9:00     |                                   |  ||
+| 9:30     |                                   |      |
 | (self-paced)| Work on first test article     | Work on second article                | Work on third article
-| 17:30    | *Work on first test article* <br>(Peer mentoring) | *Work on second test article*<br/> (Peer mentoring) |  *Work on third test article*<br/> (Peer mentoring)  |  |
+| 17:30    | *Introduce second test article* <br>(Peer mentoring) | *Introduce third test article*<br/> (Peer mentoring) |  *General questions*<br/> (Peer mentoring)  |  |
 |          | Finish first test article           |  Finish second test article         |  Finish third test article    ||                                   
 
 And then, on **May 8**, Join the regular Lab meeting (17:30).
 
 - *Live Peer group mentoring with existing replicators*
-  - April 24, 17:30 (first test article)  Jessica, Jaeyoung (Zoom)
-  - April 28, 17:30 (second test article) Jaeyoung, Bianca (Zoom)
-  - May 1, 17:30 (third test article) Bianca, Jessica (Zoom)
+  - April 24, 17:30 (second test article)  Jessica, Jaeyoung (Zoom)
+  - April 28, 17:30 (third test article) Jaeyoung, Bianca (Zoom)
+  - May 1, 17:30 (general Q&A) Bianca, Jessica (Zoom)
 
 Full Training Materials
 ----------------------
