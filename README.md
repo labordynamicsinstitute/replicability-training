@@ -28,7 +28,7 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  August 16, 2023     (Room Ives 215)                           |
+| Time  |  August 16, 2023     (Room TBD)                           |
 |-------|-----------------------------------------------------------|
 |  8:00 | Breakfast  |
 |  9:00 |  **Introduction**      |
@@ -52,7 +52,7 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
   - Test article 3: Data is available, Matlab
 
 
-| Time     | August 16 (Zoom)                 |  August 17 (Zoom)                    | August 21                          | August 23 |
+| Time     | August 17 (Zoom)                 |  August 21 (Zoom)                    | August 23 (Zoom)                            | TBD |
 |----------|-----------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
 | 8:00     | **Start on first article (Zoom)** | **Follow-up on first test article**   |  **Follow-up on second test article, introduce  third test article**  | **Follow-up on third test article**<br>**Wrap-up of training, next steps** (Zoom) | 
 | 9:00     |                                   |  ||
