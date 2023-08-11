@@ -28,7 +28,7 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 
 > If you have not received an invitation and you think you should have, contact LDI.
 
-| Time  |  August 16, 2023     (Room TBD)                           |
+| Time  |  August 16, 2023     (ILR Conference Center 329)                           |
 |-------|-----------------------------------------------------------|
 |  8:00 | Breakfast  |
 |  9:00 |  **Introduction**      |
@@ -64,9 +64,9 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 And then, on **August 28**, Join the regular Lab meeting (17:30).
 
 - *Live Peer group mentoring with existing replicators*
-  - August 17, 17:30 (second test article)  Jessica, Jaeyoung (Zoom)
-  - August 21, 17:30 (third test article) Jaeyoung, Bianca (Zoom)
-  - August 23, 17:30 (general Q&A) Bianca, Jessica (Zoom)
+  - August 17, 17:30 (second test article) (Zoom)
+  - August 21, 17:30 (third test article) (Zoom)
+  - August 23, 17:30 (general Q&A) (Zoom)
 
 Full Training Materials
 ----------------------
