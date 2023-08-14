@@ -55,8 +55,6 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 | Time     | August 17 (Zoom)                 |  August 21 (Zoom)                    | August 23 (Zoom)                            | TBD |
 |----------|-----------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
 | 8:00-9:00     | **Start on first article (Zoom)** | **Follow-up on first test article**   |  **Follow-up on second test article, introduce  third test article**  | **Follow-up on third test article**<br>**Wrap-up of training, next steps** (Zoom) | 
-| 9:00     |                                   |  ||
-| 9:30     |                                   |      |
 | (self-paced)| Work on first test article     | Work on second article                | Work on third article
 | 17:30- 18:30    | *Introduce second test article* <br>(Peer mentoring) | *Introduce third test article*<br/> (Peer mentoring) |  *General questions*<br/> (Peer mentoring)  |  |
 |          | Finish first test article           |  Finish second test article         |  Finish third test article    ||                                   
