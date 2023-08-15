@@ -4,23 +4,37 @@ TRAINING For Reproducibility Verification
 
 ![GitHub issues](https://img.shields.io/github/issues-raw/labordynamicsinstitute/replicability-training.svg?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/labordynamicsinstitute/replicability-training.svg?style=flat)
 
-> Training will occur virtually, through a combination of required self-study and live Zoom meetings. 
-> - The live part of the training will take place August 16, 2023, in person. Additional meetings will happen on the following days using Zoom.
-> - If your application to the LDI Replication Lab was accepted,  you will be receiving a calendar invite with the Zoom information soon. 
+
+
+> Training will occur mostly virtually, through a combination of required self-study and live Zoom meetings. 
+> - The live part of the training will take place on Day 1 **in person** (no exceptions). Additional meetings will happen on the following days using Zoom.
+> - If your application to the LDI Replication Lab was accepted,  you will be receiving information soon.
+> - Training is open to anybody, for free, but employment is only based on invitation after application.
 > - All the remaining information here is open to anybody. 
 > - Content is [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/).
 
----
+## General Training Schedule
 
-prior to Training
-------
+Training happens three times a year:
+
+- week prior to start of Fall classes (around Aug 16)
+- week prior to start of Spring classes (around Jan 17)
+- sometime prior to May exams (around April 22)
+
+Day 1 is always a full day of training, and may occur on a weekend.
+
+> **Next training day is Aug 16, 2023**
+
+## Applying 
+
+Applications are accepted approximately 4-6 prior to the training day, and close approximately 10 days prior to the training day. For more information, see [https://www.ilr.cornell.edu/labor-dynamics-institute/student-employment-opportunities](https://www.ilr.cornell.edu/labor-dynamics-institute/student-employment-opportunities).
+
+## Prior to Training
+
 
 Please have a look at the [list of tasks](https://labordynamicsinstitute.github.io/ldilab-manual/02-02-pre-training-tasks.html) that should be accomplished before the first meeting. 
 
----
-
-Tentative Agenda
-----------------
+## Tentative Agenda
 
 The training will start with an intensive (**in person**) day of lectures/discussions, followed by exercises that you will do on your own, with daily touch-base meetings over Zoom.
 
