@@ -27,7 +27,7 @@ Day 1 is always a full day of training, and may occur on a weekend.
 
 ## Applying 
 
-Applications are accepted approximately 4-6 prior to the training day, and close approximately 10 days prior to the training day. For more information, see [https://www.ilr.cornell.edu/labor-dynamics-institute/student-employment-opportunities](https://www.ilr.cornell.edu/labor-dynamics-institute/student-employment-opportunities).
+Applications are open  approximately 4-6 weeks prior to the training day, and close approximately 10 days prior to the training day. For more information, see [https://www.ilr.cornell.edu/labor-dynamics-institute/student-employment-opportunities](https://www.ilr.cornell.edu/labor-dynamics-institute/student-employment-opportunities).
 
 ## Prior to Training
 
@@ -36,7 +36,7 @@ Please have a look at the [list of tasks](https://labordynamicsinstitute.github.
 
 ## Tentative Agenda
 
-The training will start with an intensive (**in person**) day of lectures/discussions, followed by exercises that you will do on your own, with daily touch-base meetings over Zoom.
+The training will start with an intensive (**in person**) day of [lectures/discussions](https://labordynamicsinstitute.github.io/replicability-training-presentation/#1), followed by exercises that you will do on your own, with daily touch-base meetings over Zoom.
 
 Items that are **bolded** are live meetings. Items that are *italicized* are in informal groups with peers, but live (in person or on Zoom). Other items are on your own time, but the time slot is the suggested time you should be doing them. 
 
@@ -76,9 +76,9 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 And then, on **August 28**, Join the regular Lab meeting (17:30).
 
 - *Live Peer group mentoring with existing replicators*
-  - August 17, 17:30 (second test article) (Zoom)
-  - August 21, 17:30 (third test article) (Zoom)
-  - August 23, 17:30 (general Q&A) (Zoom)
+  - August 17, 17:30 (second test article) (Zoom) (Ilona, Kareena)
+  - August 21, 17:30 (third test article) (Zoom) (Kareena, Bianca)
+  - August 23, 17:30 (general Q&A) (Zoom) (Jessica, Ilona)
 
 Full Training Materials
 ----------------------
