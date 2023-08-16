@@ -38,14 +38,6 @@ Please have a look at the [list of tasks](https://labordynamicsinstitute.github.
 
 The training will start with an intensive (**in person**) day of [lectures/discussions](https://labordynamicsinstitute.github.io/replicability-training-presentation/#1), followed by exercises that you will do on your own, with daily touch-base meetings over Zoom.
 
-Slides:
-- [Intro](https://labordynamicsinstitute.github.io/replicability-training-presentation/#1)
-- [Reproducible Practices](https://labordynamicsinstitute.github.io/replicability-training-presentation/part1a.html#1)
-- [Template README](https://labordynamicsinstitute.github.io/replicability-training-presentation/part1b.html#1)
-- [Data Citations](https://labordynamicsinstitute.github.io/replicability-training-presentation/part2.html#1)
-- [Command Line/Git](https://labordynamicsinstitute.github.io/replicability-training-presentation/part4.html#(1))
-- [Workflow](https://labordynamicsinstitute.github.io/ldilab-manual/11-00-jira-workflow.html)
-- [How to run stata](https://labordynamicsinstitute.github.io/replicability-training-presentation/part5.html)
 
 Items that are **bolded** are live meetings. Items that are *italicized* are in informal groups with peers, but live (in person or on Zoom). Other items are on your own time, but the time slot is the suggested time you should be doing them. 
 
@@ -94,3 +86,12 @@ Full Training Materials
 
 Please go to [https://labordynamicsinstitute.github.io/ldilab-manual/](https://labordynamicsinstitute.github.io/ldilab-manual/) for the full training materials.
 
+
+Slides:
+- [Intro](https://labordynamicsinstitute.github.io/replicability-training-presentation/#1)
+- [Reproducible Practices](https://labordynamicsinstitute.github.io/replicability-training-presentation/part1a.html#1)
+- [Template README](https://labordynamicsinstitute.github.io/replicability-training-presentation/part1b.html#1)
+- [Data Citations](https://labordynamicsinstitute.github.io/replicability-training-presentation/part2.html#1)
+- [Command Line/Git](https://labordynamicsinstitute.github.io/replicability-training-presentation/part4.html#(1))
+- [Workflow](https://labordynamicsinstitute.github.io/ldilab-manual/11-00-jira-workflow.html)
+- [How to run stata](https://labordynamicsinstitute.github.io/replicability-training-presentation/part5.html)
