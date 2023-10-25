@@ -23,7 +23,7 @@ Training happens three times a year:
 
 Day 1 is always a full day of training, and may occur on a weekend.
 
-> **Next training day is Aug 16, 2023**
+> **Next training day is Jan 17, 2024**
 
 ## Applying 
 
@@ -41,9 +41,9 @@ The training will start with an intensive (**in person**) day of [lectures/discu
 
 Items that are **bolded** are live meetings. Items that are *italicized* are in informal groups with peers, but live (in person or on Zoom). Other items are on your own time, but the time slot is the suggested time you should be doing them. 
 
-> If you have not received an invitation and you think you should have, contact LDI.
+> If you have not received an invitation and you think you should have, contact LDI (ldi@cornell.edu).
 
-| Time  |  August 16, 2023     (ILR Conference Center 329)                           |
+| Time  |  January 17, 2024     (Location TBD)                           |
 |-------|-----------------------------------------------------------|
 |  8:00 | Breakfast  |
 |  9:00 |  **Introduction**      |
@@ -67,14 +67,14 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
   - Test article 3: Data is available, Matlab
 
 
-| Time     | August 17 (Zoom)                 |  August 21 (Zoom)                    | August 23 (Zoom)                            | TBD |
+| Time     | January 18 (Zoom)                 |  January 19 (Zoom)                    | January 22 (Zoom)                            | TBD |
 |----------|-----------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
 | 8:00-9:00     | **Start on first article (Zoom)** | **Follow-up on first test article, discuss second article**   |  **Follow-up on second test article, third test article**  | **Follow-up on all test articles**<br>**Wrap-up of training, next steps** (Zoom) | 
 | (self-paced)| Work on first test article     | Work on second article                | Work on third article
 | 17:30- 18:30    | *Introduce second test article* <br>(Peer mentoring) | *Introduce third test article*<br/> (Peer mentoring) |  *General questions*<br/> (Peer mentoring)  |  |
 |          | Finish first test article           |  Finish second test article         |  Finish third test article    ||                                   
 
-And then, on **August 28**, Join the regular Lab meeting (17:30).
+And then, on **January 29**, Join the regular Lab meeting (17:30).
 
 - *Live Peer group mentoring with existing replicators*
   - August 17, 17:30 (second test article) (Zoom) (Ilona, Kareena)
