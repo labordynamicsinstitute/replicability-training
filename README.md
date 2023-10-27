@@ -77,9 +77,9 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 And then, on **January 29**, Join the regular Lab meeting (17:30).
 
 - *Live Peer group mentoring with existing replicators*
-  - August 17, 17:30 (second test article) (Zoom) (Ilona, Kareena)
-  - August 21, 17:30 (third test article) (Zoom) (Kareena, Bianca)
-  - August 23, 17:30 (general Q&A) (Zoom) (Jessica, Ilona)
+  - January 18, 17:30 (second test article) (Zoom) (Ilona, Kareena)
+  - January 19, 17:30 (third test article) (Zoom) (Kareena, Bianca)
+  - January 22, 17:30 (general Q&A) (Zoom) (Jessica, Ilona)
 
 Full Training Materials
 ----------------------
