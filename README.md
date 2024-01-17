@@ -86,6 +86,8 @@ Full Training Materials
 
 Please go to [https://labordynamicsinstitute.github.io/ldilab-manual/](https://labordynamicsinstitute.github.io/ldilab-manual/) for the full training materials.
 
+> JUST FOR JANUARY 2024: Use [https://larsvilhuber.github.io/ldilab-manual/](https://larsvilhuber.github.io/ldilab-manual/)!!!!
+
 
 Slides:
 - [Intro](https://labordynamicsinstitute.github.io/replicability-training-presentation/#1)
