@@ -43,7 +43,7 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 
 > If you have not received an invitation and you think you should have, contact LDI (ldi@cornell.edu).
 
-| Time  |  January 17, 2024     (Location: Ives 217)                           |
+| Time  |  April 20, 2024     (Location: TBD)                           |
 |-------|-----------------------------------------------------------|
 |  8:00 | Breakfast  |
 |  9:00 |  **Introduction**      |
@@ -61,32 +61,42 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 
 - as needed: Email questions
 
+## Test cases and peer mentoring
+
+Test cases are worked through, and jointly handled, including with repeated peer mentoring by senior (experienced) RAs in the Lab. Three (non-consecutive) days are set aside for the peer-mentoring and walk-throughs, but work on these test cases can be done any time (adapted to individual class and exam schedules). We *strongly* suggest doing these immediately after the in-person training, however, as experience has shown that those who delay too long will ultimately struggle later in their work.
+
 - each test article should take you no more than 5 hours of work (decreasing as you progress)
   - Test article 1: Data is available, Stata
   - Test article 2: No data is available, only "dry" analysis
   - Test article 3: Data is available, Matlab
+ 
+Scheduled days:
+
+- Day 1: TBD
+- Day 2: TBD
+- Day 3: TBD
+- Day 4: TBD
 
 
-| Time     | January 18 (Zoom)                 |  January 19 (Zoom)                    | January 22 (Zoom)                            | TBD |
+| Time     | Day 1 (Zoom)                 |  Day 2 (Zoom)                    | Day 3 (Zoom)                            | Day 4 |
 |----------|-----------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
 | 8:00-9:00     | **Start on first article (Zoom)** | **Follow-up on first test article, discuss second article**   |  **Follow-up on second test article, third test article**  | **Follow-up on all test articles**<br>**Wrap-up of training, next steps** (Zoom) | 
 | (self-paced)| Work on first test article     | Work on second article                | Work on third article
 | 17:30- 18:30    | *Introduce second test article* <br>(Peer mentoring) | *Introduce third test article*<br/> (Peer mentoring) |  *General questions*<br/> (Peer mentoring)  |  |
 |          | Finish first test article           |  Finish second test article         |  Finish third test article    ||                                   
 
-And then, on **January 29**, Join the regular Lab meeting (17:30).
+**April trainees** will join the regular Lab meeting once they start in **May**. Details will be posted closer to the dates.
 
 - *Live Peer group mentoring with existing replicators*
-  - January 18, 17:30 (second test article) (Zoom) (Ilona, Jessica)
-  - January 19, 17:30 (third test article) (Zoom) (Jessica, Sofia)
-  - January 22, 17:30 (general Q&A) (Zoom) (Kareena, Ilona)
+  - Day 1, 17:30 (second test article) (Zoom) (TBD)
+  - Day 2, 17:30 (third test article) (Zoom) (TBD)
+  - Day 3, 17:30 (general Q&A) (Zoom) (TBD)
 
 Full Training Materials
 ----------------------
 
 Please go to [https://labordynamicsinstitute.github.io/ldilab-manual/](https://labordynamicsinstitute.github.io/ldilab-manual/) for the full training materials.
 
-> JUST FOR JANUARY 2024: Use [https://larsvilhuber.github.io/ldilab-manual/](https://larsvilhuber.github.io/ldilab-manual/)!!!!
 
 
 Slides:
