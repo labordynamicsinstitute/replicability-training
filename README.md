@@ -26,7 +26,7 @@ Training happens three times a year:
 
 Day 1 is always a full day of training, and may occur on a weekend.
 
-> **Next training day is April 20, 2024 (a Saturday)**
+> **Next training day is April 6, 2024 (a Saturday)**
 
 ## Applying 
 
@@ -46,7 +46,7 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 
 > If you have not received an invitation and you think you should have, contact LDI (ldi@cornell.edu).
 
-| Time  |  April 20, 2024     (Location: TBD)                           |
+| Time  |  April 6, 2024     (Location: TBD)                           |
 |-------|-----------------------------------------------------------|
 |  8:00 | Breakfast  |
 |  9:00 |  **Introduction**      |
@@ -73,12 +73,12 @@ Test cases are worked through, and jointly handled, including with repeated peer
   - Test article 2: No data is available, only "dry" analysis
   - Test article 3: Data is available, Matlab
  
-Scheduled days:
+**Tentative** Scheduled days:
 
-- Day 1: TBD
-- Day 2: TBD
-- Day 3: TBD
-- Day 4: TBD
+- Day 1: April 8
+- Day 2: April 11
+- Day 3: April 15
+- Day 4: APril 18
 
 
 | Time     | Day 1 (Zoom)                 |  Day 2 (Zoom)                    | Day 3 (Zoom)                            | Day 4 |
