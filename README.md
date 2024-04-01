@@ -26,7 +26,7 @@ Training happens three times a year:
 
 Day 1 is always a full day of training, and may occur on a weekend.
 
-> **Next training day is April 6, 2024 (a Saturday)**
+> **No training in April - next training will be in August 2024.**
 
 ## Applying 
 
@@ -46,7 +46,7 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 
 > If you have not received an invitation and you think you should have, contact LDI (ldi@cornell.edu).
 
-| Time  |  April 6, 2024     (Location: TBD)                           |
+| Time  |  August, 2024     (Location: TBD)                           |
 |-------|-----------------------------------------------------------|
 |  8:00 | Breakfast  |
 |  9:00 |  **Introduction**      |
@@ -66,6 +66,16 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 
 ## Test cases and peer mentoring
 
+
+**Tentative** Scheduled days:
+
+- Day 1: 
+- Day 2: 
+- Day 3: 
+- Day 4:
+
+### Test cases
+
 Test cases are worked through, and jointly handled, including with repeated peer mentoring by senior (experienced) RAs in the Lab. Three (non-consecutive) days are set aside for the peer-mentoring and walk-throughs, but work on these test cases can be done any time (adapted to individual class and exam schedules). We *strongly* suggest doing these immediately after the in-person training, however, as experience has shown that those who delay too long will ultimately struggle later in their work.
 
 - each test article should take you no more than 5 hours of work (decreasing as you progress)
@@ -73,13 +83,14 @@ Test cases are worked through, and jointly handled, including with repeated peer
   - Test article 2: No data is available, only "dry" analysis
   - Test article 3: Data is available, Matlab
  
-**Tentative** Scheduled days:
 
-- Day 1: April 8
-- Day 2: April 11
-- Day 3: April 15
-- Day 4: APril 18
 
+### Live Peer group mentoring with existing replicators
+  - Day 1, 17:30 (second test article) (Zoom) (TBD)
+  - Day 2, 17:30 (third test article) (Zoom) (TBD)
+  - Day 3, 17:30 (general Q&A) (Zoom) (TBD)
+
+### Schedule
 
 | Time     | Day 1 (Zoom)                 |  Day 2 (Zoom)                    | Day 3 (Zoom)                            | Day 4 |
 |----------|-----------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
@@ -90,10 +101,6 @@ Test cases are worked through, and jointly handled, including with repeated peer
 
 **April trainees** will join the regular Lab meeting once they start in **May**. Details will be posted closer to the dates.
 
-- *Live Peer group mentoring with existing replicators*
-  - Day 1, 17:30 (second test article) (Zoom) (TBD)
-  - Day 2, 17:30 (third test article) (Zoom) (TBD)
-  - Day 3, 17:30 (general Q&A) (Zoom) (TBD)
 
 Full Training Materials
 ----------------------
