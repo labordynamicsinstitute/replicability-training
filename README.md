@@ -26,7 +26,7 @@ Training happens three times a year:
 
 Day 1 is always a full day of training, and may occur on a weekend.
 
-> **No training in April - next training will be in August 2024.**
+> **Next training will be August 24, 2024.**
 
 ## Applying 
 
@@ -46,7 +46,7 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 
 > If you have not received an invitation and you think you should have, contact LDI (ldi@cornell.edu).
 
-| Time  |  August, 2024     (Location: TBD)                           |
+| Time  |  August 24, 2024     (Location: TBD)                           |
 |-------|-----------------------------------------------------------|
 |  8:00 | Breakfast  |
 |  9:00 |  **[Introduction](https://labordynamicsinstitute.github.io/replicability-training-presentation/#1)**      |
@@ -69,10 +69,10 @@ Items that are **bolded** are live meetings. Items that are *italicized* are in 
 
 **Tentative** Scheduled days:
 
-- Day 1: 
-- Day 2: 
-- Day 3: 
-- Day 4:
+- Day 1: August 26
+- Day 2: August 29
+- Day 3: Sept 5
+- Day 4: Sept 9
 
 ### Test cases
 
