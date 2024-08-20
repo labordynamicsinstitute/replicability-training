@@ -42,7 +42,6 @@ Please have a look at the [list of tasks](https://labordynamicsinstitute.github.
 The training will start with an intensive (**in person**) day of [lectures/discussions](https://labordynamicsinstitute.github.io/replicability-training-presentation/#1), followed by exercises that you will do on your own, with daily touch-base meetings over Zoom.
 
 
-Items that are **bolded** are live meetings. Items that are *italicized* are in informal groups with peers, but live (in person or on Zoom). Other items are on your own time, but the time slot is the suggested time you should be doing them. 
 
 > If you have not received an invitation and you think you should have, contact LDI (ldi@cornell.edu).
 
@@ -84,13 +83,15 @@ Test cases are worked through, and jointly handled, including with repeated peer
   - Test article 3: Data is available, Matlab
  
 
-
 ### Live Peer group mentoring with existing replicators
   - Day 1, 17:30 (second test article) (Zoom) (TBD)
   - Day 2, 17:30 (third test article) (Zoom) (TBD)
   - Day 3, 17:30 (general Q&A) (Zoom) (TBD)
 
 ### Schedule
+
+> Items that are **bolded** are live meetings. Items that are *italicized* are in informal groups with peers, but live (in person or on Zoom). Other items are on your own time, but the time slot is the suggested time you should be doing them. 
+
 
 | Time     | Day 1 (Zoom)                 |  Day 2 (Zoom)                    | Day 3 (Zoom)                            | Day 4 |
 |----------|-----------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
