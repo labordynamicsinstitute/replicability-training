@@ -95,9 +95,9 @@ Test cases are worked through, and jointly handled, including with repeated peer
 
 | Time     | Day 1 (Zoom)                 |  Day 2 (Zoom)                    | Day 3 (Zoom)                            | Day 4 |
 |----------|-----------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
-| 8:00-9:00     | **Start on first article (Zoom)** | **Follow-up on first test article, discuss second article**   |  **Follow-up on second test article, third test article**  | **Follow-up on all test articles**<br>**Wrap-up of training, next steps** (Zoom) | 
+| 8:00-9:00     | **Start on first article (Zoom)** | **Follow-up on first test article, introduce second article**   |  **Follow-up on second test article, introduce third test article**  | **Follow-up on all test articles**<br>**Wrap-up of training, next steps** (Zoom) | 
 | (self-paced)| Work on first test article     | Work on second article                | Work on third article
-| 17:30- 18:30    | *Introduce second test article* <br>(Peer mentoring) | *Introduce third test article*<br/> (Peer mentoring) |  *General questions*<br/> (Peer mentoring)  |  |
+| 17:30- 18:30    | *(Peer mentoring)* | *(Peer mentoring)* |  *(Peer mentoring)*  |  |
 |          | Finish first test article           |  Finish second test article         |  Finish third test article    ||                                   
 
 **April trainees** will join the regular Lab meeting once they start in **May**. Details will be posted closer to the dates.
