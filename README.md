@@ -100,7 +100,6 @@ Test cases are worked through, and jointly handled, including with repeated peer
 | 17:30- 18:30    | *(Peer mentoring)* | *(Peer mentoring)* |  *(Peer mentoring)*  |  |
 |          | Finish first test article           |  Finish second test article         |  Finish third test article    ||                                   
 
-**April trainees** will join the regular Lab meeting once they start in **May**. Details will be posted closer to the dates.
 
 
 Full Training Materials
