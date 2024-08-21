@@ -84,9 +84,9 @@ Test cases are worked through, and jointly handled, including with repeated peer
  
 
 ### Live Peer group mentoring with existing replicators
-  - Day 1, 17:30 (second test article) (Zoom) (TBD)
-  - Day 2, 17:30 (third test article) (Zoom) (TBD)
-  - Day 3, 17:30 (general Q&A) (Zoom) (TBD)
+  - Day 1, 17:30 (first test article) (Zoom) Ilona, Marina
+  - Day 2, 17:30 (second test article) (Zoom) Gary, Ilanith
+  - Day 3, 17:30 (third test article and general Q&A) (Zoom) Marina, Gary
 
 ### Schedule
 
