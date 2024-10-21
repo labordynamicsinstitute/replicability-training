@@ -26,7 +26,7 @@ Training happens three times a year:
 
 Day 1 is always a full day of training, and may occur on a weekend.
 
-> **Next training will be August 24, 2024.**
+> **Next training will be January 19, 2025.**
 
 ## Applying 
 
