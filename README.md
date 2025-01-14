@@ -104,7 +104,6 @@ Test cases are worked through, and jointly handled, including with repeated peer
 </table>
 
 
-
 ### Overall Schedule for Follow-up to Training
 
 > Items that are **bolded** are live meetings. Items that are *italicized* are in informal groups with peers, but live (in person or on Zoom). Other items are on your own time, but the time slot is the suggested time you should be doing them. 
