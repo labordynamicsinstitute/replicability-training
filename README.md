@@ -61,30 +61,51 @@ The training will start with an intensive (**in person**) day of [lectures/discu
 
 ## Test cases and peer mentoring
 
-**Tentative** Scheduled days:
-
-- Day 1: Jan 21
-- Day 2: Jan 23
-- Day 3: Jan 27
-- Day 4: Jan 30
+<table>
+  <tr>
+    <th>Day</th>
+    <th>Date</th>
+  </tr>
+  {% for row in site.data.mentoring %}
+    <tr>
+      <td>{{ row.day }}</td>
+      <td><strong>{{ row.date }}</strong>
+      <td>{{ row.topic }}</td>
+    </tr>
+  {% endfor %}
+</table>
 
 ### Test cases
 
 Test cases are worked through, and jointly handled, including with repeated peer mentoring by senior (experienced) RAs in the Lab. Three (non-consecutive) days are set aside for the peer-mentoring and walk-throughs, but work on these test cases can be done any time (adapted to individual class and exam schedules). We *strongly* suggest doing these immediately after the in-person training, however, as experience has shown that those who delay too long will ultimately struggle later in their work.
 
 - each test article should take you no more than 5 hours of work (decreasing as you progress)
-  - Test article 1: Data is available, Stata
-  - Test article 2: No data is available, only "dry" analysis
-  - Test article 3: Data is available, Matlab
+- each session is **live** on **Zoom**.
  
+<table>
+  <tr>
+    <th>Day</th>
+    <th>Date</th>
+    <th>Topic</th>
+    <th>Lead</th>
+    <th></th>
+  </tr>
+  {% for row in site.data.mentoring %}
+  {% if row.day != "Day 4" %}
+    <tr>
+      <td>{{ row.day }}, 17:30</td>
+      <td>{{ row.date }}</td>
+      <td>{{ row.topic }}</td>
+      <td><strong>{{ row.lead }}</strong></td>
+      <td>{{ row.other }}</td>
+    </tr>
+  {% endif %}
+  {% endfor %}
+</table>
 
-### Live Peer group mentoring with existing replicators
 
-  - Day 1, 17:30 (first test article) (Zoom) (Gary, Marina, Ilanith)
-  - Day 2, 17:30 (second test article) (Zoom) (Gary, Marina, Ilanith)
-  - Day 3, 17:30 (third test article and general Q&A) (Zoom) (Gary, Marina, Ilanith)
 
-### Schedule
+### Overall Schedule for Follow-up to Training
 
 > Items that are **bolded** are live meetings. Items that are *italicized* are in informal groups with peers, but live (in person or on Zoom). Other items are on your own time, but the time slot is the suggested time you should be doing them. 
 
