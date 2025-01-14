@@ -12,7 +12,7 @@ TRAINING For Reproducibility Verification
 > Training will occur mostly virtually, through a combination of required self-study and live Zoom meetings. 
 > - The live part of the training will take place on Day 1 **in person** (no exceptions). Additional meetings will happen on the following days using Zoom.
 > - If your application to the LDI Replication Lab was accepted,  you will be receiving information soon.
-> - Training is open to anybody, for free, but employment is only based on invitation after application.
+> - Training is **open to anybody**, for free, but employment is only based on invitation after application.
 > - All the remaining information here is open to anybody. 
 > - Content is [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/).
 
@@ -45,7 +45,7 @@ The training will start with an intensive (**in person**) day of [lectures/discu
 
 > If you have not received an invitation and you think you should have, contact LDI (ldi@cornell.edu).
 
-| Time  |  August 24, 2024     (Location: TBD)                           |
+| Time  |  January 19, 2025     (Location: Ives 108)                           |
 |-------|-----------------------------------------------------------|
 |  8:00 | Breakfast  |
 |  9:00 |  **[Introduction](https://labordynamicsinstitute.github.io/replicability-training-presentation/#1)**      |
@@ -68,10 +68,10 @@ The training will start with an intensive (**in person**) day of [lectures/discu
 
 **Tentative** Scheduled days:
 
-- Day 1: August 26
-- Day 2: August 29
-- Day 3: Sept 5
-- Day 4: Sept 9
+- Day 1: Jan 21
+- Day 2: Jan 23
+- Day 3: Jan 27
+- Day 4: Jan 30
 
 ### Test cases
 
@@ -84,9 +84,9 @@ Test cases are worked through, and jointly handled, including with repeated peer
  
 
 ### Live Peer group mentoring with existing replicators
-  - Day 1, 17:30 (first test article) (Zoom) Ilona, Marina
-  - Day 2, 17:30 (second test article) (Zoom) Gary, Ilanith
-  - Day 3, 17:30 (third test article and general Q&A) (Zoom) Marina, Gary
+  - Day 1, 17:30 (first test article) (Zoom) (Gary, Marina, Ilanith)
+  - Day 2, 17:30 (second test article) (Zoom) (Gary, Marina, Ilanith)
+  - Day 3, 17:30 (third test article and general Q&A) (Zoom) (Gary, Marina, Ilanith)
 
 ### Schedule
 
