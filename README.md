@@ -70,7 +70,6 @@ The training will start with an intensive (**in person**) day of [lectures/discu
     <tr>
       <td>{{ row.day }}</td>
       <td><strong>{{ row.date }}</strong>
-      <td>{{ row.topic }}</td>
     </tr>
   {% endfor %}
 </table>
