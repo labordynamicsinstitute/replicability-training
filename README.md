@@ -69,7 +69,7 @@ The training will start with an intensive (**in person**) day of [lectures/discu
   {% for row in site.data.mentoring %}
     <tr>
       <td>{{ row.day }}</td>
-      <td><strong>{{ row.date }}</strong>
+      <td><strong>{{ row.date }}</strong></td>
     </tr>
   {% endfor %}
 </table>
