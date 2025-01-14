@@ -92,15 +92,58 @@ Test cases are worked through, and jointly handled, including with repeated peer
 
 > Items that are **bolded** are live meetings. Items that are *italicized* are in informal groups with peers, but live (in person or on Zoom). Other items are on your own time, but the time slot is the suggested time you should be doing them. 
 
+## Schedule
 
-| Time     | Day 1 (Zoom)                 |  Day 2 (Zoom)                    | Day 3 (Zoom)                            | Day 4 |
-|----------|-----------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
-| 8:00-9:00     | **Start on first article (Zoom)** | **Follow-up on first test article, introduce second article**   |  **Follow-up on second test article, introduce third test article**  | **Follow-up on all test articles**<br>**Wrap-up of training, next steps** (Zoom) | 
-| (self-paced)| Work on first test article     | Work on second article                | Work on third article
-| 17:30- 18:30    | *(Peer mentoring)* | *(Peer mentoring)* |  *(Peer mentoring)*  |  |
-|          | Finish first test article           |  Finish second test article         |  Finish third test article    ||                                   
-
-
+<table>
+  <tr>
+    <th>Time</th>
+    <th>Day 1</th>
+    <th>Day 2</th>
+    <th>Day 3</th>
+    <th>Day 4</th>
+  </tr>
+  {% for row in site.data.schedule %}
+    <tr>
+      <td>{{ row.Time }}</td>
+      <td>
+        {% if row.Day1_fmt == "B" %}
+          <strong>{{ row.Day1 }}</strong>
+        {% elsif row.Day1_fmt == "I" %}
+          <em>{{ row.Day1 }}</em>
+        {% else %}
+          {{ row.Day1 }}
+        {% endif %}
+      </td>
+      <td>
+        {% if row.Day2_fmt == "B" %}
+          <strong>{{ row.Day2 }}</strong>
+        {% elsif row.Day2_fmt == "I" %}
+          <em>{{ row.Day2 }}</em>
+        {% else %}
+          {{ row.Day2 }}
+        {% endif %}
+      </td>
+      <td>
+        {% if row.Day3_fmt == "B" %}
+          <strong>{{ row.Day3 }}</strong>
+        {% elsif row.Day3_fmt == "I" %}
+          <em>{{ row.Day3 }}</em>
+        {% else %}
+          {{ row.Day3 }}
+        {% endif %}
+      </td>
+      <td>
+        {% if row.Day4_fmt == "B" %}
+          <strong>{{ row.Day4 }}</strong>
+        {% elsif row.Day4_fmt == "I" %}
+          <em>{{ row.Day4 }}</em>
+        {% else %}
+          {{ row.Day4 }}
+        {% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+</table>
 
 Full Training Materials
 ----------------------
