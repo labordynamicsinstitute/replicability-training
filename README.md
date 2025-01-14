@@ -80,9 +80,9 @@ Test cases are worked through, and jointly handled, including with repeated peer
 
 ### Live Peer group mentoring with existing replicators
 
-  - Day 1, 17:30 (first test article) (Zoom) (Gary, Marina, Ilanith)
-  - Day 2, 17:30 (second test article) (Zoom) (Gary, Marina, Ilanith)
-  - Day 3, 17:30 (third test article and general Q&A) (Zoom) (Gary, Marina, Ilanith)
+  - Day 1, 17:30 (first test article) (Zoom) **Marina**, Ilanith
+  - Day 2, 17:30 (second test article) (Zoom) **Ilanith**, Gary
+  - Day 3, 17:30 (third test article and general Q&A) (Zoom) **Gary**, Marina
 
 ### Schedule
 
