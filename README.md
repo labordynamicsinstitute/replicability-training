@@ -41,8 +41,6 @@ Please have a look at the [list of tasks](https://labordynamicsinstitute.github.
 
 The training will start with an intensive (**in person**) day of [lectures/discussions](https://labordynamicsinstitute.github.io/replicability-training-presentation/#1), followed by exercises that you will do on your own, with daily touch-base meetings over Zoom.
 
-
-
 > If you have not received an invitation and you think you should have, contact LDI (ldi@cornell.edu).
 
 | Time  |  January 19, 2025     (Location: Ives 108)                           |
@@ -59,12 +57,9 @@ The training will start with an intensive (**in person**) day of [lectures/discu
 | 17:00 | **[How to run Stata](https://labordynamicsinstitute.github.io/replicability-training-presentation/part5.html)** |
 | 18:00 | End                           |
 
-
-
-- as needed: Email questions
+- as needed: Email questions via our listserv ([ldi-lab-l@list.cornell.edu](mailto:ldi-lab-l@list.cornell.edu))
 
 ## Test cases and peer mentoring
-
 
 **Tentative** Scheduled days:
 
@@ -84,6 +79,7 @@ Test cases are worked through, and jointly handled, including with repeated peer
  
 
 ### Live Peer group mentoring with existing replicators
+
   - Day 1, 17:30 (first test article) (Zoom) (Gary, Marina, Ilanith)
   - Day 2, 17:30 (second test article) (Zoom) (Gary, Marina, Ilanith)
   - Day 3, 17:30 (third test article and general Q&A) (Zoom) (Gary, Marina, Ilanith)
