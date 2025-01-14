@@ -65,11 +65,17 @@ The training will start with an intensive (**in person**) day of [lectures/discu
   <tr>
     <th>Day</th>
     <th>Date</th>
+    <th>Activity</th>
   </tr>
   {% for row in site.data.mentoring %}
     <tr>
       <td>{{ row.day }}</td>
       <td><strong>{{ row.date }}</strong></td>
+      {% if row.day == "Day 4" %}
+        <td>{{ row.topic }}</td>
+      {% else %}
+        <td>Mentoring on test cases</td>
+      {% endif %}
     </tr>
   {% endfor %}
 </table>
