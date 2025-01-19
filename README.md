@@ -7,6 +7,13 @@ TRAINING For Reproducibility Verification
 
 > ❗ This page is for Cornell-based students applying to work with the AEA Data Editor.
 
+{% comment %} 
+
+This page is best viewed at <https://labordynamicsinstitute.github.io/replicability-training/>.
+
+{% endcomment %}
+
+
 ---
 
 > Training will occur mostly virtually, through a combination of required self-study and live Zoom meetings. 
