@@ -33,11 +33,12 @@ Training happens three times a year:
 
 Day 1 is always a full day of training, and may occur on a weekend.
 
-> **Next training will be January 19, 2025.**
-
 ## Applying 
 
 Applications are open  approximately 4-6 weeks prior to the training day, and close approximately 10 days prior to the training day. For more information, see [https://www.ilr.cornell.edu/labor-dynamics-institute/student-employment-opportunities](https://www.ilr.cornell.edu/labor-dynamics-institute/student-employment-opportunities).
+
+
+> **Next training will be {{ site.trainingday }}.** Applications will open **{{ site.applicationdate }}**.
 
 ## Prior to Training
 
@@ -50,7 +51,7 @@ The training will start with an intensive (**in person**) day of [lectures/discu
 
 > If you have not received an invitation and you think you should have, contact LDI (ldi@cornell.edu).
 
-| Time  |  January 19, 2025     (Location: Ives 108)                           |
+| Time  |  {{ site.trainingday }}     (Location: {{ site.trainingloc }})                           |
 |-------|-----------------------------------------------------------|
 |  8:00 | Breakfast  |
 |  9:00 |  **[Introduction](https://labordynamicsinstitute.github.io/replicability-training-presentation/#1)**      |
