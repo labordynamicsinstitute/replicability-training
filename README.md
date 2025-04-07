@@ -38,7 +38,7 @@ Day 1 is always a full day of training, and may occur on a weekend.
 Applications are open  approximately 4-6 weeks prior to the training day, and close approximately 10 days prior to the training day. For more information, see [https://www.ilr.cornell.edu/labor-dynamics-institute/student-employment-opportunities](https://www.ilr.cornell.edu/labor-dynamics-institute/student-employment-opportunities).
 
 
-> **Next training will be August, 2025.** Applications will open **July 2025**.
+> **Next training will be {{ site.trainingday }}.** Applications will open **{{ site.applicationdate }}**.
 
 ## Prior to Training
 
