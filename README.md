@@ -5,7 +5,7 @@ TRAINING For Reproducibility Verification
 ![GitHub issues](https://img.shields.io/github/issues-raw/labordynamicsinstitute/replicability-training.svg?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/labordynamicsinstitute/replicability-training.svg?style=flat)
 
 
-> ❗ This page is for Cornell-based students applying to work with the AEA Data Editor.
+> ❗ This page is for Cornell-based students applying to work with the AEA Data Editor. If you are student interested in the [Summer Internship with the AEA Data Editor](https://aeadataeditor.github.io/projects/project6), see that page for more information.
 
 {% comment %} 
 
@@ -17,7 +17,8 @@ This page is best viewed at <https://labordynamicsinstitute.github.io/replicabil
 ---
 
 > Training will occur mostly virtually, through a combination of required self-study and live Zoom meetings. 
-> - The live part of the training will take place on Day 1 **in person** (no exceptions). Additional meetings will happen on the following days using Zoom.
+> - The live part of the training will take place on Day 1 **in person** (**no exceptions**).
+> - Additional meetings will happen on the following days using Zoom.
 > - If your application to the LDI Replication Lab was accepted,  you will be receiving information soon.
 > - Training is **open to anybody**, for free, but employment is only based on invitation after application.
 > - All the remaining information here is open to anybody. 
@@ -29,7 +30,7 @@ Training happens three times a year:
 
 - week prior to start of Fall classes (around Aug 16)
 - week prior to start of Spring classes (around Jan 17)
-- sometime prior to May exams (around April 22)
+- sometime prior to May exams (around April 22) (may not always occur)
 
 Day 1 is always a full day of training, and may occur on a weekend.
 
