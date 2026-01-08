@@ -5,7 +5,7 @@ TRAINING For Reproducibility Verification
 ![GitHub issues](https://img.shields.io/github/issues-raw/labordynamicsinstitute/replicability-training.svg?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/labordynamicsinstitute/replicability-training.svg?style=flat)
 
 
-> ❗ This page is for Cornell-based students applying to work with the AEA Data Editor. If you are student interested in the [Summer Internship with the AEA Data Editor](https://aeadataeditor.github.io/projects/project6), see that page for more information.
+> ❗ This page is for Cornell-based students applying to work with the AEA Data Editor. If you are student interested in the [Summer Internship with the AEA Data Editor](https://aeadataeditor.github.io/projects/project7), see that page for more information.
 
 {% comment %} 
 
