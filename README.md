@@ -122,6 +122,10 @@ Test cases are worked through, and jointly handled, including with repeated peer
 
 > Items that are **bolded** are live meetings. Items that are *italicized* are in informal groups with peers, but live (in person or on Zoom). Other items are on your own time, but the time slot is the suggested time you should be doing them. 
 
+{% comment %}<!--{% endcomment %}
+📅 [Add this schedule to your calendar (.ics)](assets/replicability-training.ics)
+{% comment %}-->{% endcomment %}
+
 ## Schedule
 
 <table>
