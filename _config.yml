@@ -5,7 +5,7 @@ gh-repo: labordynamicsinstitute/replicability-training
 title-on-all-pages: true
 
 # LDI logo shown in the navbar, to the left of the site title
-title-img: /ldi-logo.png
+title-img: /images/LDIimage_11.22.19_FINALv1.jpg
 site-css:
   - /assets/css/navbar-logo.css
 

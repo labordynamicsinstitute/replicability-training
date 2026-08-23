@@ -1,9 +1,19 @@
 /* Show the LDI logo beside the site title in the navbar (theme's
-   title-img normally replaces the title text entirely). */
+   title-img normally replaces the title text entirely). Styled to
+   match the small round navbar logo used in the LDI Replication Lab
+   site (labordynamicsinstitute/replication-lab#7). */
 .navbar-custom .navbar-brand-logo {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
+}
+
+.navbar-custom .navbar-brand-logo img {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
 }
 
 .navbar-custom .navbar-brand-logo .navbar-brand-title {
