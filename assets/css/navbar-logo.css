@@ -1,0 +1,14 @@
+/* Show the LDI logo beside the site title in the navbar (theme's
+   title-img normally replaces the title text entirely). */
+.navbar-custom .navbar-brand-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.navbar-custom .navbar-brand-logo .navbar-brand-title {
+  font-weight: 800;
+  font-size: 1.125rem;
+  white-space: normal;
+  line-height: 1.2;
+}

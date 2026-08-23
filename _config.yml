@@ -4,6 +4,11 @@ author: "Lars Vilhuber"
 gh-repo: labordynamicsinstitute/replicability-training
 title-on-all-pages: true
 
+# LDI logo shown in the navbar, to the left of the site title
+title-img: /ldi-logo.png
+site-css:
+  - /assets/css/navbar-logo.css
+
 navbar-links:
   "Labor Dynamics Institute": https://labordynamicsinstitute.github.io/
   "LDI Replication Lab": https://labordynamicsinstitute.github.io/replication-lab/
