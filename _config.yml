@@ -1,5 +1,22 @@
-theme: jekyll-theme-minimal
+remote_theme: daattali/beautiful-jekyll@6.0.1
+title: "Training for Reproducibility Verification"
+author: "Lars Vilhuber"
+gh-repo: labordynamicsinstitute/replicability-training
+title-on-all-pages: true
+
+navbar-links:
+  "Labor Dynamics Institute": https://labordynamicsinstitute.github.io/
+  "LDI Replication Lab": https://labordynamicsinstitute.github.io/replication-lab/
+  "Lab Manual": https://labordynamicsinstitute.github.io/ldilab-manual/
+  "About Us": https://ilr.cornell.edu/labor-dynamics-institute
+  "Github": https://github.com/labordynamicsinstitute/replicability-training
+
 trainingday: 21 August 2026
 trainingloc: Ives 108
 applicationdate: July 2026
 applicationclose: August 17 2026
+
+# README.md carries front matter (for the favicon include), so tell
+# jekyll-readme-index to still treat it as the site's homepage.
+readme_index:
+  with_frontmatter: true
